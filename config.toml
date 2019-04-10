@@ -9,6 +9,8 @@ hasCJKLanguage = true
     author = "Eejain Huang"
     description = "Stream of Thoughts that I Live with"
     bio = "none"
+    footer = "&copy; Eejain Huang 2019 -- "
+
 
     # twitter = "your_twitter_id"
     # facebook = "your_facebook_id"
@@ -72,7 +74,7 @@ hasCJKLanguage = true
 
 
 
-
+## xmin
 
 
 [permalinks]
@@ -99,5 +101,3 @@ hasCJKLanguage = true
     name = "Subscribe"
     url = "/index.xml"
 
-# # [params]
-    footer = "&copy; [Eejain Huang] 2019 -- "
