@@ -1,4 +1,4 @@
-baseurl = "https://itflows.aerobaticapp.com"
+baseurl = "/"
 languageCode = "en"
 title = "and it flows"
 # theme = "hugo-xmin"
@@ -8,7 +8,7 @@ hasCJKLanguage = true
 [params]
     author = "Eejain Huang"
     description = "Stream of Thoughts that I Live with"
-    bio = "author biography"
+    bio = "Stream of Thoughts that I Live with"
 
     twitter = "your_twitter_id"
     facebook = "your_facebook_id"
@@ -30,7 +30,7 @@ hasCJKLanguage = true
     # Set the value to your baidu analysis code if you want to use baidu analytics
     baiduAnalytics = 'your_baidu_analysis_code'
 
-    enableTwitterCard = true
+    enableTwitterCard = false
     # The url for twitter card image, default is avatar.png in static/images directory
     twitterCardImage = ""
 
