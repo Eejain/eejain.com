@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on and it flows</title>
+    <link>https://itflows.aerobaticapp.com/categories/</link>
+    <description>Recent content in Categories on and it flows</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 10 Apr 2019 11:23:50 +0200</lastBuildDate>
+    
+	<atom:link href="https://itflows.aerobaticapp.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>testcat</title>
+      <link>https://itflows.aerobaticapp.com/categories/testcat/</link>
+      <pubDate>Wed, 10 Apr 2019 11:23:50 +0200</pubDate>
+      
+      <guid>https://itflows.aerobaticapp.com/categories/testcat/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
