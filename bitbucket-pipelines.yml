@@ -4,6 +4,5 @@ pipelines:
     master:
       - step:
           script:
-            - git clone https://github.com/yihui/hugo-xmin themes/hugo-xmin
             - hugo --theme=hugo-xmin --baseURL https://!!baseurl!! --buildDrafts
             - aero deploy -d public
