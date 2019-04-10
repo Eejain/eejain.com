@@ -3,11 +3,11 @@ languageCode = "en"
 title = "and it flows"
 # theme = "hugo-xmin"
 theme = "hugo-theme-cactus-plus"
-hasCJKLanguage = false
+hasCJKLanguage = true
 
 [params]
-    author = "site_author"
-    description = "Site Description"
+    author = "Eejain Huang"
+    description = "Stream of Thoughts that I Live with"
     bio = "author biography"
 
     twitter = "your_twitter_id"
@@ -68,6 +68,12 @@ hasCJKLanguage = false
     iconFont = "font-awesome"
   # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
   socialIconStyle = ""
+
+
+
+
+
+
 
 # [permalinks]
 #     post = "/post/:year/:month/:day/:slug/"
