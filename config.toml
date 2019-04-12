@@ -1,15 +1,15 @@
 baseurl = "/"
 languageCode = "en"
-title = "and it flows"
-theme = "hugo-xmin"
-# theme = "hugo-theme-cactus-plus"
+title = "so it flows"
+# theme = "hugo-xmin"
+theme = "hugo-theme-cactus-plus"
 hasCJKLanguage = true
 
 [params]
     author = "Eejain Huang"
-    description = "Stream of Thoughts that I Live with"
-    bio = "none"
-    footer = "&copy; Eejain Huang 2019 -- "
+    description = "none"
+    bio = "Stains Left by Thoughts"
+    footer = "&copy; Eejain Huang 2019"
 
 
     # twitter = "your_twitter_id"
@@ -77,27 +77,27 @@ hasCJKLanguage = true
 ## xmin
 
 
-[permalinks]
-    post = "/post/:year/:month/:day/:slug/"
-    note = "/note/:year/:month/:day/:slug/"
+# [permalinks]
+#     post = "/post/:year/:month/:day/:slug/"
+#     note = "/note/:year/:month/:day/:slug/"
 
-[[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 2
-[[menu.main]]
-    name = "Categories"
-    url = "/categories/"
-    weight = 3
-[[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 4
-[[menu.main]]
-    name = "Subscribe"
-    url = "/index.xml"
+# [[menu.main]]
+#     name = "Home"
+#     url = "/"
+#     weight = 1
+# [[menu.main]]
+#     name = "About"
+#     url = "/about/"
+#     weight = 2
+# [[menu.main]]
+#     name = "Categories"
+#     url = "/categories/"
+#     weight = 3
+# [[menu.main]]
+#     name = "Tags"
+#     url = "/tags/"
+#     weight = 4
+# [[menu.main]]
+#     name = "Subscribe"
+#     url = "/index.xml"
 

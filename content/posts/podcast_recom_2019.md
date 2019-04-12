@@ -1,9 +1,10 @@
----
++++
 title = "Thoughts on Podcast, and a personal recommendation list"
-date = ""
-tag = [""]
-categories = [""]
+date = "2019-04-11"
+tag = ["podcast"]
+categories = ["recom"]
 draft = true
++++
 
     兼论睁着眼睛时我都在干啥
 
