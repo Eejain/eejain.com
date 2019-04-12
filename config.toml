@@ -4,26 +4,27 @@ languageCode = "en"
 title = "so it flows"
 # theme = "hugo-xmin"
 theme = "hugo-theme-cactus-plus"
+# theme = "er"
 hasCJKLanguage = true
 
 [params]
     author = "Eejain Huang"
     description = "Stains of Thoughts"
     bio = "Stains Left by Thoughts"
-    footer = "&copy; Eejain Huang 2019"
+    # footer = "&copy; Eejain Huang 2019"
 
 
     # twitter = "your_twitter_id"
     # facebook = "your_facebook_id"
 
-  #   enableRSS = true
-  #   enableToc = true
+    enableRSS = true
+    enableToc = true
 
-  #   enableDisqus = true
+    enableDisqus = true
   #   disqusShortname = "your_disqus_short_name"
 
 
-  #   enableSummary = true
+    enableSummary = true
   #   # Set the value to true if use description in post front matter replace content summary
   #   useDescriptionReplaceSummary = false
 
@@ -52,14 +53,14 @@ hasCJKLanguage = true
 
   #   olderPosts = ""
   #   newerPosts = ""
-  #   copyright = ""
+    copyright = "&copy; Eejain Huang ❦ 2019"
 
   #   # show latest posts in single page
   #   showLatestPosts = false
   #   readMore = ""
 
   #   # Share
-  #   enableShare = true
+    enableShare = true
   #   tweet = ""
   #   share = ""
 
@@ -68,7 +69,7 @@ hasCJKLanguage = true
   #   subtitle404 = ""
 
   #   # Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
-  #   iconFont = "font-awesome"
+    iconFont = "font-awesome"
   # # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
   # socialIconStyle = ""
 
