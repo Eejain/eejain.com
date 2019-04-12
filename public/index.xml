@@ -2,31 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>so it flows</title>
-    <link>/</link>
+    <link>https://soitflows.netlify.com/</link>
     <description>Recent content on so it flows</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 10 Apr 2019 11:23:50 +0200</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://soitflows.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The initial frontier</title>
-      <link>/posts/test/</link>
+      <link>https://soitflows.netlify.com/posts/test/</link>
       <pubDate>Wed, 10 Apr 2019 11:23:50 +0200</pubDate>
       
-      <guid>/posts/test/</guid>
+      <guid>https://soitflows.netlify.com/posts/test/</guid>
       <description>test heading test link and list fdsjkf jfksd jfdlsf test table Name Phone Anna 123456789 Alexander 987654321 test picture save picture under root/static folder test cn 而他的眼球开出了花。</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/posts/test-new/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/test-new/</guid>
-      <description></description>
     </item>
     
   </channel>
