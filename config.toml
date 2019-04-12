@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://soitflows.netlify.com"
 languageCode = "en"
 title = "so it flows"
 # theme = "hugo-xmin"
