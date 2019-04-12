@@ -1,8 +1,0 @@
-image: aerobatic/hugo
-pipelines:
-  branches:
-    master:
-      - step:
-          script:
-            - hugo --theme=hugo-xmin --baseURL https://!!baseurl!! --buildDrafts
-            - aero deploy -d public
