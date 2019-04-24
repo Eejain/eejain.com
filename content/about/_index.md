@@ -1,7 +1,6 @@
 +++
 date = "2019-04-12"
 title = "About"
-hidden = true
 +++
 
 ---
