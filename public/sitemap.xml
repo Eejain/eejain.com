@@ -3,22 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://soitflows.netlify.com/about/</loc>
+    <loc>https://soitflows.netlify.com/categories/</loc>
+    <lastmod>2020-01-03T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soitflows.netlify.com/categories/</loc>
-    <priority>0</priority>
+    <loc>https://soitflows.netlify.com/categories/life/</loc>
+    <lastmod>2020-01-03T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.netlify.com/tags/organization/</loc>
+    <lastmod>2020-01-03T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.netlify.com/posts/2001_lifeplan/</loc>
+    <lastmod>2020-01-03T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.netlify.com/posts/</loc>
+    <lastmod>2020-01-03T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.netlify.com/tags/productivity/</loc>
+    <lastmod>2020-01-03T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://soitflows.netlify.com/tags/</loc>
-    <priority>0</priority>
+    <lastmod>2020-01-03T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.netlify.com/tags/wellness/</loc>
+    <lastmod>2020-01-03T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://soitflows.netlify.com/</loc>
-    <priority>0</priority>
+    <lastmod>2020-01-03T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.netlify.com/about/</loc>
+    <lastmod>2019-04-12T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>
