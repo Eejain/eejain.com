@@ -3,8 +3,8 @@ title = "Planning 2020: Beyond Work-Life Balance"
 date = 2020-01-03
 tags = ["organization", "productivity", "wellness"]
 categories = ["life"]
+slug = "2020_plan"
 draft = false
-hidden = false
 +++
 
 ## A Broken Self and a New Decade
