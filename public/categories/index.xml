@@ -1,22 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on ☴ so it flows ☵</title>
-    <link>https://soitflows.netlify.com/categories/</link>
+    <link>https://soitflows.xyz/categories/</link>
     <description>Recent content in Categories on ☴ so it flows ☵</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
     <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0100</lastBuildDate>
     
-	<atom:link href="https://soitflows.netlify.com/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://soitflows.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>life</title>
-      <link>https://soitflows.netlify.com/categories/life/</link>
+      <link>https://soitflows.xyz/categories/life/</link>
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0100</pubDate>
       
-      <guid>https://soitflows.netlify.com/categories/life/</guid>
+      <guid>https://soitflows.xyz/categories/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>https://soitflows.xyz/categories/Development/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://soitflows.xyz/categories/Development/</guid>
       <description></description>
     </item>
     

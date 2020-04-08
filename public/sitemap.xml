@@ -1,55 +1,101 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://soitflows.netlify.com/categories/</loc>
+    <loc>https://soitflows.xyz/docs/nonfic/</loc>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/docs/fic/</loc>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/docs/illus/</loc>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/categories/</loc>
     <lastmod>2020-01-03T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soitflows.netlify.com/categories/life/</loc>
+    <loc>https://soitflows.xyz/</loc>
     <lastmod>2020-01-03T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soitflows.netlify.com/tags/organization/</loc>
+    <loc>https://soitflows.xyz/categories/life/</loc>
     <lastmod>2020-01-03T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soitflows.netlify.com/posts/2020_plan/</loc>
+    <loc>https://soitflows.xyz/posts/</loc>
     <lastmod>2020-01-03T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soitflows.netlify.com/posts/</loc>
+    <loc>https://soitflows.xyz/tags/organization/</loc>
     <lastmod>2020-01-03T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soitflows.netlify.com/tags/productivity/</loc>
+    <loc>https://soitflows.xyz/posts/2020_plan/</loc>
     <lastmod>2020-01-03T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soitflows.netlify.com/tags/</loc>
+    <loc>https://soitflows.xyz/tags/productivity/</loc>
     <lastmod>2020-01-03T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soitflows.netlify.com/tags/wellness/</loc>
+    <loc>https://soitflows.xyz/tags/</loc>
     <lastmod>2020-01-03T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soitflows.netlify.com/</loc>
+    <loc>https://soitflows.xyz/tags/wellness/</loc>
     <lastmod>2020-01-03T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soitflows.netlify.com/about/</loc>
-    <lastmod>2019-04-12T00:00:00+00:00</lastmod>
+    <loc>https://soitflows.xyz/categories/Development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/tags/development/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/posts/1904_test/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/docs/fic/FanFic/1608_Inferno2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/docs/fic/FanFic/1712_Inferno1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/docs/fic/FanFic/</loc>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/posts/1905_MorningTrain/</loc>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/docs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/docs/fic/FanFic/ox-test-doc/</loc>
   </url>
   
 </urlset>

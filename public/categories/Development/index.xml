@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on ☴ so it flows ☵</title>
+    <link>https://soitflows.xyz/categories/Development/</link>
+    <description>Recent content in Development on ☴ so it flows ☵</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://soitflows.xyz/categories/Development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>sandbox</title>
+      <link>https://soitflows.xyz/posts/1904_test/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://soitflows.xyz/posts/1904_test/</guid>
+      <description>Heading Link and List   fdsjkf jfksd jfdlsf  Table Simple    Name Phone     Anna 123456789   Alexander 987654321    Complex    Environment Independent variable Dependent variable Type of research Research question (example) Notes     Real-life teacher characteristics scanpath pattern descriptive In real-life teaching, what eye movement patteren/classroom management behavior does teacher with different level/type of expertise/knowledge possess?</description>
+    </item>
+    
+  </channel>
+</rss>
