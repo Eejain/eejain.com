@@ -1,9 +1,13 @@
-+++
-date = "2019-04-12"
-title = "About"
-+++
-
 ---
+title: Introduction
+type: docs
+---
+
+
+# ≈
+
+
+{{< columns >}}
 
 ## Who is speaking?
 
@@ -13,7 +17,9 @@ But none of them will stick.
 
 Pared to the bone, I am just a *curious* soul that wants to share bits and pieces of thoughts with you.
 
----
+![Me, but cuter](https://res.cloudinary.com/imakoimage/image/upload/v1585221216/hessen/%E7%9B%B8%E5%86%8C/obscure/ypgjksxlj26ge0lue4gh.jpg)
+
+<--->
 
 ## Where is this place?
 
@@ -22,5 +28,7 @@ This a collection of short essays on subculture, media, and human mind. They are
 
 This virtual folio starts as a serious writing practice outside academia, an earnest attempt to speak in my real voice about things that resonates with me. Things that maybe trivial and obscure, but at one point, rippled through my stream of consciousness and finds their niche. 
 
-So it flows.^[The symbols in the website title represent the 59th hexagram in I Ching. It's called 渙 (dispersing), depicting how wind blows water, causing dispersion and regathering in a fluid fashion. 『易經．渙卦．象曰：「風行水上，渙；先王以享于帝立廟。」』  ]
+So it flows. [^1]
+ 
+[^1]: The symbols in the website title represent the 59th hexagram in I Ching. It's called 渙 (dispersing), depicting how wind blows water, causing dispersion and regathering in a fluid fashion. 『易經．渙卦．象曰：「風行水上，渙；先王以享于帝立廟。
 

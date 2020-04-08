@@ -1,0 +1,18 @@
+#+hugo_base_dir: .
+#+hugo_section: posts
+~hugo server -D --navigateToChanged~
+
+* extra front matter :test:
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: docs
+:EXPORT_FILE_NAME: ox_test
+:EXPORT_HUGO_WEIGHT: 123
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookHidden true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookFlatSection false
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookToC false
+:END:
+
+* TODO next blog post :R:@tech:
+:PROPERTIES:
+:EXPORT_FILE_NAME: ox_test2
+:END:

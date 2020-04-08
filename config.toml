@@ -1,101 +1,103 @@
-baseurl = "https://soitflows.netlify.com/"
-# baseurl = "/"
-languageCode = "en"
-title = "☴ so it flows ☵"
-# theme = "hugo-xmin"
-theme = "hugo-theme-cactus-plus"
-# theme = "er"
-hasCJKLanguage = true
+# hugo server --minify --themesDir ... --baseURL=http://0.0.0.0:1313/theme/hugo-book/
+
+baseurl = 'https://soitflows.xyz/'
+title = '☴ so it flows ☵'
+theme = 'hugo-book'
+
+# Book configuration
+disablePathToLower = true
+# enableGitInfo = true
+
+# Needed for mermaid/katex shortcodes
+[markup]
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.tableOfContents]
+  startLevel = 1
+
+# Multi-lingual mode config
+# There are different options to translate files
+# See https://gohugo.io/content-management/multilingual/#translation-by-filename
+# And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
+# [languages]
+# [languages.en]
+#   languageName = 'English'
+#   contentDir = 'content'
+#   weight = 1
+
+# # [languages.ru]
+# #   languageName = 'Russian'
+# #   contentDir = 'content.ru'
+# #   weight = 2
+
+# [languages.cn]
+#   languageName = 'Chinese'
+#   contentDir = 'content.cn'
+#   weight = 2
+
+[menu]
+# [[menu.before]]
+[[menu.after]]
+  name = "💬"
+  url = "https://www.douban.com/people/hessen/"
+  weight = 10
+
+[[menu.after]]
+  name = "📷"
+  url = "https://www.instagram.com/eejain/"
+  weight = 20
 
 [params]
-    author = "Eejain Huang"
-    description = "Stains of Thoughts"
-    bio = "Stains Left by Thoughts"
-    # footer = "&copy; Eejain Huang 2019"
-    twitter = "eejainh"
-    # facebook = "your_facebook_id"
-    # enableRSS = true
-    enableToc = true
-    enableDisqus = true
-    disqusShortname = "soitflows"
-    enableSummary = true
-  #   # Set the value to true if use description in post front matter replace content summary
-    useDescriptionReplaceSummary = false
-  #   enableGoogleAnalytics = true
-  #   enableBaiduAnalytics = false
-  #   # Set the value to your baidu analysis code if you want to use baidu analytics
-  #   baiduAnalytics = 'your_baidu_analysis_code'
-    enableTwitterCard = true
-  #   # The url for twitter card image, default is avatar.png in static/images directory
-    twitterCardImage = ""
-  #   # Add custom assets with their paths relative to the static folder
-  #   customCSS = []
-  #   customJS  = []
-  #   # The variables below are optionally too and can be used to
-  #   # translate or customize each string of the theme.
+  # (Optional, default true) Controls table of contents visibility on right side of pages.
+  # Start and end levels can be controlled with markup.tableOfContents setting.
+  # You can also specify this parameter per page in front matter.
+  BookToC = true
 
-  #   # Navigation links
-  #   home = ""
-  #   about = ""
-  #   archive = ""
-  #   subscribe = ""
+  # (Optional, default none) Set the path to a logo for the book. If the logo is
+  # /static/logo.png then the path would be logo.png
+  BookLogo = 'logo.png'
 
-  #   olderPosts = ""
-  #   newerPosts = ""
-    copyright = "&copy; Eejain Huang 2019"
+  # (Optional, default none) Set leaf bundle to render as side menu
+  # When not specified file structure and weights will be used
+  # BookMenuBundle = '/menu'
 
-  #   # show latest posts in single page
-  #   showLatestPosts = false
-  #   readMore = ""
+  # (Optional, default docs) Specify section of content to render as menu
+  # You can also set value to '*' to render all sections to menu
+  BookSection = 'docs'
 
-  #   # Share
-    enableShare = true
-  #   tweet = ""
-  #   share = ""
+  # Set source repository location.
+  # Used for 'Last Modified' and 'Edit this page' links.
+  # BookRepo = 'https://bitbucket.org/cuodao/itflows/'
 
-  #   # 404 page
-  #   title404 = ""
-  #   subtitle404 = ""
+  # Enable "Edit this page" links for 'doc' page type.
+  # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
+  # Path must point to 'content' directory of repo.
+  # BookEditPath = 'edit/master/itflows/content'
 
-  #   # Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
-    iconFont = "font-awesome"
-  # # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
-  # socialIconStyle = ""
+  # Configure the date format used on the pages
+  # - In git information
+  # - In blog posts
+  BookDateFormat = 'Jan 2, 2006'
 
-[social]
-  # facebook-square = "https://www.facebook.com/nodejh"
-  twitter-square = "https://www.twitter.com/eejainh"
-  flickr = "https://flickr.com/photos/ee-jain/"
-  user = "https://www.douban.com/people/hessen/"
-  rss-square = "https://soitflows.netlify.com/index.xml"
-  # github-square = "https://www.github.com/nodejh"
+  # (Optional, default true) Enables search function with flexsearch,
+  # Index is built on fly, therefore it might slowdown your website.
+  # Configuration for indexing can be adjusted in i18n folder per language.
+  BookSearch = true
 
+  # (Optional, default true) Enables comments template on pages
+  # By default partals/docs/comments.html includes Disqus template
+  # See https://gohugo.io/content-management/comments/#configure-disqus
+  # Can be overwritten by same param in page frontmatter
+  BookComments = true
 
+# (Optional) If you provide a Disqus shortname, comments will be enabled on
+# all pages.
+disqusShortname = "soitflows"
 
-## xmin
-
-
-# [permalinks]
-#     post = "/post/:year/:month/:day/:slug/"
-#     note = "/note/:year/:month/:day/:slug/"
-
-# [[menu.main]]
-#     name = "Home"
-#     url = "/"
-#     weight = 1
-# [[menu.main]]
-#     name = "About"
-#     url = "/about/"
-#     weight = 2
-# [[menu.main]]
-#     name = "Categories"
-#     url = "/categories/"
-#     weight = 3
-# [[menu.main]]
-#     name = "Tags"
-#     url = "/tags/"
-#     weight = 4
-# [[menu.main]]
-#     name = "Subscribe"
-#     url = "/index.xml"
+  # /!\ This is an experimental feature, might be removed or changed at any time
+  # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.
+  # Portable links meant to work with text editors and let you write markdown without {{< relref >}} shortcode
+  # Theme will print warning if page referenced in markdown does not exists.
+  BookPortableLinks = true
 
