@@ -1,12 +1,13 @@
----
-weight: 30
-title: Illustrations
----
++++
+title = "Drawings"
+author = ["Eejain Huang"]
+draft = false
++++
 
-# doc intro 1
-
-Lorem markdownum partu paterno Achillem. Habent amne generosi aderant ad pellem
-nec erat sustinet merces columque haec et, dixit minus nutrit accipiam subibis
-subdidit. Temeraria servatum agros qui sed fulva facta. Primum ultima, dedit,
-suo quisque linguae medentes fixo: tum petis.
-
+{{< columns >}}
+[![](/test_image.png)](/test_image.png)
+<--->
+![](https://res.cloudinary.com/imakoimage/image/upload/v1586520548/Drawings/original/180816%5Fa%5Fj4byx4.jpg)
+<--->
+![](https://res.cloudinary.com/imakoimage/image/upload/v1586520850/Drawings/original/191206%5Fb%5Fxf7ced.jpg)
+{{< columns >}}

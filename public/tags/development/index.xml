@@ -5,18 +5,25 @@
     <link>https://soitflows.xyz/tags/development/</link>
     <description>Recent content in development on ☴ so it flows ☵</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://soitflows.xyz/tags/development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>sandbox</title>
-      <link>https://soitflows.xyz/posts/1904_test/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Hugo Org Sandbox</title>
+      <link>https://soitflows.xyz/posts/Hugo-Org-Sandbox/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0200</pubDate>
       
-      <guid>https://soitflows.xyz/posts/1904_test/</guid>
-      <description>Heading Link and List   fdsjkf jfksd jfdlsf  Table Simple    Name Phone     Anna 123456789   Alexander 987654321    Complex    Environment Independent variable Dependent variable Type of research Research question (example) Notes     Real-life teacher characteristics scanpath pattern descriptive In real-life teaching, what eye movement patteren/classroom management behavior does teacher with different level/type of expertise/knowledge possess?</description>
+      <guid>https://soitflows.xyz/posts/Hugo-Org-Sandbox/</guid>
+      <description>Basic formatting  list item checkbox item numbered item  regular main text, bold, italic, underlined, verbatim, code, strike-through
+Paragraphs Great clouds overhead
+Tiny black birds rise and fail
+Snow covers Emacs
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;--- AlexSchroeder
+ Everything should be made as simple as possible, but not any simpler &amp;mdash;ALbert Einstein
+ .org-center { margin-left: auto; margin-right: auto; text-align: center; }  A fog sinks in, and it overlays the death.
+ Math symbols X2, X2</description>
     </item>
     
   </channel>

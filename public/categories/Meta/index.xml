@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meta on ☴ so it flows ☵</title>
+    <link>https://soitflows.xyz/categories/Meta/</link>
+    <description>Recent content in Meta on ☴ so it flows ☵</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://soitflows.xyz/categories/Meta/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo Org Sandbox</title>
+      <link>https://soitflows.xyz/posts/Hugo-Org-Sandbox/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://soitflows.xyz/posts/Hugo-Org-Sandbox/</guid>
+      <description>Basic formatting  list item checkbox item numbered item  regular main text, bold, italic, underlined, verbatim, code, strike-through
+Paragraphs Great clouds overhead
+Tiny black birds rise and fail
+Snow covers Emacs
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;--- AlexSchroeder
+ Everything should be made as simple as possible, but not any simpler &amp;mdash;ALbert Einstein
+ .org-center { margin-left: auto; margin-right: auto; text-align: center; }  A fog sinks in, and it overlays the death.
+ Math symbols X2, X2</description>
+    </item>
+    
+  </channel>
+</rss>

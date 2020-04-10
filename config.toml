@@ -38,15 +38,21 @@ disablePathToLower = true
 
 [menu]
 # [[menu.before]]
-[[menu.after]]
-  name = "💬"
-  url = "https://www.douban.com/people/hessen/"
-  weight = 10
 
 [[menu.after]]
-  name = "📷"
-  url = "https://www.instagram.com/eejain/"
+  name = "🐦 Twitter"
+  url = "https://twitter.com/na_naskuv"
   weight = 20
+
+[[menu.after]]
+  name = "📷 Flickr"
+  url = "https://flickr.com/photos/ee-jain/"
+  weight = 30
+
+[[menu.after]]
+  name = "📗 Douban"
+  url = "https://www.douban.com/people/hessen/"
+  weight = 40
 
 [params]
   # (Optional, default true) Controls table of contents visibility on right side of pages.
@@ -68,12 +74,12 @@ disablePathToLower = true
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  # BookRepo = 'https://bitbucket.org/cuodao/itflows/'
+  BookRepo = 'https://github.com/Eejain/itflows'
 
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
   # Path must point to 'content' directory of repo.
-  # BookEditPath = 'edit/master/itflows/content'
+  BookEditPath = 'tree/master/content'
 
   # Configure the date format used on the pages
   # - In git information

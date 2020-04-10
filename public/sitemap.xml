@@ -3,44 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://soitflows.xyz/docs/nonfic/</loc>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/docs/fic/</loc>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/docs/illus/</loc>
-  </url>
-  
-  <url>
     <loc>https://soitflows.xyz/categories/</loc>
-    <lastmod>2020-01-03T00:00:00+01:00</lastmod>
+    <lastmod>2020-04-10T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/tags/development/</loc>
+    <lastmod>2020-04-10T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/posts/Hugo-Org-Sandbox/</loc>
+    <lastmod>2020-04-10T00:00:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://soitflows.xyz/</loc>
-    <lastmod>2020-01-03T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/categories/life/</loc>
-    <lastmod>2020-01-03T00:00:00+01:00</lastmod>
+    <lastmod>2020-04-10T00:00:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://soitflows.xyz/posts/</loc>
+    <lastmod>2020-04-10T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/categories/Meta/</loc>
+    <lastmod>2020-04-10T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/tags/</loc>
+    <lastmod>2020-04-10T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/tags/noexport-1/</loc>
     <lastmod>2020-01-03T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soitflows.xyz/tags/organization/</loc>
-    <lastmod>2020-01-03T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/posts/2020_plan/</loc>
+    <loc>https://soitflows.xyz/posts/Planning-2020-Beyond-Work-Life-Balance/</loc>
     <lastmod>2020-01-03T00:00:00+01:00</lastmod>
   </url>
   
@@ -50,13 +53,28 @@
   </url>
   
   <url>
-    <loc>https://soitflows.xyz/tags/</loc>
-    <lastmod>2020-01-03T00:00:00+01:00</lastmod>
+    <loc>https://soitflows.xyz/docs/</loc>
+    <lastmod>2017-12-01T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soitflows.xyz/tags/wellness/</loc>
-    <lastmod>2020-01-03T00:00:00+01:00</lastmod>
+    <loc>https://soitflows.xyz/categories/FanFic/</loc>
+    <lastmod>2017-12-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/docs/fic/</loc>
+    <lastmod>2017-12-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/docs/fic/Inferno-%E7%9B%AE%E8%89%B2/</loc>
+    <lastmod>2017-12-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/tags/manga/</loc>
+    <lastmod>2017-12-01T00:00:00+01:00</lastmod>
   </url>
   
   <url>
@@ -65,37 +83,25 @@
   </url>
   
   <url>
-    <loc>https://soitflows.xyz/tags/development/</loc>
+    <loc>https://soitflows.xyz/posts/Hugo-Markdown-Sandbox/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soitflows.xyz/posts/1904_test/</loc>
+    <loc>https://soitflows.xyz/tags/meta/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soitflows.xyz/docs/fic/FanFic/1608_Inferno2/</loc>
+    <loc>https://soitflows.xyz/docs/illus/</loc>
   </url>
   
   <url>
-    <loc>https://soitflows.xyz/docs/fic/FanFic/1712_Inferno1/</loc>
+    <loc>https://soitflows.xyz/docs/nonfic/</loc>
   </url>
   
   <url>
-    <loc>https://soitflows.xyz/docs/fic/FanFic/</loc>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/posts/1905_MorningTrain/</loc>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/docs/</loc>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/docs/fic/FanFic/ox-test-doc/</loc>
+    <loc>https://soitflows.xyz/tags/toc/</loc>
   </url>
   
 </urlset>

@@ -4,12 +4,13 @@ type: docs
 ---
 
 
-# ≈
-
+{{< katex >}}\alef\Alpha{{< /katex >}}
 
 {{< columns >}}
 
-## Who is speaking?
+## Who is speaking? 
+---
+Hi there, this is Eejain.
 
 Many tags can be attached to me: gender-queer, born and raised Chinese, a half-made geek plus self-taught scribbler, a young scholar dangling between publish or perish, and an enthusiast with all things quaint yet profound.
 
@@ -17,12 +18,11 @@ But none of them will stick.
 
 Pared to the bone, I am just a *curious* soul that wants to share bits and pieces of thoughts with you.
 
-![Me, but cuter](https://res.cloudinary.com/imakoimage/image/upload/v1585221216/hessen/%E7%9B%B8%E5%86%8C/obscure/ypgjksxlj26ge0lue4gh.jpg)
 
 <--->
 
 ## Where is this place?
-
+---
 
 This a collection of short essays on subculture, media, and human mind. They are possibly opinionated but guaranteed to be honest. And on the flip side, I avoid documenting brief passing thoughts, egocentric fantasies, and plain life events. Those writings can be better approached by using social media, personal journal, and a good old diary. 
 

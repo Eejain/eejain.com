@@ -1,9 +1,8 @@
----
-bookCollapseSection: true
-weight: 20
-title: Fictions
----
++++
+title = "Fictions"
+author = ["Eejain Huang"]
+tags = ["toc"]
+draft = false
++++
 
-# doc intro 2
-
-doc intro
+-   [Inferno 目色]({{< relref "Inferno 目色" >}})

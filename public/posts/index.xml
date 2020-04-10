@@ -5,37 +5,43 @@
     <link>https://soitflows.xyz/posts/</link>
     <description>Recent content in Life Misc on ☴ so it flows ☵</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://soitflows.xyz/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Hugo Org Sandbox</title>
+      <link>https://soitflows.xyz/posts/Hugo-Org-Sandbox/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://soitflows.xyz/posts/Hugo-Org-Sandbox/</guid>
+      <description>Basic formatting  list item checkbox item numbered item  regular main text, bold, italic, underlined, verbatim, code, strike-through
+Paragraphs Great clouds overhead
+Tiny black birds rise and fail
+Snow covers Emacs
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;--- AlexSchroeder
+ Everything should be made as simple as possible, but not any simpler &amp;mdash;ALbert Einstein
+ .org-center { margin-left: auto; margin-right: auto; text-align: center; }  A fog sinks in, and it overlays the death.
+ Math symbols X2, X2</description>
+    </item>
+    
+    <item>
       <title>Planning 2020: Beyond Work-Life Balance</title>
-      <link>https://soitflows.xyz/posts/2020_plan/</link>
+      <link>https://soitflows.xyz/posts/Planning-2020-Beyond-Work-Life-Balance/</link>
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0100</pubDate>
       
-      <guid>https://soitflows.xyz/posts/2020_plan/</guid>
+      <guid>https://soitflows.xyz/posts/Planning-2020-Beyond-Work-Life-Balance/</guid>
       <description>A Broken Self and a New Decade With the tingly smell of mulled wine, the dazzling Christmas lights in Berlin streets, I found myself in a very dark place at the end of 2019: it&amp;rsquo;s the end of a decade yet my life is full of loose ends. Trying so hard to be the best version of myself as an instructor, a scholar, and a creator, I had, not literally, untied shoe laces that will trip myself over nothing every single day.</description>
     </item>
     
     <item>
-      <title>sandbox</title>
-      <link>https://soitflows.xyz/posts/1904_test/</link>
+      <title>Hugo Markdown Sandbox</title>
+      <link>https://soitflows.xyz/posts/Hugo-Markdown-Sandbox/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://soitflows.xyz/posts/1904_test/</guid>
+      <guid>https://soitflows.xyz/posts/Hugo-Markdown-Sandbox/</guid>
       <description>Heading Link and List   fdsjkf jfksd jfdlsf  Table Simple    Name Phone     Anna 123456789   Alexander 987654321    Complex    Environment Independent variable Dependent variable Type of research Research question (example) Notes     Real-life teacher characteristics scanpath pattern descriptive In real-life teaching, what eye movement patteren/classroom management behavior does teacher with different level/type of expertise/knowledge possess?</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://soitflows.xyz/posts/1905_MorningTrain/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://soitflows.xyz/posts/1905_MorningTrain/</guid>
-      <description>Bahn in the dusk People often talking about traveling far enough to meet one self. I would say travel early enough serves the same purpose. As a anxious wrecking young academic, I screened
-I often take the train running at dusk, and the passengers are mostly consists of two types. news paper-reading elder gents and sleepy late night construction workers getting off work. They are often bulky guys wearing canvas pants with too many pockets.</description>
     </item>
     
   </channel>

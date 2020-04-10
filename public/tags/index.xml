@@ -5,17 +5,26 @@
     <link>https://soitflows.xyz/tags/</link>
     <description>Recent content in Tags on ☴ so it flows ☵</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://soitflows.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>organization</title>
-      <link>https://soitflows.xyz/tags/organization/</link>
+      <title>development</title>
+      <link>https://soitflows.xyz/tags/development/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://soitflows.xyz/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>noexport-1</title>
+      <link>https://soitflows.xyz/tags/noexport-1/</link>
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0100</pubDate>
       
-      <guid>https://soitflows.xyz/tags/organization/</guid>
+      <guid>https://soitflows.xyz/tags/noexport-1/</guid>
       <description></description>
     </item>
     
@@ -29,20 +38,29 @@
     </item>
     
     <item>
-      <title>wellness</title>
-      <link>https://soitflows.xyz/tags/wellness/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0100</pubDate>
+      <title>manga</title>
+      <link>https://soitflows.xyz/tags/manga/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://soitflows.xyz/tags/wellness/</guid>
+      <guid>https://soitflows.xyz/tags/manga/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>development</title>
-      <link>https://soitflows.xyz/tags/development/</link>
+      <title>meta</title>
+      <link>https://soitflows.xyz/tags/meta/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://soitflows.xyz/tags/development/</guid>
+      <guid>https://soitflows.xyz/tags/meta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>toc</title>
+      <link>https://soitflows.xyz/tags/toc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://soitflows.xyz/tags/toc/</guid>
       <description></description>
     </item>
     

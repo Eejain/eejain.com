@@ -1,0 +1,15 @@
+#+hugo_base_dir: ~/itflows/
+#+hugo_section: docs/illus
+
+* Drawings
+:PROPERTIES:
+:EXPORT_FILE_NAME: _index
+:END:
+
+{{< columns >}}
+[[~/itflows/static/test_image.png][file:~/itflows/static/test_image.png]]
+<--->
+[[https://res.cloudinary.com/imakoimage/image/upload/v1586520548/Drawings/original/180816_a_j4byx4.jpg]]
+<--->
+[[https://res.cloudinary.com/imakoimage/image/upload/v1586520850/Drawings/original/191206_b_xf7ced.jpg]]
+{{< columns >}}
