@@ -1,5 +1,5 @@
 +++
-title = "Drawings"
+title = "Illustrations"
 author = ["Eejain Huang"]
 draft = false
 +++

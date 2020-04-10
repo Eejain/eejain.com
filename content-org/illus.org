@@ -1,7 +1,7 @@
 #+hugo_base_dir: ~/itflows/
 #+hugo_section: docs/illus
 
-* Drawings
+* Illustrations
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index
 :END:

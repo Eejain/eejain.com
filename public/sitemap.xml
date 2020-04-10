@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://soitflows.xyz/</loc>
+    <lastmod>2020-04-10T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://soitflows.xyz/categories/</loc>
     <lastmod>2020-04-10T00:00:00+02:00</lastmod>
   </url>
@@ -14,11 +19,6 @@
   
   <url>
     <loc>https://soitflows.xyz/posts/Hugo-Org-Sandbox/</loc>
-    <lastmod>2020-04-10T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/</loc>
     <lastmod>2020-04-10T00:00:00+02:00</lastmod>
   </url>
   
