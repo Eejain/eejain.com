@@ -126,3 +126,30 @@ Honestly, I don't know yet, but this system has given me clarity and a sense of 
 
 I think I've learned something along the way, but there's also Rick Sanchez's voice saying “Oh boy, so you actually learned something today? What is this, Full House?”, to which I want to answer: this is my best attempt to make sense of this world. And I hope it could be useful for the anonymous readers out there as well.
 
+* R Sandbox :@Meta:development:
+:PROPERTIES:
+:EXPORT_FILE_NAME: R Sandbox
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookHidden true
+:END:
+
+Testing org-babel R block
+- automatic graphic output
+- persistent R session
+- present both codes and outputs
+
+#+begin_src R :session :results graphics file :file test.png :exports both
+setwd('~/itflows/content-org/')
+  library(dplyr)
+  library(ggplot2)
+  ggplot(iris, aes(x =  Sepal.Width, y = Sepal.Length)) +
+    geom_point()
+
+square <- function(x)
+  {
+    x * x
+  }
+#+end_src
+
+#+begin_src R :session :results output :exports both
+  square(1:10)
+#+end_src

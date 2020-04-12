@@ -2,13 +2,12 @@
 title = "Hugo Markdown Sandbox"
 description = ""
 tags = [
-    "meta",
+    "development",
 ]
 date = "2014-04-02"
 categories = [
-    "Development",
+    "Meta",
 ]
-menu = "main"
 +++
 
 # Heading

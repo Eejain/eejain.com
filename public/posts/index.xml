@@ -44,5 +44,15 @@ Snow covers Emacs
       <description>Heading Link and List   fdsjkf jfksd jfdlsf  Table Simple    Name Phone     Anna 123456789   Alexander 987654321    Complex    Environment Independent variable Dependent variable Type of research Research question (example) Notes     Real-life teacher characteristics scanpath pattern descriptive In real-life teaching, what eye movement patteren/classroom management behavior does teacher with different level/type of expertise/knowledge possess?</description>
     </item>
     
+    <item>
+      <title>R Sandbox</title>
+      <link>https://soitflows.xyz/posts/R-Sandbox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://soitflows.xyz/posts/R-Sandbox/</guid>
+      <description>Testing org-babel R block
+ automatic graphic output persistent R session present both codes and outputs   setwd(&amp;#39;~/itflows/content-org/&amp;#39;) library(dplyr) library(ggplot2) ggplot(iris, aes(x = Sepal.Width, y = Sepal.Length)) + geom_point() square &amp;lt;- function(x) { x * x }   square(1:10) [1] 1 4 9 16 25 36 49 64 81 100 </description>
+    </item>
+    
   </channel>
 </rss>

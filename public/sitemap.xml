@@ -78,17 +78,7 @@
   </url>
   
   <url>
-    <loc>https://soitflows.xyz/categories/Development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://soitflows.xyz/posts/Hugo-Markdown-Sandbox/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/tags/meta/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -98,6 +88,10 @@
   
   <url>
     <loc>https://soitflows.xyz/docs/nonfic/</loc>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/posts/R-Sandbox/</loc>
   </url>
   
   <url>
