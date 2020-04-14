@@ -39,20 +39,10 @@ enableGitInfo = true
 [menu]
 # [[menu.before]]
 
-[[menu.after]]
-  name = "🐦 Twitter"
-  url = "https://twitter.com/na_naskuv"
-  weight = 20
-
-[[menu.after]]
-  name = "📷 Flickr"
-  url = "https://flickr.com/photos/ee-jain/"
-  weight = 30
-
-[[menu.after]]
-  name = "📗 Douban"
-  url = "https://www.douban.com/people/hessen/"
-  weight = 40
+# [[menu.after]]
+#  name = "🐦 Twitter"
+#  url = "https://twitter.com/na_naskuv"
+#  weight = 20
 
 [params]
   # (Optional, default true) Controls table of contents visibility on right side of pages.

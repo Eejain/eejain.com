@@ -4,7 +4,12 @@
 * Nonfictions :toc:
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: bookComments false
 :END:
+
+:END:
+
+
 
 
 

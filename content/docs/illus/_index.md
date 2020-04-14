@@ -2,6 +2,7 @@
 title = "Illustrations"
 author = ["Eejain Huang"]
 draft = false
+bookComments = false
 +++
 
 {{< columns >}}

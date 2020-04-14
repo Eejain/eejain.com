@@ -4,6 +4,7 @@
 * Fictions :toc:
 :PROPERTIES:
 :EXPORT_FILE_NAME: _index
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: bookComments false
 :END:
 
 - [[#inferno-目色][Inferno 目色]]
