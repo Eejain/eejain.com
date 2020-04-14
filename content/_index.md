@@ -4,13 +4,15 @@ type: docs
 ---
 
 
-{{< katex >}}\alef\Alpha{{< /katex >}}
+{{< katex >}}\Bbb{MADE}\enspace\Bbb{BY}\enspace\color{#83A78D}\mathcal{N}\negmedspace\negmedspace\negthickspace{\forall}{{< /katex >}}
+
+---
 
 {{< columns >}}
 
 ## Who is speaking? 
 ---
-Hi there, this is Eejain.
+Hi there, this is Naskuv (N.
 
 Many tags can be attached to me: gender-queer, born and raised Chinese, a half-made geek plus self-taught scribbler, a young scholar dangling between publish or perish, and an enthusiast with all things quaint yet profound.
 
