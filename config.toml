@@ -3,6 +3,7 @@
 baseurl = 'https://soitflows.xyz/'
 title = '☴ so it flows ☵'
 theme = 'hugo-book'
+disqusshortname = "soitflows"
 
 # Book configuration
 disablePathToLower = true
@@ -87,9 +88,9 @@ enableGitInfo = true
   # Can be overwritten by same param in page frontmatter
   BookComments = true
 
-# (Optional) If you provide a Disqus shortname, comments will be enabled on
-# all pages.
-disqusShortname = "soitflows"
+  # (Optional) If you provide a Disqus shortname, comments will be enabled on
+  # all pages.
+  disqusShortname = "soitflows"
 
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables portable links and link checks in markdown pages.
