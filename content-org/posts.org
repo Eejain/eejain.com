@@ -187,8 +187,8 @@ git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
 *** Doom default
 #+BEGIN_SRC emacs-lisp
 (package-initialize t)
-(setq user-full-name "Eejain Huang"
-      user-mail-address "huangyizhen2002@hotmail.com")
+(setq user-full-name "John Doe"
+      user-mail-address "johndoe@gmail.com")
 #+END_SRC
 *** Change the default encoding to UTF-8, more suitable for multi-lan environment
 #+BEGIN_SRC emacs-lisp
@@ -959,8 +959,3 @@ Other private configurations that are not yet in literate format.
 (package! anzu)
 (package! evil-anzu)
 #+end_src
-** Source Files
-- [init.el](/static/files/init.el)
-- [pakages.el](/static/files/pakages.el)
-- [config.org](/static/files/config.org)
-- [iTerm2 keymapping](/static/files/EmacsMain.itermkeymap)

@@ -47,8 +47,8 @@ git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
 
 ```emacs-lisp
 (package-initialize t)
-(setq user-full-name "Eejain Huang"
-      user-mail-address "huangyizhen2002@hotmail.com")
+(setq user-full-name "John Doe"
+      user-mail-address "johndoe@gmail.com")
 ```
 
 
@@ -975,11 +975,3 @@ Other private configurations that are not yet in literate format.
 (package! anzu)
 (package! evil-anzu)
 ```
-
-
-## Source Files {#source-files}
-
--   [init.el](/static/files/init.el)
--   [pakages.el](/static/files/pakages.el)
--   [config.org](/static/files/config.org)
--   [iTerm2 keymapping](/static/files/EmacsMain.itermkeymap)
