@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>technology on ☴ so it flows ☵</title>
+    <link>https://soitflows.xyz/tags/technology/</link>
+    <description>Recent content in technology on ☴ so it flows ☵</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 16 Jun 2020 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://soitflows.xyz/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My Doom Emacs Configuration</title>
+      <link>https://soitflows.xyz/posts/My-Doom-Emacs-Configuration/</link>
+      <pubDate>Tue, 16 Jun 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://soitflows.xyz/posts/My-Doom-Emacs-Configuration/</guid>
+      <description>Intro Forewords  A few words about my background. I&amp;rsquo;m a researcher in the field of social science. I don&amp;rsquo;t program much, but Emacs is essential for both my work and leisure projects. I&amp;rsquo;m using Emacs for interacting with R environment, composing long format texts, and managing my schedule as well as logging everyday life. I&amp;rsquo;m using GNU Emacs under the Doom Emacs configuration framework. I&amp;rsquo;m running my Emacs in iTerm2&amp;ndash;a terminal emulator for macOS.</description>
+    </item>
+    
+  </channel>
+</rss>

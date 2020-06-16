@@ -1,223 +1,102 @@
-#+hugo_base_dir: ~/itflows/
-#+hugo_section: posts
++++
+title = "My Doom Emacs Configuration"
+author = ["Eejain Huang"]
+date = 2020-06-16
+tags = ["technology"]
+draft = false
+bookHidden = true
++++
 
-* Hugo Org Sandbox :@Meta:development:
-:PROPERTIES:
-:EXPORT_FILE_NAME: Hugo Org Sandbox
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookHidden true
-:EXPORT_date: 2020-04-10
-:END:
-
-** Basic formatting
-- list item
-- [ ] checkbox item
-1. numbered item
+## Intro {#intro}
 
 
- regular main text, *bold*, /italic/, _underlined_, =verbatim=, ~code~,
-  +strike-through+
+### Forewords {#forewords}
 
-** Paragraphs
-#+begin_verse
-Great clouds overhead
-Tiny black birds rise and fail
-Snow covers Emacs
-
-       --- AlexSchroeder
-#+end_verse
-
-#+BEGIN_QUOTE
-Everything should be made as simple as possible,
-but not any simpler ---ALbert Einstein
-#+END_QUOTE
-
-#+BEGIN_CENTER
-A fog sinks in, \\
-and it overlays the death.
-#+END_CENTER
-
-** Math symbols
- X^{2}, X_{2}
-
-inline katex expression: {{< katex >}}\angle\alef{{< /katex >}}
-
-{{< katex display >}}
-\begin{array}{cc}
-a & b \\c & d
-\end{array}
-{{< /katex >}}
-
-note: ox-hugo sometimes render extra \
-
-** R block
-#+BEGIN_SRC R :session R
-getwd()
-#+END_SRC
-** Table
-*** simple table
-| h1 | h2 |
-| a  | b  |
-*** three line table
-|----+----+----|
-| h1 | h2 | h3 |
-|----+----+----|
-| a  | b  | c  |
-| d  | e  | f  |
-|----+----+----|
-** Link
-[[http://www.gnu.org][test link description]]
-** References
-* Planning 2020: Beyond Work-Life Balance :productivity:
-:PROPERTIES:
-:EXPORT_FILE_NAME: Planning 2020: Beyond Work-Life Balance
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookHidden true
-:EXPORT_DATE: 2020-01-03
-:END:
-
-** A Broken Self and a New Decade
-
-With the tingly smell of mulled wine, the dazzling Christmas lights in Berlin streets, I found myself in a very dark place at the end of 2019: it's the end of a decade yet my life is full of loose ends. Trying so hard to be the best version of myself as an instructor, a scholar, and a creator, I had, not literally, untied shoe laces that will trip myself over nothing every single day.
-
-I think I am not alone in this: the yearning for multitude of wonderful things  ended up as a self-paralyzing force. The world is most ravishing in your fantasies, right? Unfortunately, daydreaming stopped to be pleasant after I realized how little had I done to reach my idealized world––a place that's elegant, profound, gentle and intriguing , a world I would love to be a part of.
-
-So I've picked up all the loose ends and started to sketch a road map to there. And this post is a record of what I have done.
+-   A few words about my background. I'm a researcher in the field of social science. I don't program much, but Emacs is essential for both my work and leisure projects. I'm using Emacs for interacting with R environment, composing long format texts, and managing my schedule as well as logging everyday life.
+-   I'm using [GNU Emacs](https://formulae.brew.sh/formula/emacs) under the [Doom Emacs](https://github.com/hlissner/doom-emacs) configuration framework. I'm running my Emacs in[ iTerm2](https://www.iterm2.com/)--a terminal emulator for macOS.
 
 
-** The Three-Layer Structure
+### Instructions {#instructions}
 
-I would like to achieve two seemingly contradictory goals with my organization system: keep track of everything, and don't overwhelm myself. My current workaround is a system with three nesting layers and each layer requires different degree of attention and monitoring (energy!).
+-   Run the following in the terminal. References: <https://github.com/hlissner/doom-emacs/blob/develop/docs/getting%5Fstarted.org>
 
-The outmost layer is areas of life that I would like to balance on a daily basis. These are facet of life that I would make sure to give equal, unbiased energy and resource every single day. For most people, this could be just work and life. Me personally have three areas of life (serious/leisure/misc) which I will discuss in the next section.
+<!--listend-->
 
-The mid and second layer is sub-areas of life. They are also important and requires regular attention, but not on a daily basis. For example, I have four sub-areas in **serious stuff**: publication, academic development, teaching and organization. I would cycle through all these sub-areas every week, but the time invested on each sub-area might be different from week to week.
-
-The innermost layer are projects that are [SMART](<https://en.wikipedia.org/wiki/SMART%5Fcriteria>) (specific, measurable, achievable, relevant, time-bound). They are actionable projects that would help me reaching the vision of a particular sub-area of life. Since they are time sensitive and have clear criteria for success, I can evaluate the process easily every week and month. Next, I would like to put these three layers into context and give them some very subjective definitions.
-
-
-** Identify Areas of Life
-
-Everything I do, every second I spend and every bit of energy I consume (even in off-state, even during sleeps) is motivated by certain needs. I do **serious stuff** for professional development, financial security, social status, all of which are necessary to earn a proper position in this society. I do **leisure stuff** for enjoyment, self fulfillment and human connection. And I do **misc stuff** for living as a responsible adult that takes care of her own health, finance, possessions, legal docs etc. I used to rank serious stuff > leisure stuff > misc stuff, now I understand (after several burnouts) that they refuel each other, and should be treated equally on a daily basis.
-
-My three areas of life may not be everyone's focus, but you can substitute anything that you deem precious and would like to keep a close eye on.
-
-
-** Create sub-areas within Areas
-
-Using the area of life as a start point, what I did next is to write several statements to descriptive my prospect for each area. For example, I put down "I want to be a small expert in my small field" in the area of **serious stuff**, and I then formalized this vision into a sub-area called academic development. Eventually, I have four sub-areas in **serious stuff**: publication, academic development, teaching and organization; three sub-areas in **leisure stuff**: output, social, input; and two sub-areas in **misc stuff**: health (eating, skincare, workout, etc.) and chore (tax, record transaction, shopping, house cleaning, etc.). Noting that the sub-area of chore contains many elements, as they are not my focuses of life right now.
-
-
-** Create Projects within sub-areas
-
-The distinction between sub-areas and projects lies in whether they can be completed within a time frame. For example, health is a sub-area of my life that needs frequent investment, I cannot tick it off and say it's done. But I may have various projects within this sub-area that can and should be completed after certain duration of time, such as run for 5 km without stop in two months. And in order to reach this very specific goal, I can set concrete to-dos and keep track of its progress.
-
-
-** How Does It Work in Real Life?
-
-The beauty of this system lies in the differentiated energy requirement for each layer. From area to sub-area to project, the degree of flexibility increase and active monitoring decrease.
-
-To be more specific, at the start of a week, I will decide which sub-area(s) in each of the three areas I'm going to focus every day. The priority of sub-areas is determined by importance, urgency and sometimes, guts. I will try to work on every sub-area in a week, but not everyday. For instance, I may decide to work on serious\_publication + leisure\_input + misc\_health on Monday, and change to serious\_teach + leisure\_output + misc\_chore on Tuesday, and cycle through each sub-area throughout the week. This can be evaluated by the hour I spent in to-dos for each sub-area and adjusted during weekly review. Completion of a project take time and effort, but I don't have to work on each project every day or every week, as long as it's finished within the time frame defined by the project.
-
-Essentially, what I need to plan and monitor actively everyday is the time/energy spent on each area. I will review and plan sub-areas only once a week, and for projects, once a month.
-
-
-** Does It Work?
-
-Honestly, I don't know yet, but this system has given me clarity and a sense of purpose for the past two weeks. It is my current answer to the dilemma of wanting everything and getting burned out along the way. Noting that it is definitely not a manual or solution, but rather a record of my attempt to gather and organize the gruesome but magnificent beast which is life. And as everything in life, it's a work in progress.
-
-I think I've learned something along the way, but there's also Rick Sanchez's voice saying “Oh boy, so you actually learned something today? What is this, Full House?”, to which I want to answer: this is my best attempt to make sense of this world. And I hope it could be useful for the anonymous readers out there as well.
-
-* R Sandbox :@Meta:development:
-:PROPERTIES:
-:EXPORT_FILE_NAME: R Sandbox
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookHidden true
-:END:
-
-Testing org-babel R block
-- automatic graphic output
-- persistent R session
-- present both codes and outputs
-
-#+begin_src R :session :results graphics file :file test.png :exports both
-setwd('~/itflows/content-org/')
-  library(dplyr)
-  library(ggplot2)
-  ggplot(iris, aes(x =  Sepal.Width, y = Sepal.Length)) +
-    geom_point()
-
-square <- function(x)
-  {
-    x * x
-  }
-#+end_src
-
-#+begin_src R :session :results output :exports both
-  square(1:10)
-#+end_src
-* My Doom Emacs Configuration :technology:
-:PROPERTIES:
-:EXPORT_FILE_NAME: My Doom Emacs Configuration
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookHidden true
-:EXPORT_date: 2020-06-16
-:END:
-
-
-** Intro
-*** Forewords
-- A few words about my background. I'm a researcher in the field of social science. I don't program much, but Emacs is essential for both my work and leisure projects. I'm using Emacs for interacting with R environment, composing long format texts, and managing my schedule as well as logging everyday life.
-- I'm using [[https://formulae.brew.sh/formula/emacs][GNU Emacs]] under the [[https://github.com/hlissner/doom-emacs][Doom Emacs]] configuration framework. I'm running my Emacs in[[https://www.iterm2.com/][ iTerm2]]--a terminal emulator for macOS.
-*** Instructions
-- Run the following in the terminal. References: https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org
-#+BEGIN_SRC sh :exports code :tangle no
+```sh
 brew install git ripgrep
 brew install coreutils fd
 xcode-select --install
 brew install emacs
 git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
 ~/.emacs.d/bin/doom install
-#+END_SRC
-- Add ~export PATH=~/.emacs.d/bin:$PATH~ in .zshrc to use the bin/doom utility anywhere in terminal
-- Turn on ~literate~ in init.el in .dooms.d, then create config.org
-- Run ~M-x doom/reload~ in Emacs after changing the config.org, this will extract the Lisp source codes automatically to config.el
-- Run ~doom sync~ in terminal every time the package.el is changed
-- How to debug:
-  - turn on ~toggle-debug-on-error~, then ~doom/reload~
-  - run ~doom doctor~ in terminal
+```
 
-** Global Backends
-*** Doom default
-#+BEGIN_SRC emacs-lisp
+-   Add `export PATH=~/.emacs.d/bin:$PATH` in .zshrc to use the bin/doom utility anywhere in terminal
+-   Turn on `literate` in init.el in .dooms.d, then create config.org
+-   Run `M-x doom/reload` in Emacs after changing the config.org, this will extract the Lisp source codes automatically to config.el
+-   Run `doom sync` in terminal every time the package.el is changed
+-   How to debug:
+    -   turn on `toggle-debug-on-error`, then `doom/reload`
+    -   run `doom doctor` in terminal
+
+
+## Global Backends {#global-backends}
+
+
+### Doom default {#doom-default}
+
+```emacs-lisp
 (package-initialize t)
 (setq user-full-name "Eejain Huang"
       user-mail-address "huangyizhen2002@hotmail.com")
-#+END_SRC
-*** Change the default encoding to UTF-8, more suitable for multi-lan environment
-#+BEGIN_SRC emacs-lisp
+```
+
+
+### Change the default encoding to UTF-8, more suitable for multi-lan environment {#change-the-default-encoding-to-utf-8-more-suitable-for-multi-lan-environment}
+
+```emacs-lisp
 (prefer-coding-system       'utf-8)
 (set-default-coding-systems 'utf-8)
 (set-terminal-coding-system 'utf-8)
 (set-keyboard-coding-system 'utf-8)
 (setq default-buffer-file-coding-system 'utf-8)
-#+END_SRC
-*** Do not create lockfiles for files being edited
-references: https://github.com/Brettm12345/doom-emacs-literate-config/blob/master/config.org#completioncompany
-#+BEGIN_SRC emacs-lisp
+```
+
+
+### Do not create lockfiles for files being edited {#do-not-create-lockfiles-for-files-being-edited}
+
+references: <https://github.com/Brettm12345/doom-emacs-literate-config/blob/master/config.org#completioncompany>
+
+```emacs-lisp
   (setq create-lockfiles nil)
-#+END_SRC
-*** Company config
-reference: https://github.com/Brettm12345/doom-emacs-literate-config/blob/master/config.org#completioncompany
-**** Set maximum candidates for ~company-box~
-#+BEGIN_SRC emacs-lisp
+```
+
+
+### Company config {#company-config}
+
+reference: <https://github.com/Brettm12345/doom-emacs-literate-config/blob/master/config.org#completioncompany>
+
+
+#### Set maximum candidates for `company-box` {#set-maximum-candidates-for-company-box}
+
+```emacs-lisp
   (after! company-box
     (setq company-box-max-candidates 5))
-#+END_SRC
-**** Setup ~company-perscient~
-#+BEGIN_SRC emacs-lisp
+```
+
+
+#### Setup `company-perscient` {#setup-company-perscient}
+
+```emacs-lisp
   (use-package company-prescient
     :after company
     :hook (company-mode . company-prescient-mode))
-#+END_SRC
-**** Setup company ui
-#+BEGIN_SRC emacs-lisp
+```
+
+
+#### Setup company ui {#setup-company-ui}
+
+```emacs-lisp
   (after! company
     (setq company-tooltip-limit 5
           company-tooltip-minimum-width 80
@@ -225,15 +104,24 @@ reference: https://github.com/Brettm12345/doom-emacs-literate-config/blob/master
           company-backends
           '(company-capf company-dabbrev company-files company-yasnippet)
           company-global-modes '(not comint-mode erc-mode message-mode help-mode gud-mode)))
-#+END_SRC
-*** Ivy config
-reference: https://github.com/Brettm12345/doom-emacs-literate-config/blob/master/config.org#completioncompany
-**** Set ripgrep as the default program for ivy project search
-#+BEGIN_SRC emacs-lisp
+```
+
+
+### Ivy config {#ivy-config}
+
+reference: <https://github.com/Brettm12345/doom-emacs-literate-config/blob/master/config.org#completioncompany>
+
+
+#### Set ripgrep as the default program for ivy project search {#set-ripgrep-as-the-default-program-for-ivy-project-search}
+
+```emacs-lisp
   (setq +ivy-project-search-engines '(rg))
-#+END_SRC
-**** Setup ~ivy-rich~
-#+BEGIN_SRC emacs-lisp
+```
+
+
+#### Setup `ivy-rich` {#setup-ivy-rich}
+
+```emacs-lisp
 (after! ivy-rich
   (setq ivy-rich-display-transformers-list
         '(ivy-switch-buffer
@@ -278,9 +166,9 @@ reference: https://github.com/Brettm12345/doom-emacs-literate-config/blob/master
         counsel-org-headline-display-style 'title
         counsel-org-headline-display-tags t
         counsel-org-headline-display-todo t))
-#+END_SRC
+```
 
-#+BEGIN_SRC emacs-lisp
+```emacs-lisp
   (after! ivy
     (setq ivy-posframe-parameters
           `((min-width . 160)
@@ -308,21 +196,30 @@ reference: https://github.com/Brettm12345/doom-emacs-literate-config/blob/master
         ivy-magic-slash-non-match-action 'ivy-magic-slash-non-match-cd-selected
         ivy-height 20
         ivy-rich-switch-buffer-name-max-length 50))
-#+END_SRC
-**** Add helpful action to ~counsel-M-x~
-#+BEGIN_SRC emacs-lisp
+```
+
+
+#### Add helpful action to `counsel-M-x` {#add-helpful-action-to-counsel-m-x}
+
+```emacs-lisp
   (after! ivy
     (ivy-add-actions
      'counsel-M-x
      `(("h" +ivy/helpful-function "Helpful"))))
-#+END_SRC
-**** Setup ~counsel-tramp~
-#+BEGIN_SRC emacs-lisp
+```
+
+
+#### Setup `counsel-tramp` {#setup-counsel-tramp}
+
+```emacs-lisp
   (use-package counsel-tramp
     :commands (counsel-tramp))
-#+END_SRC
-**** Setup [[github:asok/all-the-icons-ivy][all-the-icons-ivy]]
-#+BEGIN_SRC emacs-lisp
+```
+
+
+#### Setup [all-the-icons-ivy](https://github.com/asok/all-the-icons-ivy) {#setup-all-the-icons-ivy}
+
+```emacs-lisp
 (use-package all-the-icons-ivy
   :after ivy
   :config
@@ -333,16 +230,25 @@ reference: https://github.com/Brettm12345/doom-emacs-literate-config/blob/master
                   counsel-dired-jump counsel-projectile-find-dir
                   counsel-projectile-switch-project))
     (ivy-set-display-transformer cmd #'all-the-icons-ivy-file-transformer)))
-#+END_SRC
-*** Dired config
-reference: https://github.com/Brettm12345/doom-emacs-literate-config/blob/master/config.org#completioncompany
-**** Set ~dired-k~ to use human readable styles
-#+BEGIN_SRC emacs-lisp
+```
+
+
+### Dired config {#dired-config}
+
+reference: <https://github.com/Brettm12345/doom-emacs-literate-config/blob/master/config.org#completioncompany>
+
+
+#### Set `dired-k` to use human readable styles {#set-dired-k-to-use-human-readable-styles}
+
+```emacs-lisp
   (after! dired-k
     (setq dired-k-human-readable t))
-#+END_SRC
-**** Set ~dired-k~ filesize colors
-#+BEGIN_SRC emacs-lisp
+```
+
+
+#### Set `dired-k` filesize colors {#set-dired-k-filesize-colors}
+
+```emacs-lisp
   (after! dired-k
     (setq dired-k-size-colors
           `((1024 .   ,(doom-lighten (doom-color 'green) 0.3))
@@ -355,36 +261,54 @@ reference: https://github.com/Brettm12345/doom-emacs-literate-config/blob/master
             (102400 . ,(doom-lighten (doom-color 'orange) 0.2))
             (262144 . ,(doom-lighten (doom-color 'orange) 0.1))
             (524288 . ,(doom-color 'orange)))))
-#+END_SRC
-**** Enable ~diredfl-mode~ on ~dired~ buffers
-#+BEGIN_SRC emacs-lisp
+```
+
+
+#### Enable `diredfl-mode` on `dired` buffers {#enable-diredfl-mode-on-dired-buffers}
+
+```emacs-lisp
   (use-package diredfl
     :hook (dired-mode . diredfl-mode))
-#+END_SRC
-**** Setup ~peep-dired~
-#+BEGIN_SRC emacs-lisp
+```
+
+
+#### Setup `peep-dired` {#setup-peep-dired}
+
+```emacs-lisp
   (use-package peep-dired
     :after dired
     :defer t
     :commands (peep-dired))
-#+END_SRC
-** Global Looks
-*** Color scheme and font
-#+begin_src emacs-lisp
+```
+
+
+## Global Looks {#global-looks}
+
+
+### Color scheme and font {#color-scheme-and-font}
+
+```emacs-lisp
 (setq doom-font (font-spec :faimily "monospace" :size 14))
 (setq doom-theme 'doom-tomorrow-night)
 (setq display-line-numbers-style 'relative)
-#+end_src
+```
 
-*** Set up cursor shape in iterm emacs for indicating edit/normal mode
+
+### Set up cursor shape in iterm emacs for indicating edit/normal mode {#set-up-cursor-shape-in-iterm-emacs-for-indicating-edit-normal-mode}
+
 the cursor shape of different vim mode is identical by default. use package term-cursor
-#+BEGIN_SRC emacs-lisp
+
+```emacs-lisp
   (use-package term-cursor)
   (global-term-cursor-mode)
-#+END_SRC
-*** Function to set visual line width
-references: https://www.emacswiki.org/emacs/VisualLineMode
-#+begin_src emacs-lisp
+```
+
+
+### Function to set visual line width {#function-to-set-visual-line-width}
+
+references: <https://www.emacswiki.org/emacs/VisualLineMode>
+
+```emacs-lisp
  (defvar visual-wrap-column nil)
  (defun set-visual-wrap-column (new-wrap-column &optional buffer)
       "Force visual line wrap at NEW-WRAP-COLUMN in BUFFER (defaults
@@ -416,19 +340,22 @@ references: https://www.emacswiki.org/emacs/VisualLineMode
             (set-window-margins nil (car current-margins))
             (set-window-margins nil (car current-margins)
                                 (- current-available visual-wrap-column))))))
+```
 
 
-#+end_src
-** Global Editing
-*** Key binding for Emacs in iTerm2 environment
-https://stackoverflow.com/questions/10660060/how-do-i-bind-c-in-emacs/40222318#40222318
+## Global Editing {#global-editing}
+
+
+### Key binding for Emacs in iTerm2 environment {#key-binding-for-emacs-in-iterm2-environment}
+
+<https://stackoverflow.com/questions/10660060/how-do-i-bind-c-in-emacs/40222318#40222318>
 workflow: in iterm, set preferences-key add a keyboard short cut with emacs key
 binding, then choose Send Escape Sequence as the Action, then use the
 my/global-map-and-set-key funtion below to bind the short cut to the original
 emacs function (find out the function by running describe the key function)
-the current key map in iterm is saved in iterm_emacs.itermkeymap
+the current key map in iterm is saved in iterm\_emacs.itermkeymap
 
-#+BEGIN_SRC emacs-lisp
+```emacs-lisp
 
 ;; define function
 (defun my/global-map-and-set-key (key command &optional prefix suffix)
@@ -494,17 +421,23 @@ the current key map in iterm is saved in iterm_emacs.itermkeymap
 ;; for ess-r short cut
 (my/global-map-and-set-key "<C-return>" 'ess-eval-line)
 (my/global-map-and-set-key "<C-S-return>" 'ess-eval-region-or-function-or-paragraph)
+```
 
-#+END_SRC
 
-*** Copy paste from external clipboard (for terminal emacs window)
-#+begin_src emacs-lisp
+### Copy paste from external clipboard (for terminal emacs window) {#copy-paste-from-external-clipboard--for-terminal-emacs-window}
+
+```emacs-lisp
 (setq osx-clipboard-mode t)
-#+end_src
-**** ARCV auto save and load current session layout (desktop)
-CLOSED: [2020-06-15 Mon 15:07]
-- State "ARCV"       from "TODO"       [2020-06-15 Mon 15:07]
-#+begin_src emacs-lisp
+```
+
+
+#### <span class="org-todo done ARCV">ARCV</span> auto save and load current session layout (desktop) {#auto-save-and-load-current-session-layout--desktop}
+
+-   State "ARCV"       from "TODO"       <span class="timestamp-wrapper"><span class="timestamp">[2020-06-15 Mon 15:07]</span></span>
+
+<!--listend-->
+
+```emacs-lisp
 
 ;; save current window layout and load later: https://emacs.stackexchange.com/questions/2710/switching-between-window-layouts
 ;; (defvar winstack-stack '()
@@ -533,22 +466,32 @@ CLOSED: [2020-06-15 Mon 15:07]
 (use-package psession
   :config
   (psession-mode 1))
-#+end_src
-** Org Mode Backends
-*** Org directory
-references: https://lists.gnu.org/archive/html/emacs-orgmode/2009-10/msg00734.html
-#+BEGIN_SRC emacs-lisp
+```
+
+
+## Org Mode Backends {#org-mode-backends}
+
+
+### Org directory {#org-directory}
+
+references: <https://lists.gnu.org/archive/html/emacs-orgmode/2009-10/msg00734.html>
+
+```emacs-lisp
 (setq org-directory "~/GoogleDrive/MarkdownNotes/MDNotes")
 (setq org-agenda-directory "~/GoogleDrive/MarkdownNotes/MDNotes/")
 (setq org-agenda-files (directory-files (expand-file-name org-agenda-directory) t
                                         "^[^\.][^#][[:alnum:]]+\.org$"))
 (setq org-default-notes-file (concat org-directory "/notes.org"))
-#+END_SRC
-*** Org keywords and tags
-  Previously I cannot override these settings because I changed setting in M-x
-  cutomization, now I deleted the content in ~/.emacs.d/.local/custom.el and add
-  after! org, then things are fine: https://github.com/hlissner/doom-emacs/issues/546
-#+BEGIN_SRC emacs-lisp
+```
+
+
+### Org keywords and tags {#org-keywords-and-tags}
+
+Previously I cannot override these settings because I changed setting in M-x
+cutomization, now I deleted the content in ~/.emacs.d/.local/custom.el and add
+after! org, then things are fine: <https://github.com/hlissner/doom-emacs/issues/546>
+
+```emacs-lisp
   (after! org
     (setq org-todo-keywords
           '(;; Sequence for TASKS
@@ -565,10 +508,14 @@ references: https://lists.gnu.org/archive/html/emacs-orgmode/2009-10/msg00734.ht
             ;; ARCV media alrady repoed, now archive for future reference
             (sequence "MARK(m@/!)" "ING(i@/!)" "REPO(r@/!)" "|" "ARCV(a@/!)")
             )))
-#+END_SRC
-*** Org setup
-references: https://github.com/sk8ingdom/.emacs.d/blob/master/org-mode-config/org-todo-states.el
-#+BEGIN_SRC emacs-lisp
+```
+
+
+### Org setup {#org-setup}
+
+references: <https://github.com/sk8ingdom/.emacs.d/blob/master/org-mode-config/org-todo-states.el>
+
+```emacs-lisp
   (after! org
     ;; prompt to record time and note when a task is completed
     (setq org-log-done 'note)
@@ -590,13 +537,17 @@ references: https://github.com/sk8ingdom/.emacs.d/blob/master/org-mode-config/or
 
 (with-eval-after-load 'org
   (add-to-list 'org-modules 'org-habit t))
-#+END_SRC
-*** Org capture
+```
+
+
+### Org capture {#org-capture}
+
 references:
-https://emacs.stackexchange.com/questions/19391/can-t-set-directory-for-org-mode-capture
-https://orgmode.org/manual/Template-expansion.html#Template-expansion
-https://github.com/sk8ingdom/.emacs.d/blob/master/org-mode-config/org-capture-templates.el
-#+BEGIN_SRC emacs-lisp
+<https://emacs.stackexchange.com/questions/19391/can-t-set-directory-for-org-mode-capture>
+<https://orgmode.org/manual/Template-expansion.html#Template-expansion>
+<https://github.com/sk8ingdom/.emacs.d/blob/master/org-mode-config/org-capture-templates.el>
+
+```emacs-lisp
   (setq org-capture-templates
         '(
           ("t" "Todo" entry (file+headline "~/Googledrive/Markdownnotes/MDNotes/todo.org" "Inbox") "* TODO %?\n  %U\n")
@@ -605,10 +556,14 @@ https://github.com/sk8ingdom/.emacs.d/blob/master/org-mode-config/org-capture-te
            "* %(format-time-string org-journal-time-format)%^{Title}\n%i%?")
           )
         )
-#+END_SRC
-*** org-journal
-references: https://github.com/bastibe/org-journal
-#+BEGIN_SRC emacs-lisp
+```
+
+
+### org-journal {#org-journal}
+
+references: <https://github.com/bastibe/org-journal>
+
+```emacs-lisp
 (customize-set-variable 'org-journal-dir "~/GoogleDrive/Markdownnotes/MDNotes/")
 (customize-set-variable 'org-journal-date-format "%A, %d %B %Y")
 (customize-set-variable 'org-journal-file-format "%Y%m%d.org")
@@ -627,11 +582,15 @@ references: https://github.com/bastibe/org-journal
   ;; Position point on the journal's top-level heading so that org-capture
   ;; will add the new entry as a child entry.
   (goto-char (point-min)))
-#+END_SRC
-*** org-babel
-Write plain text in org mode with embedded source block supported by [[https://orgmode.org/worg/org-contrib/babel/index.html][Babel: active code in Org-mode]]
-also see https://orgmode.org/manual/Working-with-Source-Code.html
-#+begin_src emacs-lisp
+```
+
+
+### org-babel {#org-babel}
+
+Write plain text in org mode with embedded source block supported by [Babel: active code in Org-mode](https://orgmode.org/worg/org-contrib/babel/index.html)
+also see <https://orgmode.org/manual/Working-with-Source-Code.html>
+
+```emacs-lisp
   (setq org-babel-load-languages
         '(
           (emacs-lisp. t)
@@ -648,15 +607,22 @@ also see https://orgmode.org/manual/Working-with-Source-Code.html
 
   (add-hook 'org-babel-after-execute-hook 'org-display-inline-images)
   (add-hook 'org-mode-hook 'org-display-inline-images)
-#+END_SRC
+```
 
-** Org Mode Looks
-*** Change the character that displays on collapsed headings
-#+BEGIN_SRC emacs-lisp
+
+## Org Mode Looks {#org-mode-looks}
+
+
+### Change the character that displays on collapsed headings {#change-the-character-that-displays-on-collapsed-headings}
+
+```emacs-lisp
   (setq org-ellipsis " ▼ ")
-#+END_SRC
-*** Line wrapping
-#+begin_src emacs-lisp
+```
+
+
+### Line wrapping {#line-wrapping}
+
+```emacs-lisp
 ;; visual line mode will wrap lines at the window border without actually insert line breaks
 (add-hook 'org-mode-hook #'visual-line-mode)
 
@@ -665,33 +631,52 @@ also see https://orgmode.org/manual/Working-with-Source-Code.html
 
 ;; also add (setq evil-respect-visual-line-mode t) to init.el, enable navigation in visual line mode (evel-next-visual-line)
 (add-hook 'org-mode-hook #'adaptive-wrap-prefix-mode)
-#+end_src
-** Org Mode Editing
-*** Key binding for showing all todo headings
-#+BEGIN_SRC emacs-lisp
+```
+
+
+## Org Mode Editing {#org-mode-editing}
+
+
+### Key binding for showing all todo headings {#key-binding-for-showing-all-todo-headings}
+
+```emacs-lisp
   (global-set-key (kbd "C-c t") 'org-show-todo-tree)
-#+END_SRC
-*** Key binding for outline quicklook/goto
-#+BEGIN_SRC emacs-lisp
+```
+
+
+### Key binding for outline quicklook/goto {#key-binding-for-outline-quicklook-goto}
+
+```emacs-lisp
   (global-set-key (kbd "C-c r") 'counsel-outline)
-#+END_SRC
-*** Key binding for jumping to the end of the line
-#+BEGIN_SRC emacs-lisp
+```
+
+
+### Key binding for jumping to the end of the line {#key-binding-for-jumping-to-the-end-of-the-line}
+
+```emacs-lisp
   (map!
    (:after evil
      :m  "C-e" #'doom/forward-to-last-non-comment-or-eol))
-#+END_SRC
-*** Key binding to insert newlines above and below
-Similar to [[github:tpope/vim-unimpaired][vim-unimpaired]]
-#+BEGIN_SRC emacs-lisp
+```
+
+
+### Key binding to insert newlines above and below {#key-binding-to-insert-newlines-above-and-below}
+
+Similar to [vim-unimpaired](https://github.com/tpope/vim-unimpaired)
+
+```emacs-lisp
   (map!
    (:after evil
      :m  "] SPC" #'evil-motion-insert-newline-below
      :m  "[ SPC" #'evil-motion-insert-newline-above))
-#+END_SRC
-*** Function to duplicate certain line
-inspired by Sublime Text cmd + shift + d (ref: https://stackoverflow.com/a/88828)
-#+BEGIN_SRC emacs-lisp
+```
+
+
+### Function to duplicate certain line {#function-to-duplicate-certain-line}
+
+inspired by Sublime Text cmd + shift + d (ref: <https://stackoverflow.com/a/88828>)
+
+```emacs-lisp
   (defun duplicate-line()
     (interactive)
     (move-beginning-of-line 1)
@@ -702,10 +687,14 @@ inspired by Sublime Text cmd + shift + d (ref: https://stackoverflow.com/a/88828
     (yank)
     )
 (global-set-key (kbd "C-c D") 'duplicate-line)
-#+END_SRC
-*** Function to create new scratch buffer in Org
-ref: https://emacs.stackexchange.com/questions/16492/is-it-possible-to-create-an-org-mode-scratch-buffer
-#+begin_src emacs-lisp
+```
+
+
+### Function to create new scratch buffer in Org {#function-to-create-new-scratch-buffer-in-org}
+
+ref: <https://emacs.stackexchange.com/questions/16492/is-it-possible-to-create-an-org-mode-scratch-buffer>
+
+```emacs-lisp
 (defun org-buffer-new ()
 "Create a new scratch buffer -- \*hello-world\*"
 (interactive)
@@ -726,37 +715,53 @@ ref: https://emacs.stackexchange.com/questions/16492/is-it-possible-to-create-an
 
   ;; SPC x is the default doom new scratch buffer key binding
   (global-set-key (kbd "C-c x") 'org-buffer-new)
-#+end_src
-*** Auto update Org toc
-#+begin_src emacs-lisp
+```
+
+
+### Auto update Org toc {#auto-update-org-toc}
+
+```emacs-lisp
 (if (require 'toc-org nil t)
     (add-hook 'org-mode-hook 'toc-org-mode)
 
     ;; enable in markdown, too
     (add-hook 'markdown-mode-hook 'toc-org-mode))
-#+end_src
-** Markdown Mode Looks
-#+begin_src emacs-lisp
+```
+
+
+## Markdown Mode Looks {#markdown-mode-looks}
+
+```emacs-lisp
 ;; similar with org mode, use visual line mode without auto fill
 (add-hook 'markdown-mode-hook #'visual-line-mode)
 (add-hook 'markdown-mode-hook #'turn-off-auto-fill)
 
 ;; disable syntax checker (markdownlint-cli) for markdown mode
 (setq-default flycheck-disabled-checkers '(markdown-markdownlint-cli))
-#+end_src
-** Hugo Related Config
+```
+
+
+## Hugo Related Config {#hugo-related-config}
+
 references:
-https://ox-hugo.scripter.co/
-https://mstempl.netlify.com/post/static-website-with-emacs-and-hugo/
-#+BEGIN_SRC emacs-lisp
+<https://ox-hugo.scripter.co/>
+<https://mstempl.netlify.com/post/static-website-with-emacs-and-hugo/>
+
+```emacs-lisp
 (with-eval-after-load 'ox
   (require 'ox-hugo))
-#+END_SRC
-** R Related Config
-*** ESS R config
-references: https://iqss.github.io/IQSS.emacs/init.html#run_r_in_emacs_(ess)
+```
+
+
+## R Related Config {#r-related-config}
+
+
+### ESS R config {#ess-r-config}
+
+references: <https://iqss.github.io/IQSS.emacs/init.html#run%5Fr%5Fin%5Femacs%5F(ess)>
 useful functions: R (run-ess-r), popup/raise, ess-eval-region-or-function-or-paragraph-and-step
-#+BEGIN_SRC emacs-lisp
+
+```emacs-lisp
   (with-eval-after-load "ess"
     (add-hook 'ess-r-mode-hook
               (lambda()
@@ -801,9 +806,12 @@ useful functions: R (run-ess-r), popup/raise, ess-eval-region-or-function-or-par
        (ess-fl-keyword:delimiters)
        (ess-fl-keyword:=)
        (ess-R-fl-keyword:F&T)))))
-#+END_SRC
-*** Combine R and markdown mode in one buffer with polymode
-#+begin_src emacs-lisp
+```
+
+
+### Combine R and markdown mode in one buffer with polymode {#combine-r-and-markdown-mode-in-one-buffer-with-polymode}
+
+```emacs-lisp
   (use-package polymode)
   (use-package poly-R)
   (use-package poly-markdown
@@ -814,11 +822,17 @@ useful functions: R (run-ess-r), popup/raise, ess-eval-region-or-function-or-par
   (use-package poly-markdown))
 (with-eval-after-load "org"
   (use-package poly-org))
-#+end_src
-** Appendix
+```
+
+
+## Appendix {#appendix}
+
 Other private configurations that are not yet in literate format.
-*** init.el
-#+begin_src emacs-lisp :tangle no :exports code
+
+
+### init.el {#init-dot-el}
+
+```emacs-lisp
 (doom! :input
 
        :completion
@@ -897,10 +911,12 @@ Other private configurations that are not yet in literate format.
        literate)
 
 (setq evil-respect-visual-line-mode t)
+```
 
-#+end_src
-*** pacakges.el
-#+begin_src emacs-lisp :tangle no :exports code
+
+### pacakges.el {#pacakges-dot-el}
+
+```emacs-lisp
 (package! term-cursor
   :recipe (:host github :repo "h0d/term-cursor.el"))
 
@@ -958,9 +974,12 @@ Other private configurations that are not yet in literate format.
 (package! doom-modeline)
 (package! anzu)
 (package! evil-anzu)
-#+end_src
-** Source Files
-- [init.el](/static/files/init.el)
-- [pakages.el](/static/files/pakages.el)
-- [config.org](/static/files/config.org)
-- [iTerm2 keymapping](/static/files/EmacsMain.itermkeymap)
+```
+
+
+## Source Files {#source-files}
+
+-   [init.el](/static/files/init.el)
+-   [pakages.el](/static/files/pakages.el)
+-   [config.org](/static/files/config.org)
+-   [iTerm2 keymapping](/static/files/EmacsMain.itermkeymap)

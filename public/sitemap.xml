@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://soitflows.xyz/posts/My-Doom-Emacs-Configuration/</loc>
+    <lastmod>2020-06-16T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/tags/</loc>
+    <lastmod>2020-06-16T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/tags/technology/</loc>
+    <lastmod>2020-06-16T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://soitflows.xyz/categories/</loc>
     <lastmod>2020-04-12T13:16:50+02:00</lastmod>
   </url>
@@ -20,11 +35,6 @@
   <url>
     <loc>https://soitflows.xyz/categories/Meta/</loc>
     <lastmod>2020-04-12T13:16:50+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/tags/</loc>
-    <lastmod>2020-04-14T16:38:14+02:00</lastmod>
   </url>
   
   <url>
