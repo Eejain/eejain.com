@@ -5,44 +5,18 @@
     <link>https://soitflows.xyz/categories/Meta/</link>
     <description>Recent content in Meta on ☴ so it flows ☵</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2020 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://soitflows.xyz/categories/Meta/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hugo Org Sandbox</title>
-      <link>https://soitflows.xyz/posts/Hugo-Org-Sandbox/</link>
-      <pubDate>Fri, 10 Apr 2020 00:00:00 +0200</pubDate>
+      <title>My Doom Emacs Configuaration</title>
+      <link>https://soitflows.xyz/posts/My-Doom-Emacs-Configuration/</link>
+      <pubDate>Tue, 16 Jun 2020 00:00:00 +0200</pubDate>
       
-      <guid>https://soitflows.xyz/posts/Hugo-Org-Sandbox/</guid>
-      <description>Basic formatting  list item checkbox item numbered item  regular main text, bold, italic, underlined, verbatim, code, strike-through
-Paragraphs Great clouds overhead
-Tiny black birds rise and fail
-Snow covers Emacs
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;--- AlexSchroeder
- Everything should be made as simple as possible, but not any simpler &amp;mdash;ALbert Einstein
- .org-center { margin-left: auto; margin-right: auto; text-align: center; }  A fog sinks in, and it overlays the death.
- Math symbols X2, X2</description>
-    </item>
-    
-    <item>
-      <title>Hugo Markdown Sandbox</title>
-      <link>https://soitflows.xyz/posts/Hugo-Markdown-Sandbox/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://soitflows.xyz/posts/Hugo-Markdown-Sandbox/</guid>
-      <description>Heading Link and List   fdsjkf jfksd jfdlsf  Table Simple    Name Phone     Anna 123456789   Alexander 987654321    Complex    Environment Independent variable Dependent variable Type of research Research question (example) Notes     Real-life teacher characteristics scanpath pattern descriptive In real-life teaching, what eye movement patteren/classroom management behavior does teacher with different level/type of expertise/knowledge possess?</description>
-    </item>
-    
-    <item>
-      <title>R Sandbox</title>
-      <link>https://soitflows.xyz/posts/R-Sandbox/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://soitflows.xyz/posts/R-Sandbox/</guid>
-      <description>Testing org-babel R block
- automatic graphic output persistent R session present both codes and outputs   setwd(&amp;#39;~/itflows/content-org/&amp;#39;) library(dplyr) library(ggplot2) ggplot(iris, aes(x = Sepal.Width, y = Sepal.Length)) + geom_point() square &amp;lt;- function(x) { x * x }   square(1:10) [1] 1 4 9 16 25 36 49 64 81 100 </description>
+      <guid>https://soitflows.xyz/posts/My-Doom-Emacs-Configuration/</guid>
+      <description>Intro Forewords  A few words about my background. I&amp;rsquo;m a researcher in the field of social science. I don&amp;rsquo;t program much, but Emacs is essential for both my work and leisure projects. I&amp;rsquo;m using Emacs for interacting with R environment, composing long format texts, and managing my schedule as well as logging everyday life. I&amp;rsquo;m using GNU Emacs under the Doom Emacs configuration framework. I&amp;rsquo;m running my Emacs in iTerm2&amp;ndash;a terminal emulator for macOS.</description>
     </item>
     
   </channel>

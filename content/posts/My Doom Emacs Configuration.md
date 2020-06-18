@@ -1,10 +1,14 @@
 +++
-title = "My Doom Emacs Configuration"
-author = ["Eejain Huang"]
+title = "My Doom Emacs Configuaration"
+author = ["Naskuv"]
 date = 2020-06-16
 tags = ["technology"]
+categories = ["Meta"]
 draft = false
+weight = 1010
+bookComments = true
 bookHidden = true
+bookToC = true
 +++
 
 ## Intro {#intro}
@@ -18,7 +22,7 @@ bookHidden = true
 
 ### Instructions {#instructions}
 
--   Run the following in the terminal. References: <https://github.com/hlissner/doom-emacs/blob/develop/docs/getting%5Fstarted.org>
+-   To install GNU Emacs and Doom, run the following in the terminal. References: <https://github.com/hlissner/doom-emacs/blob/develop/docs/getting%5Fstarted.org>
 
 <!--listend-->
 
@@ -31,10 +35,11 @@ git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
 ~/.emacs.d/bin/doom install
 ```
 
--   Add `export PATH=~/.emacs.d/bin:$PATH` in .zshrc to use the bin/doom utility anywhere in terminal
--   Turn on `literate` in init.el in .dooms.d, then create config.org
--   Run `M-x doom/reload` in Emacs after changing the config.org, this will extract the Lisp source codes automatically to config.el
--   Run `doom sync` in terminal every time the package.el is changed
+-   Add `export PATH=~/.emacs.d/bin:$PATH` in <span class="underline">.zshrc</span> to use the bin/doom utility anywhere in terminal
+-   Turn on `literate` in <span class="underline">init.el</span> in <span class="underline">~/.dooms.d</span>, then create <span class="underline">config.org</span>
+-   Add `#+PROPERTY: header-args :tangle yes :cache yes :results silent :padline no` anywhere in the <span class="underline">config.org</span>
+-   Run `M-x doom/reload` in Emacs after changing the <span class="underline">config.org</span>, this will extract the Lisp source codes automatically to <span class="underline">config.el</span>
+-   Run `doom sync` in terminal every time the <span class="underline">package.el</span> is changed
 -   How to debug:
     -   turn on `toggle-debug-on-error`, then `doom/reload`
     -   run `doom doctor` in terminal
@@ -47,8 +52,8 @@ git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
 
 ```emacs-lisp
 (package-initialize t)
-(setq user-full-name "John Doe"
-      user-mail-address "johndoe@gmail.com")
+(setq user-full-name "Eejain Huang"
+      user-mail-address "huangyizhen2002@gmail.com")
 ```
 
 
@@ -533,6 +538,10 @@ references: <https://github.com/sk8ingdom/.emacs.d/blob/master/org-mode-config/o
 
     ;; set the scope of line-editing behavior to the visual line (not actual line)
     (setq vim-style-visual-line-move-text t)
+(setq org-src-fontify-natively t
+    org-src-tab-acts-natively t
+    org-confirm-babel-evaluate nil
+    org-edit-src-content-indentation 0)
     )
 
 (with-eval-after-load 'org
@@ -595,6 +604,7 @@ also see <https://orgmode.org/manual/Working-with-Source-Code.html>
         '(
           (emacs-lisp. t)
           (lisp. t)
+          (sh. t)
           (org. t)
           (python. t)
           (latex. t)
@@ -741,7 +751,7 @@ ref: <https://emacs.stackexchange.com/questions/16492/is-it-possible-to-create-a
 ```
 
 
-## Hugo Related Config {#hugo-related-config}
+## Hugo related config {#hugo-related-config}
 
 references:
 <https://ox-hugo.scripter.co/>
@@ -753,7 +763,7 @@ references:
 ```
 
 
-## R Related Config {#r-related-config}
+## R related config {#r-related-config}
 
 
 ### ESS R config {#ess-r-config}
@@ -822,156 +832,4 @@ useful functions: R (run-ess-r), popup/raise, ess-eval-region-or-function-or-par
   (use-package poly-markdown))
 (with-eval-after-load "org"
   (use-package poly-org))
-```
-
-
-## Appendix {#appendix}
-
-Other private configurations that are not yet in literate format.
-
-
-### init.el {#init-dot-el}
-
-```emacs-lisp
-(doom! :input
-
-       :completion
-       (company +auto +childframe)
-       (ivy +fuzzy +childframe)
-
-       :ui
-       (popup +all +defaults)
-       doom
-       doom-dashboard
-       doom-quit
-       modeline
-       ophints
-       fill-column
-       hl-todo
-       nav-flash
-       neotree
-       vc-gutter
-       vi-tilde-fringe
-       window-select
-
-       :editor
-       (evil +everywhere)
-       file-templates
-       format
-       lispy
-       multiple-cursors
-       rotate-text
-       snippets
-       fold
-
-       :emacs
-       (dired +icons)
-       electric
-       vc
-
-       :term
-       eshell
-       term
-
-       :checkers
-       spell
-       syntax
-
-       :tools
-       eval
-       (lookup
-        +devdocs
-        +docsets)
-       gist
-       make
-       magit
-       pass
-       rgb
-       tmux
-       upload
-
-       :lang
-       data              ; config/data formats
-       emacs-lisp        ; drown in parentheses
-       ess               ; emacs speaks statistics
-       latex             ; writing papers in Emacs has never been so fun
-       markdown          ; writing docs for people to ignore
-       (org              ; organize your plain life in plain text
-        +dragndrop       ; drag & drop files/images into org buffers
-        +hugo            ; use Emacs for hugo blogging
-        +pandoc          ; export-with-pandoc support
-        +attach
-        +babel
-        +capture
-        +export
-        +present)        ; using org-mode for presentations
-
-       :config
-       (default +bindings +smartparens)
-       literate)
-
-(setq evil-respect-visual-line-mode t)
-```
-
-
-### pacakges.el {#pacakges-dot-el}
-
-```emacs-lisp
-(package! term-cursor
-  :recipe (:host github :repo "h0d/term-cursor.el"))
-
-(package! osx-clipboard
-  :recipe (:host github :repo "joddie/osx-clipboard-mode"))
-
-(package! org-journal)
-(package! adaptive-wrap)
-(package! ox-hugo)
-(package! polymode)
-(package! poly-markdown)
-(package! poly-R)
-(package! poly-org)
-(package! toc-org)
-(package! psession)
-
-;; completion/company
-(package! prescient)
-(package! company-prescient)
-
-;; completion/ivy
-(package! all-the-icons-ivy)
-(package! counsel-tramp)
-
-;; emacs/dired
-(package! peep-dired)
-(package! diredfl)
-
-;; feature/snippets
-(package! yasnippet-snippets)
-
-;; lang/apache
-(package! apache-mode)
-
-;; lang/pkgbuild
-(package! pkgbuild-mode)
-
-;; lang/nginx
-(package! nginx-mode)
-
-;; lang/org
-(package! ob-http)
-
-
-;; lang/systemd
-(package! systemd)
-
-;; lang/sh
-(package! flycheck-checkbashisms)
-
-;; tools/tldr
-;; (package! tldr)
-
-;; ui/modeline
-(package! doom-modeline)
-(package! anzu)
-(package! evil-anzu)
 ```

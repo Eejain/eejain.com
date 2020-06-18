@@ -1,10 +1,15 @@
 +++
-title = "Planning 2020: Beyond Work-Life Balance"
-author = ["Eejain Huang"]
+title = "Planning 2020 Beyond Work-Life Balance"
+author = ["Naskuv"]
 date = 2020-01-03
-tags = ["productivity", "noexport-1"]
+tags = ["productivity"]
+categories = ["Life"]
 draft = false
+weight = 1004
+bookComments = true
 bookHidden = true
+bookToC = true
+endLevel = 2
 +++
 
 ## A Broken Self and a New Decade {#a-broken-self-and-a-new-decade}

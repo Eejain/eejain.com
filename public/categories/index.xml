@@ -5,7 +5,7 @@
     <link>https://soitflows.xyz/categories/</link>
     <description>Recent content in Categories on ☴ so it flows ☵</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2020 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://soitflows.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,9 +13,18 @@
     <item>
       <title>Meta</title>
       <link>https://soitflows.xyz/categories/Meta/</link>
-      <pubDate>Fri, 10 Apr 2020 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 16 Jun 2020 00:00:00 +0200</pubDate>
       
       <guid>https://soitflows.xyz/categories/Meta/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Life</title>
+      <link>https://soitflows.xyz/categories/Life/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0100</pubDate>
+      
+      <guid>https://soitflows.xyz/categories/Life/</guid>
       <description></description>
     </item>
     

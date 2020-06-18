@@ -3,67 +3,62 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://soitflows.xyz/posts/My-Doom-Emacs-Configuration/</loc>
-    <lastmod>2020-06-16T16:29:15+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/tags/</loc>
-    <lastmod>2020-06-16T16:29:15+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/tags/technology/</loc>
-    <lastmod>2020-06-16T16:29:15+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/categories/</loc>
-    <lastmod>2020-04-12T13:16:50+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/tags/development/</loc>
-    <lastmod>2020-04-12T13:16:50+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/posts/Hugo-Org-Sandbox/</loc>
-    <lastmod>2020-04-10T14:57:57+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/categories/Meta/</loc>
-    <lastmod>2020-04-12T13:16:50+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/tags/noexport-1/</loc>
-    <lastmod>2020-04-10T14:57:57+02:00</lastmod>
+    <loc>https://soitflows.xyz/posts/</loc>
+    <lastmod>2020-06-15T00:00:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://soitflows.xyz/posts/Planning-2020-Beyond-Work-Life-Balance/</loc>
-    <lastmod>2020-04-10T14:57:57+02:00</lastmod>
+    <lastmod>2020-01-03T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soitflows.xyz/tags/productivity/</loc>
-    <lastmod>2020-04-10T14:57:57+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/docs/</loc>
-    <lastmod>2020-04-14T16:38:14+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/categories/FanFic/</loc>
+    <loc>https://soitflows.xyz/posts/%E7%9B%AE%E8%89%B2/</loc>
     <lastmod>2017-12-01T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soitflows.xyz/docs/fic/Inferno-%E7%9B%AE%E8%89%B2/</loc>
+    <loc>https://soitflows.xyz/posts/My-Doom-Emacs-Configuration/</loc>
+    <lastmod>2020-06-16T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/categories/</loc>
+    <lastmod>2020-06-16T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/categories/Meta/</loc>
+    <lastmod>2020-06-16T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/tags/</loc>
+    <lastmod>2020-06-16T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/tags/technology/</loc>
+    <lastmod>2020-06-16T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/</loc>
+    <lastmod>2020-06-15T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/categories/Life/</loc>
+    <lastmod>2020-01-03T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/tags/productivity/</loc>
+    <lastmod>2020-01-03T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/categories/FanFic/</loc>
     <lastmod>2017-12-01T00:00:00+01:00</lastmod>
   </url>
   
@@ -73,38 +68,11 @@
   </url>
   
   <url>
-    <loc>https://soitflows.xyz/posts/Hugo-Markdown-Sandbox/</loc>
-    <lastmod>2020-04-12T13:16:50+02:00</lastmod>
+    <loc>https://soitflows.xyz/docs/About/</loc>
   </url>
   
   <url>
-    <loc>https://soitflows.xyz/</loc>
-    <lastmod>2020-04-14T16:38:14+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/docs/fic/</loc>
-    <lastmod>2020-04-14T16:38:14+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/posts/</loc>
-    <lastmod>2020-04-08T19:53:57+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/docs/nonfic/</loc>
-    <lastmod>2020-04-14T16:38:14+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/posts/R-Sandbox/</loc>
-    <lastmod>2020-04-12T13:16:50+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/tags/toc/</loc>
-    <lastmod>2020-04-14T16:38:14+02:00</lastmod>
+    <loc>https://soitflows.xyz/docs/</loc>
   </url>
   
 </urlset>

@@ -1,41 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>☴ so it flows ☵</title>
+    <title>Front Page on ☴ so it flows ☵</title>
     <link>https://soitflows.xyz/</link>
-    <description>Recent content on ☴ so it flows ☵</description>
+    <description>Recent content in Front Page on ☴ so it flows ☵</description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://soitflows.xyz/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>My Doom Emacs Configuration</title>
-      <link>https://soitflows.xyz/posts/My-Doom-Emacs-Configuration/</link>
-      <pubDate>Tue, 16 Jun 2020 00:00:00 +0200</pubDate>
-      
-      <guid>https://soitflows.xyz/posts/My-Doom-Emacs-Configuration/</guid>
-      <description>Intro Forewords  A few words about my background. I&amp;rsquo;m a researcher in the field of social science. I don&amp;rsquo;t program much, but Emacs is essential for both my work and leisure projects. I&amp;rsquo;m using Emacs for interacting with R environment, composing long format texts, and managing my schedule as well as logging everyday life. I&amp;rsquo;m using GNU Emacs under the Doom Emacs configuration framework. I&amp;rsquo;m running my Emacs in iTerm2&amp;ndash;a terminal emulator for macOS.</description>
-    </item>
-    
-    <item>
-      <title>Hugo Org Sandbox</title>
-      <link>https://soitflows.xyz/posts/Hugo-Org-Sandbox/</link>
-      <pubDate>Fri, 10 Apr 2020 00:00:00 +0200</pubDate>
-      
-      <guid>https://soitflows.xyz/posts/Hugo-Org-Sandbox/</guid>
-      <description>Basic formatting  list item checkbox item numbered item  regular main text, bold, italic, underlined, verbatim, code, strike-through
-Paragraphs Great clouds overhead
-Tiny black birds rise and fail
-Snow covers Emacs
-&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;--- AlexSchroeder
- Everything should be made as simple as possible, but not any simpler &amp;mdash;ALbert Einstein
- .org-center { margin-left: auto; margin-right: auto; text-align: center; }  A fog sinks in, and it overlays the death.
- Math symbols X2, X2</description>
-    </item>
-    
-    <item>
-      <title>Planning 2020: Beyond Work-Life Balance</title>
+      <title>Planning 2020 Beyond Work-Life Balance</title>
       <link>https://soitflows.xyz/posts/Planning-2020-Beyond-Work-Life-Balance/</link>
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0100</pubDate>
       
@@ -44,13 +20,14 @@ Snow covers Emacs
     </item>
     
     <item>
-      <title>Inferno 目色</title>
-      <link>https://soitflows.xyz/docs/fic/Inferno-%E7%9B%AE%E8%89%B2/</link>
+      <title>目色</title>
+      <link>https://soitflows.xyz/posts/%E7%9B%AE%E8%89%B2/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0100</pubDate>
       
-      <guid>https://soitflows.xyz/docs/fic/Inferno-%E7%9B%AE%E8%89%B2/</guid>
-      <description>Inferno 目色   This fanfic is based on &#34;Inferno&#34; by Tomo Matsumoto  https://google.com/search?q=Tomo%20Matsumoto
- 他睁开了眼睛，几声闷雷滚过，窗玻璃在狂风中振动着。室内昏暗模糊，从他躺的角度能看到迫近的积雨云，正不断变幻着形状。重重堆积的云山，像沉默又饥饿的野兽，边缘却镶着明亮的白色。听着楼下时隐时现的流水声，他突然觉得干渴难忍。
+      <guid>https://soitflows.xyz/posts/%E7%9B%AE%E8%89%B2/</guid>
+      <description>排雷  乱伦， 未成年，姐弟
+ This piece is based on &amp;quot;Inferno&amp;quot; by Tomo Matsumoto
+他睁开了眼睛，几声闷雷滚过，窗玻璃在狂风中振动着。室内昏暗模糊，从他躺的角度能看到迫近的积雨云，正不断变幻着形状。重重堆积的云山，像沉默又饥饿的野兽，边缘却镶着明亮的白色。听着楼下时隐时现的流水声，他突然觉得干渴难忍。
 走廊挂着的时钟指向中午十二点，家中除了厨房却是一片暧昧不明。他昏昏沉沉地走向开放式厨房边上的冰箱。
 这是十六岁的家入轰从九州回到东京的第一个夏天，天气灼热得史无前例。震耳欲聋的蝉鸣和雷声中，连电器运转的声音都显得有气无力。
 他边抹汗边打开冰箱，里面整齐地码着可丽饼、乳酪球和草莓蛋糕。草莓是无子的，茎叶都被仔细摘去并整齐地切成两瓣，盖在白润的奶油上像是颗红心。
@@ -97,22 +74,24 @@ Snow covers Emacs
     </item>
     
     <item>
-      <title>Hugo Markdown Sandbox</title>
-      <link>https://soitflows.xyz/posts/Hugo-Markdown-Sandbox/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>My Doom Emacs Configuaration</title>
+      <link>https://soitflows.xyz/posts/My-Doom-Emacs-Configuration/</link>
+      <pubDate>Tue, 16 Jun 2020 00:00:00 +0200</pubDate>
       
-      <guid>https://soitflows.xyz/posts/Hugo-Markdown-Sandbox/</guid>
-      <description>Heading Link and List   fdsjkf jfksd jfdlsf  Table Simple    Name Phone     Anna 123456789   Alexander 987654321    Complex    Environment Independent variable Dependent variable Type of research Research question (example) Notes     Real-life teacher characteristics scanpath pattern descriptive In real-life teaching, what eye movement patteren/classroom management behavior does teacher with different level/type of expertise/knowledge possess?</description>
+      <guid>https://soitflows.xyz/posts/My-Doom-Emacs-Configuration/</guid>
+      <description>Intro Forewords  A few words about my background. I&amp;rsquo;m a researcher in the field of social science. I don&amp;rsquo;t program much, but Emacs is essential for both my work and leisure projects. I&amp;rsquo;m using Emacs for interacting with R environment, composing long format texts, and managing my schedule as well as logging everyday life. I&amp;rsquo;m using GNU Emacs under the Doom Emacs configuration framework. I&amp;rsquo;m running my Emacs in iTerm2&amp;ndash;a terminal emulator for macOS.</description>
     </item>
     
     <item>
-      <title>R Sandbox</title>
-      <link>https://soitflows.xyz/posts/R-Sandbox/</link>
+      <title>About</title>
+      <link>https://soitflows.xyz/docs/About/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://soitflows.xyz/posts/R-Sandbox/</guid>
-      <description>Testing org-babel R block
- automatic graphic output persistent R session present both codes and outputs   setwd(&amp;#39;~/itflows/content-org/&amp;#39;) library(dplyr) library(ggplot2) ggplot(iris, aes(x = Sepal.Width, y = Sepal.Length)) + geom_point() square &amp;lt;- function(x) { x * x }   square(1:10) [1] 1 4 9 16 25 36 49 64 81 100 </description>
+      <guid>https://soitflows.xyz/docs/About/</guid>
+      <description>\(\Bbb{MADE}\enspace\Bbb{BY}\enspace\color{#83A78D}\mathcal{N}\negmedspace\negmedspace\negthickspace{\forall}\)   Who is speaking?  Hi there, this is Naskuv.
+Many tags can be attached to me: gender-queer, born and raised Chinese, a half-made geek plus self-taught scribbler, a young scholar dangling between publish or perish, and an enthusiast with all things quaint yet profound.
+But none of them will stick.
+Pared to the bone, I am just a curious soul that wants to share bits and pieces of thoughts with you.</description>
     </item>
     
   </channel>

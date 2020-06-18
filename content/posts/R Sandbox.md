@@ -1,19 +1,15 @@
 +++
 title = "R Sandbox"
-author = ["Eejain Huang"]
-tags = ["development"]
-categories = ["Meta"]
-draft = false
+author = ["Naskuv"]
+date = 2020-05-25
+draft = true
+weight = 1006
+bookComments = true
 bookHidden = true
+bookToC = true
 +++
 
-Testing org-babel R block
-
--   automatic graphic output
--   persistent R session
--   present both codes and outputs
-
-<!--listend-->
+this post tests the org-babel function of rendering R block. I am mainly seeking three functions: automatic graphic output; persistent R session; present both codes and outputs
 
 ```R
 setwd('~/itflows/content-org/')
@@ -28,7 +24,7 @@ square <- function(x)
   }
 ```
 
-{{< figure src="/ox-hugo/test.png" >}}
+{{< figure src="testr.png" >}}
 
 ```R
   square(1:10)
