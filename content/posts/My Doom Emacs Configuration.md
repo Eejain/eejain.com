@@ -11,6 +11,11 @@ bookHidden = true
 bookToC = true
 +++
 
+{{< figure src="/doomsnap.png" caption="Figure 1: Emacs main window in iTerm2" >}}
+
+{{< figure src="/doomsnap2.png" caption="Figure 2: Emacs quickshow window with Org agenda" >}}
+
+
 ## Intro {#intro}
 
 

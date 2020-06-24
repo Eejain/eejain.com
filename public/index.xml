@@ -79,7 +79,9 @@
       <pubDate>Tue, 16 Jun 2020 00:00:00 +0200</pubDate>
       
       <guid>https://soitflows.xyz/posts/My-Doom-Emacs-Configuration/</guid>
-      <description>Intro Forewords  A few words about my background. I&amp;rsquo;m a researcher in the field of social science. I don&amp;rsquo;t program much, but Emacs is essential for both my work and leisure projects. I&amp;rsquo;m using Emacs for interacting with R environment, composing long format texts, and managing my schedule as well as logging everyday life. I&amp;rsquo;m using GNU Emacs under the Doom Emacs configuration framework. I&amp;rsquo;m running my Emacs in iTerm2&amp;ndash;a terminal emulator for macOS.</description>
+      <description>Figure 1: Emacs main window in iTerm2
+    Figure 2: Emacs quickshow window with Org agenda
+  Intro Forewords  A few words about my background. I&amp;rsquo;m a researcher in the field of social science. I don&amp;rsquo;t program much, but Emacs is essential for both my work and leisure projects. I&amp;rsquo;m using Emacs for interacting with R environment, composing long format texts, and managing my schedule as well as logging everyday life.</description>
     </item>
     
     <item>

@@ -1,6 +1,6 @@
 #+title: soitflows
 #+author: Naskuv
-#+startup: overview
+#+startup: overview inlineimage
 
 #+hugo_base_dir: ~/itflows/
 
@@ -601,6 +601,12 @@ HIGHLIGHTS: 一个左倾，Ezra Klein 是最早用私人博客的形式报道政
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookToC true
 :header-args: :tangle no eval: no-export :cache yes :results silent :padline no
 :END:
+
+#+caption: Emacs main window in iTerm2
+file:~/itflows/static/doomsnap.png
+
+#+caption: Emacs quickshow window with Org agenda
+file:~/itflows/static/doomsnap2.png
 
 ** Intro
 *** Forewords
