@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>productivity on ☴ so it flows ☵</title>
-    <link>https://soitflows.xyz/tags/productivity/</link>
-    <description>Recent content in productivity on ☴ so it flows ☵</description>
+    <title>Academic on ☴ so it flows ☵</title>
+    <link>https://soitflows.xyz/categories/Academic/</link>
+    <description>Recent content in Academic on ☴ so it flows ☵</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0200</lastBuildDate>
     
-	<atom:link href="https://soitflows.xyz/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://soitflows.xyz/categories/Academic/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Planning 2020 Beyond Work-Life Balance</title>
-      <link>https://soitflows.xyz/posts/Planning-2020-Beyond-Work-Life-Balance/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0100</pubDate>
-      
-      <guid>https://soitflows.xyz/posts/Planning-2020-Beyond-Work-Life-Balance/</guid>
-      <description>A Broken Self and a New Decade With the tingly smell of mulled wine, the dazzling Christmas lights in Berlin streets, I found myself in a very dark place at the end of 2019: it&amp;rsquo;s the end of a decade yet my life is full of loose ends. Trying so hard to be the best version of myself as an instructor, a scholar, and a creator, I had, not literally, untied shoe laces that will trip myself over nothing every single day.</description>
-    </item>
     
     <item>
       <title>My Reference Management Workflow with Zotero</title>

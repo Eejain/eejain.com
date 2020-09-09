@@ -6,18 +6,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Figure 1: Emacs main window in iTerm2
     Figure 2: Emacs quickshow window with Org agenda
-  Intro Forewords  A few words about my background. I&rsquo;m a researcher in the field of social science. I don&rsquo;t program much, but Emacs is essential for both my work and leisure projects. I&rsquo;m using Emacs for interacting with R environment, composing long format texts, and managing my schedule as well as logging everyday life."><meta property="og:title" content="My Doom Emacs Configuaration" />
+  Intro Forewords  A few words about my background. I&rsquo;m a researcher in the field of educational science. I am no programmer, other than borrowing codes from stack overflow all the time. My experience with plain text editors started with writing monkey,and then Sublime Text. But Emacs quickly replaced almost every app in both my work and leisure workflow."><meta property="og:title" content="My Doom Emacs Configuration" />
 <meta property="og:description" content="Figure 1: Emacs main window in iTerm2
     Figure 2: Emacs quickshow window with Org agenda
-  Intro Forewords  A few words about my background. I&rsquo;m a researcher in the field of social science. I don&rsquo;t program much, but Emacs is essential for both my work and leisure projects. I&rsquo;m using Emacs for interacting with R environment, composing long format texts, and managing my schedule as well as logging everyday life." />
+  Intro Forewords  A few words about my background. I&rsquo;m a researcher in the field of educational science. I am no programmer, other than borrowing codes from stack overflow all the time. My experience with plain text editors started with writing monkey,and then Sublime Text. But Emacs quickly replaced almost every app in both my work and leisure workflow." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://soitflows.xyz/posts/My-Doom-Emacs-Configuration/" />
-<meta property="article:published_time" content="2020-06-16T00:00:00+02:00" />
-<meta property="article:modified_time" content="2020-06-16T00:00:00+02:00" />
-<title>My Doom Emacs Configuaration | ☴ so it flows ☵</title>
+<meta property="article:published_time" content="2020-09-08T00:00:00+02:00" />
+<meta property="article:modified_time" content="2020-09-08T00:00:00+02:00" />
+<title>My Doom Emacs Configuration | ☴ so it flows ☵</title>
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.6ab07336876c95e8d78ff480820ddfa0af19497f9770decb6c1fdd1eaa5f0d01.css" integrity="sha256-arBzNodslejXj/SAgg3foK8ZSX&#43;XcN7LbB/dHqpfDQE=">
-<script defer src="/en.search.min.92b964dc40934a7df9fd07ee056d79a0a413c35c05dc4b3df3c990ea61f7e2e3.js" integrity="sha256-krlk3ECTSn35/QfuBW15oKQTw1wF3Es988mQ6mH34uM="></script>
+<script defer src="/en.search.min.ea99c10bb190c6802a7805666bfb0854fd81e810012a7cb894858fd7080718a4.js" integrity="sha256-6pnBC7GQxoAqeAVma/sIVP2B6BABKny4lIWP1wgHGKQ="></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -177,7 +177,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>My Doom Emacs Configuaration</strong>
+  <strong>My Doom Emacs Configuration</strong>
 
   <label for="toc-control">
     <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
@@ -200,6 +200,7 @@ https://github.com/alex-shpak/hugo-book
         <li><a href="#org-mode-backends">Org Mode Backends</a></li>
         <li><a href="#org-mode-looks">Org Mode Looks</a></li>
         <li><a href="#org-mode-editing">Org Mode Editing</a></li>
+        <li><a href="#org-mode-reference-management">Org Mode Reference Management</a></li>
         <li><a href="#markdown-mode-looks">Markdown Mode Looks</a></li>
         <li><a href="#hugo-related-config">Hugo related config</a></li>
         <li><a href="#r-related-config">R related config</a></li>
@@ -218,11 +219,11 @@ https://github.com/alex-shpak/hugo-book
       
 <article class="markdown">
   <h1>
-    <a href="/posts/My-Doom-Emacs-Configuration/">My Doom Emacs Configuaration</a>
+    <a href="/posts/My-Doom-Emacs-Configuration/">My Doom Emacs Configuration</a>
   </h1>
   
 
-  <h5>Jun 16, 2020</h5>
+  <h5>Sep 8, 2020</h5>
 
 
 
@@ -258,33 +259,53 @@ https://github.com/alex-shpak/hugo-book
 <h2 id="intro">Intro</h2>
 <h3 id="forewords">Forewords</h3>
 <ul>
-<li>A few words about my background. I&rsquo;m a researcher in the field of social science. I don&rsquo;t program much, but Emacs is essential for both my work and leisure projects. I&rsquo;m using Emacs for interacting with R environment, composing long format texts, and managing my schedule as well as logging everyday life.</li>
+<li>A few words about my background. I&rsquo;m a researcher in the field of educational science. I am no programmer, other than borrowing codes from stack overflow all the time. My experience with plain text editors started with writing monkey,and then Sublime Text. But Emacs quickly replaced almost every app in both my work and leisure workflow. I&rsquo;m currently using Emacs for almost all the tasks: develop R script, interacting with shell, composing long-format texts, publish personal blog, and manage my schedule as well as logging everyday journal.</li>
 <li>I&rsquo;m using 
   <a href="https://formulae.brew.sh/formula/emacs">GNU Emacs</a> under the 
-  <a href="https://github.com/hlissner/doom-emacs">Doom Emacs</a> configuration framework. I&rsquo;m running my Emacs in
-  <a href="https://www.iterm2.com/"> iTerm2</a>&ndash;a terminal emulator for macOS.</li>
+  <a href="https://github.com/hlissner/doom-emacs">Doom Emacs</a> configuration framework on macOS.
+<ul>
+<li>I usually have two instances of Emacs running: terminal frame and Emacs GUI application.</li>
+<li>First approach with terminal frame: I&rsquo;m running my Emacs in
+  <a href="https://www.iterm2.com/"> iTerm2</a>&ndash;a terminal emulator for macOS&ndash;with zsh. Serve as quick-show window for org-agenda</li>
+<li>Second approach with GUI: Emacs-mac port, able to handle picture and pdf, and has smoother interface than Emacs-plus. Serve as the main editor.</li>
+</ul>
+</li>
 </ul>
 <h3 id="instructions">Instructions</h3>
+<h4 id="installation">Installation</h4>
 <ul>
-<li>To install GNU Emacs and Doom, run the following in the terminal. References: <a href="https://github.com/hlissner/doom-emacs/blob/develop/docs/getting%5Fstarted.org">https://github.com/hlissner/doom-emacs/blob/develop/docs/getting%5Fstarted.org</a></li>
+<li>To install GNU Emacs and Doom, run the following in terminal. References: <a href="https://github.com/hlissner/doom-emacs/blob/develop/docs/getting%5Fstarted.org#with-homebrew">https://github.com/hlissner/doom-emacs/blob/develop/docs/getting%5Fstarted.org#with-homebrew</a></li>
 </ul>
-<!--listend-->
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">brew install git ripgrep
+<p>brew install git ripgrep
 brew install coreutils fd
-xcode-select --install
-brew install emacs
-git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
+xcode-select &ndash;install</p>
+<p>brew tap d12frosted/emacs-plus
+brew install emacs-plus
+ln -s /usr/local/opt/emacs-plus/Emacs.app /Applications/Emacs.app</p>
+<p>brew tap railwaycat/emacsmacport
+brew install emacs-mac &ndash;with-modules
+ln -s /usr/local/opt/emacs-mac/Emacs.app /Applications/Emacs.app</p>
+<p>git clone <a href="https://github.com/hlissner/doom-emacs">https://github.com/hlissner/doom-emacs</a> ~/.emacs.d
 ~/.emacs.d/bin/doom install
-</code></pre></div><ul>
-<li>Add <code>export PATH=~/.emacs.d/bin:$PATH</code> in <span class="underline">.zshrc</span> to use the bin/doom utility anywhere in terminal</li>
-<li>Turn on <code>literate</code> in <span class="underline">init.el</span> in <span class="underline">~/.dooms.d</span>, then create <span class="underline">config.org</span></li>
-<li>Add <code>#+PROPERTY: header-args :tangle yes :cache yes :results silent :padline no</code> anywhere in the <span class="underline">config.org</span></li>
-<li>Run <code>M-x doom/reload</code> in Emacs after changing the <span class="underline">config.org</span>, this will extract the Lisp source codes automatically to <span class="underline">config.el</span></li>
-<li>Run <code>doom sync</code> in terminal every time the <span class="underline">package.el</span> is changed</li>
-<li>How to debug:
+emacs -nw</p>
+<h4 id="doom-utility-usage">Doom utility usage</h4>
+<ul>
+<li>Add <code>export PATH=~/.emacs.d/bin:$PATH</code> in <span class="underline">.zshrc</span> to use the bin/doom utility anywhere in terminal.</li>
+<li>Turn on <code>literate</code> in <span class="underline">init.el</span> in <span class="underline">~/.dooms.d</span>, then create <span class="underline">config.org</span> in Emacs. (currently not working properly, 2020-08-27)</li>
+<li>Noting that the private config files are not stored in <span class="underline">~/.emacs.d</span>.</li>
+<li>Add #+PROPERTY: header-args :tangle yes :cache yes :results silent :padline no~ anywhere in the <span class="underline">config.org</span>.</li>
+<li>Run <code>M-x doom/reload</code> in Emacs after changing the <span class="underline">config.org</span>, this will extract the Lisp source codes automatically to <span class="underline">config.el</span>.</li>
+<li>Run <code>doom sync</code> in terminal every time the contents in <span class="underline">package.el</span> has been changed.</li>
+</ul>
+<h4 id="debug-workflow">Debug workflow</h4>
 <ul>
 <li>turn on <code>toggle-debug-on-error</code>, then <code>doom/reload</code></li>
 <li>run <code>doom doctor</code> in terminal</li>
+<li>reinstall if couldn&rsquo;t solve the issues
+<ul>
+<li><code>brew reinstall emacs/emacs-plus</code></li>
+<li>remove .doom.d and .emacs.d from ~/ (remember to backup!)</li>
+<li>reinstall doom emacs: <code>git clone https://github.com/hlissner/doom-emacs</code> then <code>/.emacs.d ~/.emacs.d/bin/doom install</code></li>
 </ul>
 </li>
 </ul>
@@ -443,16 +464,18 @@ git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
     :commands (peep-dired))
 </code></pre></div><h2 id="global-looks">Global Looks</h2>
 <h3 id="color-scheme-and-font">Color scheme and font</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(setq doom-font (<span style="color:#a6e22e">font-spec</span> :faimily <span style="color:#e6db74">&#34;monospace&#34;</span> :size <span style="color:#ae81ff">14</span>))
-(setq doom-theme <span style="color:#e6db74">&#39;doom-tomorrow-night</span>)
-(setq display-line-numbers-style <span style="color:#e6db74">&#39;relative</span>)
-</code></pre></div><h3 id="set-up-cursor-shape-in-iterm-emacs-for-indicating-edit-normal-mode">Set up cursor shape in iterm emacs for indicating edit/normal mode</h3>
-<p>the cursor shape of different vim mode is identical by default. use package term-cursor</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(setq doom-font (<span style="color:#a6e22e">font-spec</span> :family <span style="color:#e6db74">&#34;Iosevka&#34;</span> :size <span style="color:#ae81ff">16</span>)
+      doom-variable-pitch-font (<span style="color:#a6e22e">font-spec</span> :family <span style="color:#e6db74">&#34;Iosevka&#34;</span> :size <span style="color:#ae81ff">17</span>))
+(setq doom-theme <span style="color:#e6db74">&#39;doom-solarized-light</span>)
+(setq display-line-numbers-type <span style="color:#e6db74">&#39;relative</span>)
+</code></pre></div><h3 id="set-up-cursor-shape-in-iterm-emacs-for-indicating-insert-normal-mode">Set up cursor shape in iTerm Emacs for indicating insert/normal mode</h3>
+<p>Specific to iTerm environemnt and evil mode. The cursor shape of different Vim mode is identical by default. Use package term-cursor</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">  (use-package term-cursor)
   (global-term-cursor-mode)
-</code></pre></div><h3 id="function-to-set-visual-line-width">Function to set visual line width</h3>
-<p>references: <a href="https://www.emacswiki.org/emacs/VisualLineMode">https://www.emacswiki.org/emacs/VisualLineMode</a></p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"> (defvar visual-wrap-column <span style="color:#66d9ef">nil</span>)
+</code></pre></div><h3 id="function-to-configure-visual-line-width">Function to configure visual line width</h3>
+<p>References: <a href="https://www.emacswiki.org/emacs/VisualLineMode">https://www.emacswiki.org/emacs/VisualLineMode</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="color:#75715e">;; custom function to set certain wrap column width</span>
+ (defvar visual-wrap-column <span style="color:#66d9ef">nil</span>)
  (defun set-visual-wrap-column (new-wrap-column <span style="color:#66d9ef">&amp;optional</span> buffer)
       <span style="color:#e6db74">&#34;Force visual line wrap at NEW-WRAP-COLUMN in BUFFER (defaults
 </span><span style="color:#e6db74">    to current buffer) by setting the right-hand margin on every
@@ -483,16 +506,35 @@ git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
             (<span style="color:#a6e22e">set-window-margins</span> <span style="color:#66d9ef">nil</span> (<span style="color:#a6e22e">car</span> current-margins))
             (<span style="color:#a6e22e">set-window-margins</span> <span style="color:#66d9ef">nil</span> (<span style="color:#a6e22e">car</span> current-margins)
                                 (<span style="color:#a6e22e">-</span> current-available visual-wrap-column))))))
+</code></pre></div><h3 id="sublime-like-elements">Sublime like elements</h3>
+<p>reference: <a href="https://github.com/zk-phi/sublimity">https://github.com/zk-phi/sublimity</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(require <span style="color:#e6db74">&#39;sublimity</span>)
+(require <span style="color:#e6db74">&#39;sublimity-scroll</span>)
+(setq sublimity-scroll-weight <span style="color:#ae81ff">10</span>
+      sublimity-scroll-drift-length <span style="color:#ae81ff">5</span>)
+<span style="color:#75715e">;; (require &#39;sublimity-map) ;; experimental</span>
+(require <span style="color:#e6db74">&#39;sublimity-attractive</span>)
+
+<span style="color:#75715e">;; start with center window view</span>
+(centered-window-mode <span style="color:#66d9ef">t</span>)
 </code></pre></div><h2 id="global-editing">Global Editing</h2>
-<h3 id="key-binding-for-emacs-in-iterm2-environment">Key binding for Emacs in iTerm2 environment</h3>
-<p><a href="https://stackoverflow.com/questions/10660060/how-do-i-bind-c-in-emacs/40222318#40222318">https://stackoverflow.com/questions/10660060/how-do-i-bind-c-in-emacs/40222318#40222318</a>
-workflow: in iterm, set preferences-key add a keyboard short cut with emacs key
-binding, then choose Send Escape Sequence as the Action, then use the
-my/global-map-and-set-key funtion below to bind the short cut to the original
-emacs function (find out the function by running describe the key function)
-the current key map in iterm is saved in iterm_emacs.itermkeymap</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">
-<span style="color:#75715e">;; define function</span>
+<h3 id="key-binding-for-emacs-in-iterm-environment">Key binding for Emacs in iTerm environment</h3>
+<ul>
+<li>References: <a href="https://stackoverflow.com/questions/10660060/how-do-i-bind-c-in-emacs/40222318#40222318">https://stackoverflow.com/questions/10660060/how-do-i-bind-c-in-emacs/40222318#40222318</a></li>
+<li>Workflow:
+<ul>
+<li>in iTerm, set preferences-key add a keyboard shortcut with emacs key binding,</li>
+<li>choose Send Escape Sequence as the Action</li>
+<li>then use the my/global-map-and-set-key funtion below to bind the shortcut to the original</li>
+</ul>
+</li>
+</ul>
+<p>emacs function (find out the function by running describe the key function)</p>
+<ul>
+<li>the current key map in iTerm is saved in iterm_emacs.itermkeymap</li>
+</ul>
+<!--listend-->
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="color:#75715e">;; ;; define function</span>
 (defun my/global-map-and-set-key (key command <span style="color:#66d9ef">&amp;optional</span> prefix suffix)
   <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">`my/map-key&#39;</span><span style="color:#e6db74"> KEY then </span><span style="color:#e6db74">`global-set-key&#39;</span><span style="color:#e6db74"> KEY with COMMAND.
 </span><span style="color:#e6db74"> PREFIX or SUFFIX can wrap the key when passing to </span><span style="color:#e6db74">`global-set-key&#39;</span><span style="color:#e6db74">.&#34;</span>
@@ -502,16 +544,16 @@ the current key map in iterm is saved in iterm_emacs.itermkeymap</p>
   <span style="color:#e6db74">&#34;Map KEY from escape sequence \&#34;\e[emacs-KEY\.&#34;</span>
   (<span style="color:#a6e22e">define-key</span> function-key-map (<span style="color:#a6e22e">concat</span> <span style="color:#e6db74">&#34;\e[emacs-&#34;</span> key) (kbd key)))
 
-<span style="color:#75715e">;; the most important remapping, M-x</span>
+<span style="color:#75715e">;; ;; the most important remapping, M-x</span>
 (my/global-map-and-set-key <span style="color:#e6db74">&#34;M-x&#34;</span> <span style="color:#e6db74">&#39;counsel-M-x</span>)
 
-<span style="color:#75715e">;; comment/uncomment: first bind a new key sequence C-/ (subsitute s-/) for commenting codes, then map iterm key to emacs</span>
+<span style="color:#75715e">;; ;; comment/uncomment: first bind a new key sequence C-/ (subsitute s-/) for commenting codes, then map iterm key to emacs</span>
 (map!
  (:after evil
    :m  <span style="color:#e6db74">&#34;C-/&#34;</span> <span style="color:#a6e22e">#&#39;</span>evilnc-comment-or-uncomment-lines))
 (my/global-map-and-set-key <span style="color:#e6db74">&#34;C-/&#34;</span> <span style="color:#e6db74">&#39;evilnc-comment-or-uncomment-lines</span>)
 
-<span style="color:#75715e">;; copy, cut, paste</span>
+<span style="color:#75715e">;; ;; copy, cut, paste</span>
 (my/global-map-and-set-key <span style="color:#e6db74">&#34;s-x&#34;</span> <span style="color:#e6db74">&#39;kill-region</span>)
 (my/global-map-and-set-key <span style="color:#e6db74">&#34;s-c&#34;</span> <span style="color:#e6db74">&#39;evil-yank</span>)
 (my/global-map-and-set-key <span style="color:#e6db74">&#34;s-v&#34;</span> <span style="color:#e6db74">&#39;evil-paste-after</span>)
@@ -522,49 +564,53 @@ the current key map in iterm is saved in iterm_emacs.itermkeymap</p>
    :m  <span style="color:#e6db74">&#34;&lt;M-return&gt;&#34;</span> <span style="color:#a6e22e">#&#39;</span>+default/newline-below))
 (my/global-map-and-set-key <span style="color:#e6db74">&#34;&lt;M-return&gt;&#34;</span> <span style="color:#e6db74">&#39;+default/newline-below</span>)
 
-<span style="color:#75715e">;; move lines around</span>
+<span style="color:#75715e">;; ;; move lines around</span>
 (my/global-map-and-set-key <span style="color:#e6db74">&#34;&lt;M-up&gt;&#34;</span> <span style="color:#e6db74">&#39;drag-stuff-up</span>)
 (my/global-map-and-set-key <span style="color:#e6db74">&#34;&lt;M-down&gt;&#34;</span> <span style="color:#e6db74">&#39;drag-stuff-down</span>)
 
-<span style="color:#75715e">;; meta drag</span>
+<span style="color:#75715e">;; ;; meta drag</span>
 (my/global-map-and-set-key <span style="color:#e6db74">&#34;&lt;M-S-up&gt;&#34;</span> <span style="color:#e6db74">&#39;org-shiftmetaup</span>)
 (my/global-map-and-set-key <span style="color:#e6db74">&#34;&lt;M-S-down&gt;&#34;</span> <span style="color:#e6db74">&#39;org-shiftmetadown</span>)
 
-<span style="color:#75715e">;; outline promote/demote (metaleft/right)</span>
+<span style="color:#75715e">;; ;; outline promote/demote (metaleft/right)</span>
 (my/global-map-and-set-key <span style="color:#e6db74">&#34;M-h&#34;</span> <span style="color:#e6db74">&#39;org-metaleft</span>)
 (my/global-map-and-set-key <span style="color:#e6db74">&#34;M-H&#34;</span> <span style="color:#e6db74">&#39;org-shiftmetaleft</span>)
 (my/global-map-and-set-key <span style="color:#e6db74">&#34;M-l&#34;</span> <span style="color:#e6db74">&#39;org-metaright</span>)
 (my/global-map-and-set-key <span style="color:#e6db74">&#34;M-L&#34;</span> <span style="color:#e6db74">&#39;org-shiftmetaright</span>)
 
-<span style="color:#75715e">;; for evaluating r codes, not sure whether works or not yet</span>
+<span style="color:#75715e">;; ;; for evaluating r codes, not sure whether works or not yet</span>
 (my/global-map-and-set-key <span style="color:#e6db74">&#34;M-d&#34;</span> <span style="color:#e6db74">&#39;evil-multiedit-match-symbol-and-next</span>)
 
-<span style="color:#75715e">;; currently I disabled arrow keys for navigation, but command(s) + arrow key still work, and in terminal, use shift + arrow keys for normal arrow key behavior</span>
-<span style="color:#75715e">;; use ctrl + hjkl to navigate in function menus</span>
+<span style="color:#75715e">;; ;; currently I disabled arrow keys for navigation, but command(s) + arrow key still work, and in terminal, use shift + arrow keys for normal arrow key behavior</span>
+<span style="color:#75715e">;; ;; use ctrl + hjkl to navigate in function menus</span>
 (my/global-map-and-set-key <span style="color:#e6db74">&#34;&lt;s-left&gt;&#34;</span> <span style="color:#e6db74">&#39;evil-backward-char</span>)
 (my/global-map-and-set-key <span style="color:#e6db74">&#34;&lt;s-right&gt;&#34;</span> <span style="color:#e6db74">&#39;evil-forward-char</span>)
 (my/global-map-and-set-key <span style="color:#e6db74">&#34;&lt;s-down&gt;&#34;</span> <span style="color:#e6db74">&#39;evil-next-line</span>)
 (my/global-map-and-set-key <span style="color:#e6db74">&#34;&lt;s-up&gt;&#34;</span> <span style="color:#e6db74">&#39;evil-previous-line</span>)
 
 
-<span style="color:#75715e">;; create a new delete shortcut for easier access (works in both normal and insert mode)</span>
+<span style="color:#75715e">;; ;; create a new delete shortcut for easier access (works in both normal and insert mode)</span>
 (map!
  (:after evil
    :m  <span style="color:#e6db74">&#34;s-[&#34;</span> <span style="color:#a6e22e">#&#39;</span>evil-delete-backward-char))
 (my/global-map-and-set-key <span style="color:#e6db74">&#34;s-[&#34;</span> <span style="color:#e6db74">&#39;evil-delete-backward-char</span>)
 
-<span style="color:#75715e">;; for ess-r short cut</span>
+<span style="color:#75715e">;; ;; for ess-r short cut</span>
 (my/global-map-and-set-key <span style="color:#e6db74">&#34;&lt;C-return&gt;&#34;</span> <span style="color:#e6db74">&#39;ess-eval-line</span>)
 (my/global-map-and-set-key <span style="color:#e6db74">&#34;&lt;C-S-return&gt;&#34;</span> <span style="color:#e6db74">&#39;ess-eval-region-or-function-or-paragraph</span>)
 </code></pre></div><h3 id="copy-paste-from-external-clipboard--for-terminal-emacs-window">Copy paste from external clipboard (for terminal emacs window)</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(setq osx-clipboard-mode <span style="color:#66d9ef">t</span>)
-</code></pre></div><h4 id="auto-save-and-load-current-session-layout--desktop"><span class="org-todo done ARCV">ARCV</span> auto save and load current session layout (desktop)</h4>
+<span style="color:#75715e">;; copy/paste between macOS and Emacs[[https://emacs.stackexchange.com/questions/48607/os-copy-paste-not-working-for-emacs-mac][post]]</span>
+ (setq select-enable-clipboard <span style="color:#66d9ef">t</span>)
+ (setq interprogram-paste-function
+ (lambda ()
+   (shell-command-to-string <span style="color:#e6db74">&#34;pbpaste&#34;</span>)))
+</code></pre></div><h3 id="auto-save-and-load-current-session-layout--desktop"><span class="org-todo done ARCV">ARCV</span> auto save and load current session layout (desktop)</h3>
 <ul>
 <li>State &ldquo;ARCV&rdquo;       from &ldquo;TODO&rdquo;       <span class="timestamp-wrapper"><span class="timestamp">[2020-06-15 Mon 15:07]</span></span></li>
 </ul>
 <!--listend-->
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">
-<span style="color:#75715e">;; save current window layout and load later: https://emacs.stackexchange.com/questions/2710/switching-between-window-layouts</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="color:#75715e">;; save current window layout and load later: https://emacs.stackexchange.com/questions/2710/switching-between-window-layouts</span>
 <span style="color:#75715e">;; (defvar winstack-stack &#39;()</span>
 <span style="color:#75715e">;;   &#34;A Stack holding window configurations.</span>
 <span style="color:#75715e">;; Use `winstack-push&#39; and</span>
@@ -588,9 +634,66 @@ the current key map in iterm is saved in iterm_emacs.itermkeymap</p>
 <span style="color:#75715e">;;              (message &#34;popped&#34;))</span>
 <span style="color:#75715e">;;     (message &#34;End of window stack&#34;)))</span>
 
-(use-package psession
-  :config
-  (psession-mode <span style="color:#ae81ff">1</span>))
+<span style="color:#75715e">;; (use-package psession</span>
+<span style="color:#75715e">;;   :config</span>
+<span style="color:#75715e">;;   (psession-mode 1))</span>
+</code></pre></div><h3 id="chinese-input"><span class="org-todo done ARCV">ARCV</span> Chinese input</h3>
+<p>pyim: <a href="https://github.com/tumashu/pyim">https://github.com/tumashu/pyim</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="color:#75715e">;; (require &#39;pyim)</span>
+<span style="color:#75715e">;; (require &#39;posframe)</span>
+<span style="color:#75715e">;; (require &#39;pyim-basedict) ; 拼音词库设置，五笔用户 *不需要* 此行设置</span>
+<span style="color:#75715e">;; (pyim-basedict-enable)   ; 拼音词库，五笔用户 *不需要* 此行设置</span>
+<span style="color:#75715e">;; (setq default-input-method &#34;pyim&#34;)</span>
+
+<span style="color:#75715e">;; (use-package pyim</span>
+<span style="color:#75715e">;;   :ensure nil</span>
+<span style="color:#75715e">;;   :demand t</span>
+<span style="color:#75715e">;;   :config</span>
+<span style="color:#75715e">;; ;;   ;; 激活 basedict 拼音词库，五笔用户请继续阅读 README</span>
+<span style="color:#75715e">;;   (use-package pyim-basedict</span>
+<span style="color:#75715e">;;     :ensure nil</span>
+<span style="color:#75715e">;;     :config (pyim-basedict-enable))</span>
+
+<span style="color:#75715e">;;   ;; 我使用全拼</span>
+<span style="color:#75715e">;;   ;; (setq pyim-default-scheme &#39;quanpin)</span>
+
+<span style="color:#75715e">;;   ;; 设置 pyim 探针设置，这是 pyim 高级功能设置，可以实现 *无痛* 中英文切换 :-)</span>
+<span style="color:#75715e">;;   ;; 我自己使用的中英文动态切换规则是：</span>
+<span style="color:#75715e">;;   ;; 1. 光标只有在注释里面时，才可以输入中文。</span>
+<span style="color:#75715e">;;   ;; 2. 光标前是汉字字符时，才能输入中文。</span>
+<span style="color:#75715e">;;   ;; 3. 使用 M-j 快捷键，强制将光标前的拼音字符串转换为中文。</span>
+<span style="color:#75715e">;;   (setq-default pyim-english-input-switch-functions</span>
+<span style="color:#75715e">;;                 &#39;(pyim-probe-dynamic-english</span>
+<span style="color:#75715e">;;                   pyim-probe-isearch-mode</span>
+<span style="color:#75715e">;;                   pyim-probe-program-mode</span>
+<span style="color:#75715e">;;                   pyim-probe-org-structure-template))</span>
+
+<span style="color:#75715e">;;   (setq-default pyim-punctuation-half-width-functions</span>
+<span style="color:#75715e">;;                 &#39;(pyim-probe-punctuation-line-beginning</span>
+<span style="color:#75715e">;;                   pyim-probe-punctuation-after-punctuation))</span>
+
+<span style="color:#75715e">;;   ;; 开启拼音搜索功能</span>
+<span style="color:#75715e">;;   (pyim-isearch-mode 1)</span>
+
+<span style="color:#75715e">;;   ;; 使用 popup-el 来绘制选词框, 如果用 emacs26, 建议设置</span>
+<span style="color:#75715e">;;   ;; 为 &#39;posframe, 速度很快并且菜单不会变形，不过需要用户</span>
+<span style="color:#75715e">;;   ;; 手动安装 posframe 包。</span>
+<span style="color:#75715e">;;   (setq pyim-page-tooltip &#39;posframe)</span>
+
+<span style="color:#75715e">;;   ;; 选词框显示5个候选词</span>
+<span style="color:#75715e">;;   (setq pyim-page-length 5)</span>
+
+<span style="color:#75715e">;;   :bind</span>
+  <span style="color:#75715e">;; ((&#34;M-j&#34; . pyim-convert-string-at-point) ;与 pyim-probe-dynamic-english 配合</span>
+   <span style="color:#75715e">;; (&#34;C-;&#34; . pyim-delete-word-from-personal-buffer)))</span>
+
+</code></pre></div><h3 id="mouse-scroll">Mouse scroll</h3>
+<p>reference: <a href="http://ergoemacs.org/emacs/emacs%5Fmouse%5Fwheel%5Fconfig.html">http://ergoemacs.org/emacs/emacs%5Fmouse%5Fwheel%5Fconfig.html</a>
+<a href="https://www.emacswiki.org/emacs/SmoothScrolling">https://www.emacswiki.org/emacs/SmoothScrolling</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(global-set-key (kbd <span style="color:#e6db74">&#34;&lt;mouse-4&gt;&#34;</span>)  (lambda () (interactive) (<span style="color:#a6e22e">scroll-down</span> <span style="color:#ae81ff">1</span>) (previous-line)))  <span style="color:#75715e">;; non-natural scroll, mouse-4 is down</span>
+(global-set-key (kbd <span style="color:#e6db74">&#34;&lt;mouse-5&gt;&#34;</span>)(lambda () (interactive) (<span style="color:#a6e22e">scroll-up</span> <span style="color:#ae81ff">1</span>) (next-line)))
+<span style="color:#75715e">;; (setq mouse-wheel-follow-mouse t) ;; scroll window under mouse</span>
+<span style="color:#75715e">;; (setq scroll-preserve-screen-position t)</span>
 </code></pre></div><h2 id="org-mode-backends">Org Mode Backends</h2>
 <h3 id="org-directory">Org directory</h3>
 <p>references: <a href="https://lists.gnu.org/archive/html/emacs-orgmode/2009-10/msg00734.html">https://lists.gnu.org/archive/html/emacs-orgmode/2009-10/msg00734.html</a></p>
@@ -601,7 +704,7 @@ the current key map in iterm is saved in iterm_emacs.itermkeymap</p>
 (setq org-default-notes-file (<span style="color:#a6e22e">concat</span> org-directory <span style="color:#e6db74">&#34;/notes.org&#34;</span>))
 </code></pre></div><h3 id="org-keywords-and-tags">Org keywords and tags</h3>
 <p>Previously I cannot override these settings because I changed setting in M-x
-cutomization, now I deleted the content in ~/.emacs.d/.local/custom.el and add
+customization, now I deleted the content in ~/.emacs.d/.local/custom.el and add
 after! org, then things are fine: <a href="https://github.com/hlissner/doom-emacs/issues/546">https://github.com/hlissner/doom-emacs/issues/546</a></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">  (after! org
     (setq org-todo-keywords
@@ -610,7 +713,7 @@ after! org, then things are fine: <a href="https://github.com/hlissner/doom-emac
             <span style="color:#75715e">;; PEND means it&#39;s dependent on something else happening</span>
             <span style="color:#75715e">;; CANC means it&#39;s no longer necessary to finish</span>
             <span style="color:#75715e">;; DONE means it&#39;s complete</span>
-            (sequence <span style="color:#e6db74">&#34;TODO(t@/!)&#34;</span> <span style="color:#e6db74">&#34;PEND(p@/!)&#34;</span> <span style="color:#e6db74">&#34;|&#34;</span> <span style="color:#e6db74">&#34;DONE(d@/!)&#34;</span> <span style="color:#e6db74">&#34;CANC(c@/!)&#34;</span>)
+            (sequence <span style="color:#e6db74">&#34;TODO(t@/!)&#34;</span> <span style="color:#e6db74">&#34;DOIN(i@/!)&#34;</span> <span style="color:#e6db74">&#34;PEND(p@/!)&#34;</span> <span style="color:#e6db74">&#34;|&#34;</span> <span style="color:#e6db74">&#34;DONE(d@/!)&#34;</span> <span style="color:#e6db74">&#34;CANC(c@/!)&#34;</span>)
 
             <span style="color:#75715e">;; Sequence for MULTIMEDIA</span>
             <span style="color:#75715e">;; MARK mark some media for future consuming</span>
@@ -618,7 +721,12 @@ after! org, then things are fine: <a href="https://github.com/hlissner/doom-emac
             <span style="color:#75715e">;; REPO means the media has been consumed, and waiting to be shared in short or long form</span>
             <span style="color:#75715e">;; ARCV media alrady repoed, now archive for future reference</span>
             (sequence <span style="color:#e6db74">&#34;MARK(m@/!)&#34;</span> <span style="color:#e6db74">&#34;ING(i@/!)&#34;</span> <span style="color:#e6db74">&#34;REPO(r@/!)&#34;</span> <span style="color:#e6db74">&#34;|&#34;</span> <span style="color:#e6db74">&#34;ARCV(a@/!)&#34;</span>)
-            )))
+            ))
+    (setq org-todo-keyword-faces
+          <span style="color:#f92672">&#39;</span>((<span style="color:#e6db74">&#34;DOIN&#34;</span> <span style="color:#f92672">.</span> (:foreground <span style="color:#e6db74">&#34;red&#34;</span> :background <span style="color:#e6db74">&#34;white&#34;</span> :weight bold))
+            (<span style="color:#e6db74">&#34;PEND&#34;</span> (:foreground <span style="color:#e6db74">&#34;white&#34;</span>))
+            ))
+    )
 </code></pre></div><h3 id="org-setup">Org setup</h3>
 <p>references: <a href="https://github.com/sk8ingdom/.emacs.d/blob/master/org-mode-config/org-todo-states.el">https://github.com/sk8ingdom/.emacs.d/blob/master/org-mode-config/org-todo-states.el</a></p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">  (after! org
@@ -626,22 +734,33 @@ after! org, then things are fine: <a href="https://github.com/hlissner/doom-emac
     (setq org-log-done <span style="color:#e6db74">&#39;note</span>)
 
     <span style="color:#75715e">;; prompt to record time and note when the scheduled date of a task is modified</span>
-    (setq org-log-reschedule <span style="color:#e6db74">&#39;note</span>)
+    <span style="color:#75715e">;; (setq org-log-reschedule &#39;note)</span>
 
     <span style="color:#75715e">;; promopt to record time and note when the deadline of a task is modified</span>
-    (setq org-log-redeadline <span style="color:#e6db74">&#39;note</span>)
+    <span style="color:#75715e">;; (setq org-log-redeadline &#39;note)</span>
 
     <span style="color:#75715e">;; promopt to record time and note when clocking out of a task</span>
-    (setq org-log-clock-out <span style="color:#e6db74">&#39;note</span>)
+    <span style="color:#75715e">;; (setq org-log-clock-out &#39;note)</span>
 
-    (setq org-agenda-todo-ignore-scheduled <span style="color:#e6db74">&#39;all</span>)
+    <span style="color:#75715e">;; hide done items in agenda view</span>
+    (setq org-agenda-skip-scheduled-if-done <span style="color:#66d9ef">t</span>)
+
+    <span style="color:#75715e">;; set follow mode as default</span>
+    (setq org-agenda-start-with-follow-mode <span style="color:#66d9ef">t</span>)
+
+    <span style="color:#75715e">;; set sorting of items to priority first</span>
+    (setq org-lowest-priority <span style="color:#e6db74">?E</span>) <span style="color:#75715e">;; the default priority level only consists of A B C, so E will always be the lowest</span>
+    (setq org-default-priority <span style="color:#e6db74">?E</span>) <span style="color:#75715e">;; the regular todos will be set to E by default, meaning no priority</span>
 
     <span style="color:#75715e">;; set the scope of line-editing behavior to the visual line (not actual line)</span>
     (setq vim-style-visual-line-move-text <span style="color:#66d9ef">t</span>)
-(setq org-src-fontify-natively <span style="color:#66d9ef">t</span>
-    org-src-tab-acts-natively <span style="color:#66d9ef">t</span>
-    org-confirm-babel-evaluate <span style="color:#66d9ef">nil</span>
-    org-edit-src-content-indentation <span style="color:#ae81ff">0</span>)
+
+    (setq org-src-fontify-natively <span style="color:#66d9ef">t</span>
+          org-src-tab-acts-natively <span style="color:#66d9ef">t</span>
+          org-confirm-babel-evaluate <span style="color:#66d9ef">nil</span>
+          org-edit-src-content-indentation <span style="color:#ae81ff">0</span>)
+
+    (setq org-enforce-todo-dependencies <span style="color:#66d9ef">t</span>) <span style="color:#75715e">;;  parent TODO task should not be marked as done until all TODO subtasks, or children tasks, are marked as done</span>
     )
 
 (with-eval-after-load <span style="color:#e6db74">&#39;org</span>
@@ -700,6 +819,36 @@ also see <a href="https://orgmode.org/manual/Working-with-Source-Code.html">http
 
   (add-hook <span style="color:#e6db74">&#39;org-babel-after-execute-hook</span> <span style="color:#e6db74">&#39;org-display-inline-images</span>)
   (add-hook <span style="color:#e6db74">&#39;org-mode-hook</span> <span style="color:#e6db74">&#39;org-display-inline-images</span>)
+</code></pre></div><h3 id="org-agenda-and-calendar">org agenda and calendar</h3>
+<p>reference: <a href="https://github.com/kiwanami/emacs-calfw">https://github.com/kiwanami/emacs-calfw</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(require <span style="color:#e6db74">&#39;calfw</span>)
+(require <span style="color:#e6db74">&#39;calfw-ical</span>)
+(require <span style="color:#e6db74">&#39;calfw-org</span>)
+(setq cfw:org-overwrite-default-keybinding <span style="color:#66d9ef">t</span>)
+(setq calendar-week-start-day <span style="color:#ae81ff">1</span>) <span style="color:#75715e">; 0:Sunday, 1:Monday</span>
+<span style="color:#75715e">;; (define-key cfw:calendar-mode-map (kbd &#34;&lt;SPC-o&gt;&#34;) &#39;cfw:show-details-command)</span>
+<span style="color:#75715e">;; (define-key cfw:org-custom-map (kbd &#34;SPC&#34;) nil)</span>
+
+(setq cfw:fchar-junction <span style="color:#e6db74">?+</span>
+      cfw:fchar-vertical-line <span style="color:#e6db74">?|</span>
+      cfw:fchar-horizontal-line <span style="color:#e6db74">?-</span>
+      cfw:fchar-left-junction <span style="color:#e6db74">?+</span>
+      cfw:fchar-right-junction <span style="color:#e6db74">?+</span>
+      cfw:fchar-top-junction <span style="color:#e6db74">?+</span>
+      cfw:fchar-top-left-corner <span style="color:#e6db74">?+</span>
+      cfw:fchar-top-right-corner <span style="color:#e6db74">?+</span>)
+
+<span style="color:#75715e">;; (setq cfw:org-agenda-schedule-args &#39;(:tags-todo))</span>
+
+(defun mycal ()
+  (interactive)
+  (cfw:open-calendar-buffer
+   :view <span style="color:#e6db74">&#39;week</span>
+  :contents-sources
+   (<span style="color:#a6e22e">list</span>
+    (cfw:org-create-source <span style="color:#e6db74">&#34;Orange&#34;</span>)
+    (cfw:ical-create-source <span style="color:#e6db74">&#34;gcal&#34;</span> <span style="color:#e6db74">&#34;https://calendar.google.com/calendar/ical/huangyizhen2002%40gmail.com/private-78a173f476129e08782df341dc7ab562/basic.ics&#34;</span> <span style="color:#e6db74">&#34;IndianRed&#34;</span>)
+    )))
 </code></pre></div><h2 id="org-mode-looks">Org Mode Looks</h2>
 <h3 id="change-the-character-that-displays-on-collapsed-headings">Change the character that displays on collapsed headings</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">  (setq org-ellipsis <span style="color:#e6db74">&#34; ▼ &#34;</span>)
@@ -718,7 +867,7 @@ also see <a href="https://orgmode.org/manual/Working-with-Source-Code.html">http
 </code></pre></div><h3 id="key-binding-for-outline-quicklook-goto">Key binding for outline quicklook/goto</h3>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">  (global-set-key (kbd <span style="color:#e6db74">&#34;C-c r&#34;</span>) <span style="color:#e6db74">&#39;counsel-outline</span>)
 </code></pre></div><h3 id="key-binding-for-jumping-to-the-end-of-the-line">Key binding for jumping to the end of the line</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">  (map!
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(map!
    (:after evil
      :m  <span style="color:#e6db74">&#34;C-e&#34;</span> <span style="color:#a6e22e">#&#39;</span>doom/forward-to-last-non-comment-or-eol))
 </code></pre></div><h3 id="key-binding-to-insert-newlines-above-and-below">Key binding to insert newlines above and below</h3>
@@ -730,7 +879,7 @@ also see <a href="https://orgmode.org/manual/Working-with-Source-Code.html">http
      :m  <span style="color:#e6db74">&#34;[ SPC&#34;</span> <span style="color:#a6e22e">#&#39;</span>evil-motion-insert-newline-above))
 </code></pre></div><h3 id="function-to-duplicate-certain-line">Function to duplicate certain line</h3>
 <p>inspired by Sublime Text cmd + shift + d (ref: <a href="https://stackoverflow.com/a/88828">https://stackoverflow.com/a/88828</a>)</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">  (defun duplicate-line()
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(defun duplicate-line()
     (interactive)
     (move-beginning-of-line <span style="color:#ae81ff">1</span>)
     (kill-line)
@@ -768,6 +917,27 @@ also see <a href="https://orgmode.org/manual/Working-with-Source-Code.html">http
 
     <span style="color:#75715e">;; enable in markdown, too</span>
     (add-hook <span style="color:#e6db74">&#39;markdown-mode-hook</span> <span style="color:#e6db74">&#39;toc-org-mode</span>))
+</code></pre></div><h2 id="org-mode-reference-management">Org Mode Reference Management</h2>
+<h3 id="pdf-tools">
+  <a href="https://github.com/politza/pdf-tools#compilation">pdf-tools</a></h3>
+<p><a href="https://emacs.stackexchange.com/questions/13314/install-pdf-tools-on-emacs-macosx">https://emacs.stackexchange.com/questions/13314/install-pdf-tools-on-emacs-macosx</a></p>
+<ul>
+<li>first install poppler automake <code>brew install poppler automake</code></li>
+<li>set pkg_config path so pkg-config can find certain libraries, such as <code>export PKG_CONFIG_PATH=&quot;/usr/local/opt/qt/lib/pkgconfig&quot;</code> <code>export PKG_CONFIG_PATH=&quot;/usr/local/opt/icu4c/lib/pkgconfig&quot;</code></li>
+<li>then install epdfinfo <code>brew tap dunn/emacs</code>, <code>brew install pdf-tools --HEAD</code></li>
+<li>update the package in the future: brew upgrade pdf-tools, then delete the old package via list-packages, restart Emacs and then reinstall the package.</li>
+</ul>
+<!--listend-->
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(use-package pdf-tools
+  :ensure <span style="color:#66d9ef">t</span>
+  :config
+  (custom-set-variables
+    <span style="color:#f92672">&#39;</span>(pdf-tools-handle-upgrades <span style="color:#66d9ef">nil</span>)) <span style="color:#75715e">; Use brew upgrade pdf-tools instead.</span>
+  (setq pdf-info-epdfinfo-program <span style="color:#e6db74">&#34;/usr/local/bin/epdfinfo&#34;</span>))
+(pdf-tools-install)
+</code></pre></div><h3 id="org-noter">
+  <a href="https://github.com/weirdNox/org-noter#customization-">org-noter</a></h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(setq org-noter-set-auto-save-last-location <span style="color:#66d9ef">t</span>)
 </code></pre></div><h2 id="markdown-mode-looks">Markdown Mode Looks</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp"><span style="color:#75715e">;; similar with org mode, use visual line mode without auto fill</span>
 (add-hook <span style="color:#e6db74">&#39;markdown-mode-hook</span> <span style="color:#a6e22e">#&#39;</span>visual-line-mode)
@@ -783,26 +953,11 @@ also see <a href="https://orgmode.org/manual/Working-with-Source-Code.html">http
   (require <span style="color:#e6db74">&#39;ox-hugo</span>))
 </code></pre></div><h2 id="r-related-config">R related config</h2>
 <h3 id="ess-r-config">ESS R config</h3>
-<p>references: <a href="https://iqss.github.io/IQSS.emacs/init.html#run%5Fr%5Fin%5Femacs%5F(ess)">https://iqss.github.io/IQSS.emacs/init.html#run%5Fr%5Fin%5Femacs%5F(ess)</a>
-useful functions: R (run-ess-r), popup/raise, ess-eval-region-or-function-or-paragraph-and-step</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">  (with-eval-after-load <span style="color:#e6db74">&#34;ess&#34;</span>
-    (add-hook <span style="color:#e6db74">&#39;ess-r-mode-hook</span>
-              (lambda()
-                <span style="color:#e6db74">&#39;eglot-ensure</span>
-                (<span style="color:#a6e22e">make-local-variable</span> <span style="color:#e6db74">&#39;company-backends</span>)
-                (delete-dups (push <span style="color:#e6db74">&#39;company-capf</span> company-backends))
-                (delete-dups (push <span style="color:#e6db74">&#39;company-files</span> company-backends))))
+<p>references: <a href="https://iqss.github.io/IQSS.emacs/init.html#run%5Fr%5Fin%5Femacs%5F(ess)">https://iqss.github.io/IQSS.emacs/init.html#run%5Fr%5Fin%5Femacs%5F(ess)</a></p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-emacs-lisp" data-lang="emacs-lisp">(with-eval-after-load <span style="color:#e6db74">&#34;ess&#34;</span>
+    (require <span style="color:#e6db74">&#39;ess-site</span>)
     (require <span style="color:#e6db74">&#39;ess-mode</span>)
-
-    <span style="color:#75715e">;; evaluate codes with ctrl + enter (by line) or ctrl + shift + enter (by paragraph)</span>
-    (<span style="color:#a6e22e">define-key</span> ess-mode-map (kbd <span style="color:#e6db74">&#34;&lt;C-return&gt;&#34;</span>) <span style="color:#e6db74">&#39;ess-eval-line</span>)
-    (<span style="color:#a6e22e">define-key</span> ess-mode-map (kbd <span style="color:#e6db74">&#34;&lt;C-S-return&gt;&#34;</span>) <span style="color:#e6db74">&#39;ess-eval-region-or-function-or-paragraph</span>)
-    <span style="color:#75715e">;; define the same keybindings for normal state (otheriwse the keybinding will only work in edit state)</span>
-    (with-eval-after-load <span style="color:#e6db74">&#39;evil-maps</span>
-      (<span style="color:#a6e22e">define-key</span> evil-normal-state-map (kbd <span style="color:#e6db74">&#34;&lt;C-return&gt;&#34;</span>) <span style="color:#e6db74">&#39;ess-eval-line</span>))
-    (with-eval-after-load <span style="color:#e6db74">&#39;evil-maps</span>
-      (<span style="color:#a6e22e">define-key</span> evil-normal-state-map (kbd <span style="color:#e6db74">&#34;&lt;C-S-return&gt;&#34;</span>) <span style="color:#e6db74">&#39;ess-eval-region-or-function-or-paragraph</span>))
-
+    <span style="color:#75715e">;;   (define-key evil-normal-state-map (kbd &#34;&lt;SPC-e&gt;&#34;) &#39;ess-execute))</span>
 
     <span style="color:#75715e">;; Set ESS options</span>
     (setq
@@ -810,7 +965,7 @@ useful functions: R (run-ess-r), popup/raise, ess-eval-region-or-function-or-par
      ess-use-auto-complete <span style="color:#66d9ef">nil</span>
      ess-use-company <span style="color:#e6db74">&#39;t</span>
      <span style="color:#75715e">;; ess-r-package-auto-set-evaluation-env nil</span>
-     inferior-ess-same-window <span style="color:#66d9ef">nil</span>
+     inferior-ess-same-window <span style="color:#e6db74">&#39;t</span>
    ess-indent-with-fancy-comments <span style="color:#66d9ef">nil</span> <span style="color:#75715e">; don&#39;t indent comments</span>
      ess-eval-visibly <span style="color:#66d9ef">t</span>                 <span style="color:#75715e">; enable echoing input</span>
      ess-eval-empty <span style="color:#66d9ef">t</span>                   <span style="color:#75715e">; don&#39;t skip non-code lines.</span>
@@ -840,7 +995,8 @@ useful functions: R (run-ess-r), popup/raise, ess-eval-region-or-function-or-par
   (use-package poly-markdown))
 (with-eval-after-load <span style="color:#e6db74">&#34;org&#34;</span>
   (use-package poly-org))
-</code></pre></div></p>
+</code></pre></div><p>2020-09-08</p>
+</p>
 </article>
  
       
@@ -913,6 +1069,7 @@ useful functions: R (run-ess-r), popup/raise, ess-eval-region-or-function-or-par
         <li><a href="#org-mode-backends">Org Mode Backends</a></li>
         <li><a href="#org-mode-looks">Org Mode Looks</a></li>
         <li><a href="#org-mode-editing">Org Mode Editing</a></li>
+        <li><a href="#org-mode-reference-management">Org Mode Reference Management</a></li>
         <li><a href="#markdown-mode-looks">Markdown Mode Looks</a></li>
         <li><a href="#hugo-related-config">Hugo related config</a></li>
         <li><a href="#r-related-config">R related config</a></li>

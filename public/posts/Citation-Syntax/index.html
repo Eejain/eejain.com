@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="## MMD:
+ cite a paper: [locator][#citationkey] (locator is optional) cite multiple paper: [locator1][#citationkey1][locator2][citationkey2]&hellip; inline citation: [#citationkey; locator]  ## Pandoc
+ citation: Citations go inside square brackets and are separated by semicolons cite a paper: [@citekey, locator] cite multiple paper [@citekey, locator; @citekey, locator&hellip;] inline citation: @citekey [locator]  ## bibtex BibTeX cheat sheet and entry templates ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ by pts@fazekas.hu at Wed Jul 29 15:42:08 CEST 2009
+Based on information form http://en."><meta property="og:title" content="Notes on Citation Syntax" />
+<meta property="og:description" content="## MMD:
+ cite a paper: [locator][#citationkey] (locator is optional) cite multiple paper: [locator1][#citationkey1][locator2][citationkey2]&hellip; inline citation: [#citationkey; locator]  ## Pandoc
+ citation: Citations go inside square brackets and are separated by semicolons cite a paper: [@citekey, locator] cite multiple paper [@citekey, locator; @citekey, locator&hellip;] inline citation: @citekey [locator]  ## bibtex BibTeX cheat sheet and entry templates ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ by pts@fazekas.hu at Wed Jul 29 15:42:08 CEST 2009
+Based on information form http://en." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://soitflows.xyz/posts/Citation-Syntax/" />
+<meta property="article:published_time" content="2020-09-08T00:00:00+02:00" />
+<meta property="article:modified_time" content="2020-09-08T00:00:00+02:00" />
+<title>Notes on Citation Syntax | ☴ so it flows ☵</title>
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.6ab07336876c95e8d78ff480820ddfa0af19497f9770decb6c1fdd1eaa5f0d01.css" integrity="sha256-arBzNodslejXj/SAgg3foK8ZSX&#43;XcN7LbB/dHqpfDQE=">
+<script defer src="/en.search.min.ea99c10bb190c6802a7805666bfb0854fd81e810012a7cb894858fd7080718a4.js" integrity="sha256-6pnBC7GQxoAqeAVma/sIVP2B6BABKny4lIWP1wgHGKQ="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body>
+  <input type="checkbox" class="hidden" id="menu-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/"><img src="/logo.png" alt="Logo" /><span>☴ so it flows ☵</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+  <ul>
+  
+    
+
+  <li>
+    
+
+  
+  <a href="/posts/" class="">Recent Posts</a>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+  
+    
+
+  <li>
+    
+
+  
+  <span>Docs</span>
+  
+
+
+    
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+
+  
+  <a href="/docs/About/" class="">About</a>
+  
+
+</li>
+      
+    
+  </ul>
+  
+
+
+
+  </li>
+
+
+  
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p align="center">
+&#8258;
+</p>
+<p align="left">
+<a href="https://twitter.com/na_naskuv">🐦 Twitter</a>
+<br>
+<br>
+<a href="https://flickr.com/photos/ee-jain/">📷 Flickr</a>
+<br>
+<br>
+<a href="https://www.douban.com/people/hessen/">📗 Douban</a>
+</p>
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Notes on Citation Syntax</strong>
+
+  <label for="toc-control">
+    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+  </label>
+</div>
+
+
+  
+    <input type="checkbox" class="hidden" id="toc-control" />
+    <aside class="hidden clearfix">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#based-on-information-form-http-en-dot-wikipedia-dot-org-wiki-bibtex">Based on information form <a href="http://en.wikipedia.org/wiki/BibTeX">http://en.wikipedia.org/wiki/BibTeX</a></a></li>
+        <li><a href="#see-also-http-amath-dot-colorado-dot-edu-documentation-latex-reference-faq-bibstyles-dot-html">See also: <a href="http://amath.colorado.edu/documentation/LaTeX/reference/faq/bibstyles.html">http://amath.colorado.edu/documentation/LaTeX/reference/faq/bibstyles.html</a></a></li>
+        <li><a href="#nonstandard-entries-url-annote-crossref">Nonstandard entries: url=, annote=, crossref=,</a></li>
+        <li><a href="#no-url-field-in-standard-types-should-be-put-to-note-url-url-dot-dot-dot-dot">No url= field in standard types, should be put to note={URL \url{&hellip;}}.</a></li>
+        <li><a href="#there-are-no-comments-in-bibtex-dot-bib-files-not-even">There are no comments in BibTeX .bib files, not even %</a></li>
+        <li><a href="#name-describes-an-optional-field-dot">?NAME= describes an optional field.</a></li>
+        <li><a href="#bibtex-silently-ignores-a-field-whose-name-it-doesn-t-know-dot">BibTeX silently ignores a field whose name it doesn&rsquo;t know.</a></li>
+        <li><a href="#article-an-article-from-a-journal-or-magazine-dot">@article: An article from a journal or magazine.</a></li>
+        <li><a href="#book-a-book-with-an-explicit-publisher-dot">@book: A book with an explicit publisher.</a></li>
+        <li><a href="#booklet-a-work-that-is-printed-and-bound-but-without-a-named-publisher-or">@booklet: A work that is printed and bound, but without a named publisher or</a></li>
+        <li><a href="#conference-the-same-as-inproceedings-included-for-scribe-compatibility-dot">@conference: The same as inproceedings, included for Scribe compatibility.</a></li>
+        <li><a href="#inbook-a-part-of-a-book-usually-untitled-dot-may-be-a-chapter-or-section-or">@inbook: A part of a book, usually untitled. May be a chapter (or section or</a></li>
+        <li><a href="#incollection-a-part-of-a-book-having-its-own-title-dot">@incollection: A part of a book having its own title.</a></li>
+        <li><a href="#inproceedings-an-article-in-a-conference-proceedings-dot">@inproceedings: An article in a conference proceedings.</a></li>
+        <li><a href="#manual-technical-documentation-dot">@manual: Technical documentation.</a></li>
+        <li><a href="#mastersthesis-a-master-s-thesis-dot">@mastersthesis: A Master&rsquo;s thesis.</a></li>
+        <li><a href="#misc-for-use-when-nothing-else-fits-dot">@misc: For use when nothing else fits.</a></li>
+        <li><a href="#phdthesis-a-ph-dot-d-dot-thesis-dot">@phdthesis: A Ph.D. thesis.</a></li>
+        <li><a href="#proceedings-the-proceedings-of-a-conference-dot">@proceedings: The proceedings of a conference.</a></li>
+        <li><a href="#techreport-a-report-published-by-a-school-or-other-institution-usually">@techreport: A report published by a school or other institution, usually</a></li>
+        <li><a href="#unpublished-a-document-having-an-author-and-title-but-not-formally">@unpublished: A document having an author and title, but not formally</a></li>
+        <li><a href="#address-publisher-s-address-usually-just-the-city-but-can-be-the-full">address=: Publisher&rsquo;s address (usually just the city, but can be the full</a></li>
+        <li><a href="#annote-an-annotation-for-annotated-bibliography-styles--not-typical">annote=: An annotation for annotated bibliography styles (not typical)</a></li>
+        <li><a href="#author-the-name--s--of-the-author--s--in-the-case-of-more-than-one-author">author=: The name(s) of the author(s) (in the case of more than one author,</a></li>
+        <li><a href="#booktitle-the-title-of-the-book-if-only-part-of-it-is-being-cited">booktitle=: The title of the book, if only part of it is being cited</a></li>
+        <li><a href="#chapter-the-chapter-number">chapter=: The chapter number</a></li>
+        <li><a href="#crossref-the-key-of-the-cross-referenced-entry">crossref=: The key of the cross-referenced entry</a></li>
+        <li><a href="#edition-the-edition-of-a-book-long-form--such-as-first-or-second">edition=: The edition of a book, long form (such as &ldquo;first&rdquo; or &ldquo;second&rdquo;)</a></li>
+        <li><a href="#editor-the-name--s--of-the-editor--s">editor=: The name(s) of the editor(s)</a></li>
+        <li><a href="#eprint-a-specification-of-an-electronic-publication-often-a-preprint-or-a">eprint=: A specification of an electronic publication, often a preprint or a</a></li>
+        <li><a href="#howpublished-how-it-was-published-if-the-publishing-method-is-nonstandard">howpublished=: How it was published, if the publishing method is nonstandard</a></li>
+        <li><a href="#institution-the-institution-that-was-involved-in-the-publishing-but-not">institution=: The institution that was involved in the publishing, but not</a></li>
+        <li><a href="#journal-the-journal-or-magazine-the-work-was-published-in">journal=: The journal or magazine the work was published in</a></li>
+        <li><a href="#key-a-hidden-field-used-for-specifying-or-overriding-the-alphabetical-order">key=: A hidden field used for specifying or overriding the alphabetical order</a></li>
+        <li><a href="#month-the-month-of-publication--or-if-unpublished-the-month-of-creation--dot">month=: The month of publication (or, if unpublished, the month of creation).</a></li>
+        <li><a href="#note-miscellaneous-extra-information">note=: Miscellaneous extra information</a></li>
+        <li><a href="#number-the-number-of-a-journal-magazine-or-tech-report-if-applicable-dot">number=: The &ldquo;number&rdquo; of a journal, magazine, or tech-report, if applicable.</a></li>
+        <li><a href="#organization-the-conference-sponsor">organization=: The conference sponsor</a></li>
+        <li><a href="#pages-page-numbers-separated-either-by-commas-or-double-hyphens-dot-for-books">pages=: Page numbers, separated either by commas or double-hyphens. For books,</a></li>
+        <li><a href="#publisher-the-publisher-s-name">publisher=: The publisher&rsquo;s name</a></li>
+        <li><a href="#school-the-school-where-the-thesis-was-written">school=: The school where the thesis was written</a></li>
+        <li><a href="#series-the-series-of-books-the-book-was-published-in-e-dot-g-dot-the-hardy-boys">series=: The series of books the book was published in (e.g. &ldquo;The Hardy Boys&rdquo;</a></li>
+        <li><a href="#title-the-title-of-the-work">title=: The title of the work</a></li>
+        <li><a href="#type-the-type-of-tech-report-for-example-research-note">type=: The type of tech-report, for example, &ldquo;Research Note&rdquo;</a></li>
+        <li><a href="#url-the-www-address">url=: The WWW address</a></li>
+        <li><a href="#volume-the-volume-of-a-journal-or-multi-volume-book">volume=: The volume of a journal or multi-volume book</a></li>
+        <li><a href="#year-the-year-of-publication--or-if-unpublished-the-year-of-creation">year=: The year of publication (or, if unpublished, the year of creation)</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+    </aside>
+  
+ 
+      </header>
+
+      
+      
+<article class="markdown">
+  <h1>
+    <a href="/posts/Citation-Syntax/">Notes on Citation Syntax</a>
+  </h1>
+  
+
+  <h5>Sep 8, 2020</h5>
+
+
+
+  
+  <div>
+    
+        <a href="/categories/Academic/">Academic</a>
+  </div>
+  
+
+  
+  <div>
+    
+        <a href="/tags/productivity/">productivity</a>
+  </div>
+  
+
+
+  <p><p>## MMD:</p>
+<ul>
+<li>cite a paper: [locator][#citationkey] (locator is optional)</li>
+<li>cite multiple paper: [locator1][#citationkey1][locator2][citationkey2]&hellip;</li>
+<li>inline citation: [#citationkey; locator]</li>
+</ul>
+<p>## Pandoc</p>
+<ul>
+<li>citation: Citations go inside square brackets and are separated by semicolons</li>
+<li>cite a paper: [@citekey, locator]</li>
+<li>cite multiple paper [@citekey, locator; @citekey, locator&hellip;]</li>
+<li>inline citation: @citekey [locator]</li>
+</ul>
+<p>## bibtex
+BibTeX cheat sheet and entry templates
+<code>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</code>
+by <a href="mailto:pts@fazekas.hu">pts@fazekas.hu</a> at Wed Jul 29 15:42:08 CEST 2009</p>
+<h2 id="based-on-information-form-http-en-dot-wikipedia-dot-org-wiki-bibtex">Based on information form <a href="http://en.wikipedia.org/wiki/BibTeX">http://en.wikipedia.org/wiki/BibTeX</a></h2>
+<h2 id="see-also-http-amath-dot-colorado-dot-edu-documentation-latex-reference-faq-bibstyles-dot-html">See also: <a href="http://amath.colorado.edu/documentation/LaTeX/reference/faq/bibstyles.html">http://amath.colorado.edu/documentation/LaTeX/reference/faq/bibstyles.html</a></h2>
+<h2 id="nonstandard-entries-url-annote-crossref">Nonstandard entries: url=, annote=, crossref=,</h2>
+<h2 id="no-url-field-in-standard-types-should-be-put-to-note-url-url-dot-dot-dot-dot">No url= field in standard types, should be put to note={URL \url{&hellip;}}.</h2>
+<h2 id="there-are-no-comments-in-bibtex-dot-bib-files-not-even">There are no comments in BibTeX .bib files, not even %</h2>
+<h2 id="name-describes-an-optional-field-dot">?NAME= describes an optional field.</h2>
+<h2 id="bibtex-silently-ignores-a-field-whose-name-it-doesn-t-know-dot">BibTeX silently ignores a field whose name it doesn&rsquo;t know.</h2>
+<p>.bib file entry templates
+&quot;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;
+@article{NAME,
+author={},
+title={},
+journal={},
+year=,
+?volume={},
+?number={},
+?pages={},
+?month=,
+?note={},
+?key={},
+}</p>
+<p>@book{NAME,
+author/editor={},
+title={},
+publisher={},
+year=,
+?volume={},
+?series={},
+?address={},
+?edition={},
+?month=,
+?note={},
+?key={},
+?pages={},
+}</p>
+<p>@booklet{NAME,
+title={},
+?author={},
+?howpublished={},
+?address={},
+?month=,
+?year=,
+?note={},
+?key={},
+}</p>
+<p>@conference{NAME,
+author={},
+title={},
+booktitle={},
+year=,
+?editor={},
+?pages={},
+?organization={},
+?publisher={},
+?address={},
+?month=,
+?note={},
+?key={},
+}</p>
+<p>@inbook{NAME,
+author/editor={},
+title={},
+chapter/pages={},
+publisher={},
+year=,
+?volume={},
+?series={},
+?address={},
+?edition={},
+?month=,
+?note={},
+?key={},
+}</p>
+<p>@incollection{NAME,
+author={},
+title={},
+booktitle={},
+year=,
+?editor={},
+?pages={},
+?organization={},
+?publisher={},
+?address={},
+?month=,
+?note={},
+?key={},
+}</p>
+<p>@inproceedings{NAME,
+author={},
+title={},
+booktitle={},
+year=,
+?editor={},
+?pages={},
+?organization={},
+?publisher={},
+?address={},
+?month=,
+?note={},
+?key={},
+}</p>
+<p>@manual{NAME,
+title={},
+?author={},
+?organization={},
+?address={},
+?edition={},
+?month=,
+?year=,
+?note={},
+?key={},
+}</p>
+<p>@mastersthesis{NAME,
+author={},
+title={},
+school={},
+year=,
+?address={},
+?month=,
+?note={},
+?key={},
+}</p>
+<p>@misc{NAME,
+?author={},
+?title={},
+?howpublished={},
+?month=,
+?year=,
+?note={},
+?key={},
+}</p>
+<p>@phdthesis{NAME,
+author={},
+title={},
+school={},
+year=,
+?address={},
+?month=,
+?note={},
+?key={},
+}</p>
+<p>@proceedings{NAME,
+title={},
+year=,
+?editor={},
+?publisher={},
+?organization={},
+?address={},
+?month=,
+?note={},
+?key={},
+}</p>
+<p>@techreport{NAME,
+author={},
+title={},
+institution={},
+year=={},
+?type={},
+?number={},
+?address={},
+?month=,
+?note={},
+?key={},
+}</p>
+<p>@unpublished{NAME,
+author={},
+title={},
+note={},
+?month=,
+?year=,
+?key={},
+}</p>
+<p>Description of entries and fields
+&quot;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;&rdquo;</p>
+<h2 id="article-an-article-from-a-journal-or-magazine-dot">@article: An article from a journal or magazine.</h2>
+<h2 id="book-a-book-with-an-explicit-publisher-dot">@book: A book with an explicit publisher.</h2>
+<h2 id="booklet-a-work-that-is-printed-and-bound-but-without-a-named-publisher-or">@booklet: A work that is printed and bound, but without a named publisher or</h2>
+<p>sponsoring institution.</p>
+<h2 id="conference-the-same-as-inproceedings-included-for-scribe-compatibility-dot">@conference: The same as inproceedings, included for Scribe compatibility.</h2>
+<h2 id="inbook-a-part-of-a-book-usually-untitled-dot-may-be-a-chapter-or-section-or">@inbook: A part of a book, usually untitled. May be a chapter (or section or</h2>
+<p>whatever) and/or a range of pages.</p>
+<h2 id="incollection-a-part-of-a-book-having-its-own-title-dot">@incollection: A part of a book having its own title.</h2>
+<h2 id="inproceedings-an-article-in-a-conference-proceedings-dot">@inproceedings: An article in a conference proceedings.</h2>
+<h2 id="manual-technical-documentation-dot">@manual: Technical documentation.</h2>
+<h2 id="mastersthesis-a-master-s-thesis-dot">@mastersthesis: A Master&rsquo;s thesis.</h2>
+<h2 id="misc-for-use-when-nothing-else-fits-dot">@misc: For use when nothing else fits.</h2>
+<h2 id="phdthesis-a-ph-dot-d-dot-thesis-dot">@phdthesis: A Ph.D. thesis.</h2>
+<h2 id="proceedings-the-proceedings-of-a-conference-dot">@proceedings: The proceedings of a conference.</h2>
+<h2 id="techreport-a-report-published-by-a-school-or-other-institution-usually">@techreport: A report published by a school or other institution, usually</h2>
+<p>numbered within a series.</p>
+<h2 id="unpublished-a-document-having-an-author-and-title-but-not-formally">@unpublished: A document having an author and title, but not formally</h2>
+<p>published.</p>
+<h2 id="address-publisher-s-address-usually-just-the-city-but-can-be-the-full">address=: Publisher&rsquo;s address (usually just the city, but can be the full</h2>
+<p>address for lesser-known publishers)</p>
+<h2 id="annote-an-annotation-for-annotated-bibliography-styles--not-typical">annote=: An annotation for annotated bibliography styles (not typical)</h2>
+<h2 id="author-the-name--s--of-the-author--s--in-the-case-of-more-than-one-author">author=: The name(s) of the author(s) (in the case of more than one author,</h2>
+<p>separated by and)</p>
+<h2 id="booktitle-the-title-of-the-book-if-only-part-of-it-is-being-cited">booktitle=: The title of the book, if only part of it is being cited</h2>
+<h2 id="chapter-the-chapter-number">chapter=: The chapter number</h2>
+<h2 id="crossref-the-key-of-the-cross-referenced-entry">crossref=: The key of the cross-referenced entry</h2>
+<h2 id="edition-the-edition-of-a-book-long-form--such-as-first-or-second">edition=: The edition of a book, long form (such as &ldquo;first&rdquo; or &ldquo;second&rdquo;)</h2>
+<h2 id="editor-the-name--s--of-the-editor--s">editor=: The name(s) of the editor(s)</h2>
+<h2 id="eprint-a-specification-of-an-electronic-publication-often-a-preprint-or-a">eprint=: A specification of an electronic publication, often a preprint or a</h2>
+<p>technical report</p>
+<h2 id="howpublished-how-it-was-published-if-the-publishing-method-is-nonstandard">howpublished=: How it was published, if the publishing method is nonstandard</h2>
+<h2 id="institution-the-institution-that-was-involved-in-the-publishing-but-not">institution=: The institution that was involved in the publishing, but not</h2>
+<p>necessarily the publisher</p>
+<h2 id="journal-the-journal-or-magazine-the-work-was-published-in">journal=: The journal or magazine the work was published in</h2>
+<h2 id="key-a-hidden-field-used-for-specifying-or-overriding-the-alphabetical-order">key=: A hidden field used for specifying or overriding the alphabetical order</h2>
+<p>of entries (when the &ldquo;author&rdquo; and &ldquo;editor&rdquo; fields are missing). Note that
+this is very different from the key (mentioned just after this list) that is
+used to cite or cross-reference the entry.</p>
+<h2 id="month-the-month-of-publication--or-if-unpublished-the-month-of-creation--dot">month=: The month of publication (or, if unpublished, the month of creation).</h2>
+<p>Example 1=: month=jan. Example 2=: month=&quot;17~&rdquo; # feb.</p>
+<h2 id="note-miscellaneous-extra-information">note=: Miscellaneous extra information</h2>
+<h2 id="number-the-number-of-a-journal-magazine-or-tech-report-if-applicable-dot">number=: The &ldquo;number&rdquo; of a journal, magazine, or tech-report, if applicable.</h2>
+<p>(Most publications have a &ldquo;volume&rdquo;, but no &ldquo;number&rdquo; field.)</p>
+<h2 id="organization-the-conference-sponsor">organization=: The conference sponsor</h2>
+<h2 id="pages-page-numbers-separated-either-by-commas-or-double-hyphens-dot-for-books">pages=: Page numbers, separated either by commas or double-hyphens. For books,</h2>
+<p>the total number of pages.</p>
+<h2 id="publisher-the-publisher-s-name">publisher=: The publisher&rsquo;s name</h2>
+<h2 id="school-the-school-where-the-thesis-was-written">school=: The school where the thesis was written</h2>
+<h2 id="series-the-series-of-books-the-book-was-published-in-e-dot-g-dot-the-hardy-boys">series=: The series of books the book was published in (e.g. &ldquo;The Hardy Boys&rdquo;</h2>
+<p>or &ldquo;Lecture Notes in Computer Science&rdquo;)</p>
+<h2 id="title-the-title-of-the-work">title=: The title of the work</h2>
+<h2 id="type-the-type-of-tech-report-for-example-research-note">type=: The type of tech-report, for example, &ldquo;Research Note&rdquo;</h2>
+<h2 id="url-the-www-address">url=: The WWW address</h2>
+<h2 id="volume-the-volume-of-a-journal-or-multi-volume-book">volume=: The volume of a journal or multi-volume book</h2>
+<h2 id="year-the-year-of-publication--or-if-unpublished-the-year-of-creation">year=: The year of publication (or, if unpublished, the year of creation)</h2>
+<SSI COUNTER="">
+<p><code>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</code></p>
+<p>## LaTex</p>
+<p>\citet{} Textual citation: Jones et al. (1990)
+\citet*{} Same as \citet but if there are several authors, all names are printed: Jones, Baker, and Smith (1990)
+\citep{} Parenthetical citation:  (Jones et al. 1990)
+\citep*{} The same as \citep but if there are several authors, all names are printed:   (Jones, Baker, and Smith 1990)
+\citeauthor{}Prints only the name of the authors(s):   Jones et al.
+\citeauthor*{key}: Jones, Baker, and Smith
+\citeyear{} Prints only the year of the publication.: 1990
+\citeapos{key}: Jones et al.&lsquo;s (1990)
+\cite[chapter, p.~215]{citation01}</p>
+<p>\citet{jon90}     &ndash;&gt;     Jones et al. (1990)
+\citet[chap. 2]{jon90}      &ndash;&gt;     Jones et al. (1990, chap. 2)
+\citep{jon90}     &ndash;&gt;     (Jones et al., 1990)
+\citep[chap. 2]{jon90}      &ndash;&gt;     (Jones et al., 1990, chap. 2)
+\citep[see][]{jon90}      &ndash;&gt;     (see Jones et al., 1990)
+\citep[see][chap. 2]{jon90}     &ndash;&gt;     (see Jones et al., 1990, chap. 2)
+\citet*{jon90}      &ndash;&gt;     Jones, Baker, and Williams (1990)
+\citep*{jon90}      &ndash;&gt;     (Jones, Baker, and Williams, 1990)</p>
+<p>#@academic
+#@codes</p>
+</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex justify-between">
+
+
+
+
+
+</div>
+
+ 
+      
+  
+  <div class="book-comments">
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "soitflows" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+</div>
+  
+ 
+        <p align="center">
+    <br>
+    <sup>
+       <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work by <a xmlns:cc="http://creativecommons.org/ns#" href="https://www.soitflows.xyz/" property="cc:attributionName" rel="cc:attributionURL">Naskuv 2018–2020</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+<br>
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> + <a href="https://ox-hugo.scripter.co/">ox-hugo</a>
+    </sup>
+    </p>
+
+      </footer>
+
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#based-on-information-form-http-en-dot-wikipedia-dot-org-wiki-bibtex">Based on information form <a href="http://en.wikipedia.org/wiki/BibTeX">http://en.wikipedia.org/wiki/BibTeX</a></a></li>
+        <li><a href="#see-also-http-amath-dot-colorado-dot-edu-documentation-latex-reference-faq-bibstyles-dot-html">See also: <a href="http://amath.colorado.edu/documentation/LaTeX/reference/faq/bibstyles.html">http://amath.colorado.edu/documentation/LaTeX/reference/faq/bibstyles.html</a></a></li>
+        <li><a href="#nonstandard-entries-url-annote-crossref">Nonstandard entries: url=, annote=, crossref=,</a></li>
+        <li><a href="#no-url-field-in-standard-types-should-be-put-to-note-url-url-dot-dot-dot-dot">No url= field in standard types, should be put to note={URL \url{&hellip;}}.</a></li>
+        <li><a href="#there-are-no-comments-in-bibtex-dot-bib-files-not-even">There are no comments in BibTeX .bib files, not even %</a></li>
+        <li><a href="#name-describes-an-optional-field-dot">?NAME= describes an optional field.</a></li>
+        <li><a href="#bibtex-silently-ignores-a-field-whose-name-it-doesn-t-know-dot">BibTeX silently ignores a field whose name it doesn&rsquo;t know.</a></li>
+        <li><a href="#article-an-article-from-a-journal-or-magazine-dot">@article: An article from a journal or magazine.</a></li>
+        <li><a href="#book-a-book-with-an-explicit-publisher-dot">@book: A book with an explicit publisher.</a></li>
+        <li><a href="#booklet-a-work-that-is-printed-and-bound-but-without-a-named-publisher-or">@booklet: A work that is printed and bound, but without a named publisher or</a></li>
+        <li><a href="#conference-the-same-as-inproceedings-included-for-scribe-compatibility-dot">@conference: The same as inproceedings, included for Scribe compatibility.</a></li>
+        <li><a href="#inbook-a-part-of-a-book-usually-untitled-dot-may-be-a-chapter-or-section-or">@inbook: A part of a book, usually untitled. May be a chapter (or section or</a></li>
+        <li><a href="#incollection-a-part-of-a-book-having-its-own-title-dot">@incollection: A part of a book having its own title.</a></li>
+        <li><a href="#inproceedings-an-article-in-a-conference-proceedings-dot">@inproceedings: An article in a conference proceedings.</a></li>
+        <li><a href="#manual-technical-documentation-dot">@manual: Technical documentation.</a></li>
+        <li><a href="#mastersthesis-a-master-s-thesis-dot">@mastersthesis: A Master&rsquo;s thesis.</a></li>
+        <li><a href="#misc-for-use-when-nothing-else-fits-dot">@misc: For use when nothing else fits.</a></li>
+        <li><a href="#phdthesis-a-ph-dot-d-dot-thesis-dot">@phdthesis: A Ph.D. thesis.</a></li>
+        <li><a href="#proceedings-the-proceedings-of-a-conference-dot">@proceedings: The proceedings of a conference.</a></li>
+        <li><a href="#techreport-a-report-published-by-a-school-or-other-institution-usually">@techreport: A report published by a school or other institution, usually</a></li>
+        <li><a href="#unpublished-a-document-having-an-author-and-title-but-not-formally">@unpublished: A document having an author and title, but not formally</a></li>
+        <li><a href="#address-publisher-s-address-usually-just-the-city-but-can-be-the-full">address=: Publisher&rsquo;s address (usually just the city, but can be the full</a></li>
+        <li><a href="#annote-an-annotation-for-annotated-bibliography-styles--not-typical">annote=: An annotation for annotated bibliography styles (not typical)</a></li>
+        <li><a href="#author-the-name--s--of-the-author--s--in-the-case-of-more-than-one-author">author=: The name(s) of the author(s) (in the case of more than one author,</a></li>
+        <li><a href="#booktitle-the-title-of-the-book-if-only-part-of-it-is-being-cited">booktitle=: The title of the book, if only part of it is being cited</a></li>
+        <li><a href="#chapter-the-chapter-number">chapter=: The chapter number</a></li>
+        <li><a href="#crossref-the-key-of-the-cross-referenced-entry">crossref=: The key of the cross-referenced entry</a></li>
+        <li><a href="#edition-the-edition-of-a-book-long-form--such-as-first-or-second">edition=: The edition of a book, long form (such as &ldquo;first&rdquo; or &ldquo;second&rdquo;)</a></li>
+        <li><a href="#editor-the-name--s--of-the-editor--s">editor=: The name(s) of the editor(s)</a></li>
+        <li><a href="#eprint-a-specification-of-an-electronic-publication-often-a-preprint-or-a">eprint=: A specification of an electronic publication, often a preprint or a</a></li>
+        <li><a href="#howpublished-how-it-was-published-if-the-publishing-method-is-nonstandard">howpublished=: How it was published, if the publishing method is nonstandard</a></li>
+        <li><a href="#institution-the-institution-that-was-involved-in-the-publishing-but-not">institution=: The institution that was involved in the publishing, but not</a></li>
+        <li><a href="#journal-the-journal-or-magazine-the-work-was-published-in">journal=: The journal or magazine the work was published in</a></li>
+        <li><a href="#key-a-hidden-field-used-for-specifying-or-overriding-the-alphabetical-order">key=: A hidden field used for specifying or overriding the alphabetical order</a></li>
+        <li><a href="#month-the-month-of-publication--or-if-unpublished-the-month-of-creation--dot">month=: The month of publication (or, if unpublished, the month of creation).</a></li>
+        <li><a href="#note-miscellaneous-extra-information">note=: Miscellaneous extra information</a></li>
+        <li><a href="#number-the-number-of-a-journal-magazine-or-tech-report-if-applicable-dot">number=: The &ldquo;number&rdquo; of a journal, magazine, or tech-report, if applicable.</a></li>
+        <li><a href="#organization-the-conference-sponsor">organization=: The conference sponsor</a></li>
+        <li><a href="#pages-page-numbers-separated-either-by-commas-or-double-hyphens-dot-for-books">pages=: Page numbers, separated either by commas or double-hyphens. For books,</a></li>
+        <li><a href="#publisher-the-publisher-s-name">publisher=: The publisher&rsquo;s name</a></li>
+        <li><a href="#school-the-school-where-the-thesis-was-written">school=: The school where the thesis was written</a></li>
+        <li><a href="#series-the-series-of-books-the-book-was-published-in-e-dot-g-dot-the-hardy-boys">series=: The series of books the book was published in (e.g. &ldquo;The Hardy Boys&rdquo;</a></li>
+        <li><a href="#title-the-title-of-the-work">title=: The title of the work</a></li>
+        <li><a href="#type-the-type-of-tech-report-for-example-research-note">type=: The type of tech-report, for example, &ldquo;Research Note&rdquo;</a></li>
+        <li><a href="#url-the-www-address">url=: The WWW address</a></li>
+        <li><a href="#volume-the-volume-of-a-journal-or-multi-volume-book">volume=: The volume of a journal or multi-volume book</a></li>
+        <li><a href="#year-the-year-of-publication--or-if-unpublished-the-year-of-creation">year=: The year of publication (or, if unpublished, the year of creation)</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+ 
+    </aside>
+    
+  </main>
+  
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

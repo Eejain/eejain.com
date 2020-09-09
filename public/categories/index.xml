@@ -5,15 +5,24 @@
     <link>https://soitflows.xyz/categories/</link>
     <description>Recent content in Categories on ☴ so it flows ☵</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 16 Jun 2020 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://soitflows.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Academic</title>
+      <link>https://soitflows.xyz/categories/Academic/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://soitflows.xyz/categories/Academic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Meta</title>
       <link>https://soitflows.xyz/categories/Meta/</link>
-      <pubDate>Tue, 16 Jun 2020 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 08 Sep 2020 00:00:00 +0200</pubDate>
       
       <guid>https://soitflows.xyz/categories/Meta/</guid>
       <description></description>

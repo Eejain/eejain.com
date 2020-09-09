@@ -74,14 +74,54 @@
     </item>
     
     <item>
-      <title>My Doom Emacs Configuaration</title>
+      <title>My Doom Emacs Configuration</title>
       <link>https://soitflows.xyz/posts/My-Doom-Emacs-Configuration/</link>
-      <pubDate>Tue, 16 Jun 2020 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 08 Sep 2020 00:00:00 +0200</pubDate>
       
       <guid>https://soitflows.xyz/posts/My-Doom-Emacs-Configuration/</guid>
       <description>Figure 1: Emacs main window in iTerm2
     Figure 2: Emacs quickshow window with Org agenda
-  Intro Forewords  A few words about my background. I&amp;rsquo;m a researcher in the field of social science. I don&amp;rsquo;t program much, but Emacs is essential for both my work and leisure projects. I&amp;rsquo;m using Emacs for interacting with R environment, composing long format texts, and managing my schedule as well as logging everyday life.</description>
+  Intro Forewords  A few words about my background. I&amp;rsquo;m a researcher in the field of educational science. I am no programmer, other than borrowing codes from stack overflow all the time. My experience with plain text editors started with writing monkey,and then Sublime Text. But Emacs quickly replaced almost every app in both my work and leisure workflow.</description>
+    </item>
+    
+    <item>
+      <title>My Reference Management Workflow with Zotero</title>
+      <link>https://soitflows.xyz/posts/my-reference-literature-management-workflow/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://soitflows.xyz/posts/my-reference-literature-management-workflow/</guid>
+      <description>Get references  Search engine like Google scholar, or databases like Scopus Social network like email, journal club, researcher gate, rss of keywords or journals Remember to take note of search keywords and the thinking process  Why am I interested in this article? What leads me here (keyword, or citation from another article, or interested authors)   Save new references with proper tags as best as you can in Inbox collection for further processing  Review Inbox  Clean the citation format, see Citation format checking workflow Use Zotfile to rename attached pdf files and move the attachment to customized location, see Notes about Zotero plugins Add appropriate tag/notes  For articles that need deeper processing, add &amp;ldquo;todo&amp;rdquo; tag and read the article according to My Academic Reading Workflow   Move the articles out of Inbox to appropriate collection (cmd + drag) once reviewed  Citation format checking workflow  Check whether the item type is correct (book chapter, conference paper, journal article, etc.</description>
+    </item>
+    
+    <item>
+      <title>My Academic Reading Workflow</title>
+      <link>https://soitflows.xyz/posts/my-academic-reading-workflow/</link>
+      <pubDate>Tue, 08 Sep 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://soitflows.xyz/posts/my-academic-reading-workflow/</guid>
+      <description>Tools Skim  notes are saved in a separate .skim file, cannot be extracted in Zotero resolution not as sharp as acrobat only one highlight color no type machine function small and fast, good for note taking  Adobe Acrobat   highlights color coding:
+ light green: key word  !       light yellow: key statement  !    light pink: method, operationalisation, key results  !</description>
+    </item>
+    
+    <item>
+      <title>A Quick Comparison between Zotero and Citavi</title>
+      <link>https://soitflows.xyz/posts/compare-zotero-and-citavi/</link>
+      <pubDate>Tue, 08 Sep 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://soitflows.xyz/posts/compare-zotero-and-citavi/</guid>
+      <description>Citavi  my team is already using this software proprietary, mostly used by German institutions  Prossss  in-app pdf viewer, pretty fast compared to Acrobat, similar with Preview save pdf annotation directly in app embedded todo management powerful note taking system (Quotation) able to preview search result  Con     proprietary, not many users outside Germany (forum discussion mostly in German) only supports windows the transfer and sharing of references between projects is more effortful (import, export) unable to change interface font size, unable to change layout to column and row  Zotero  the reference management tool that I have used the longest and most often  Pros  free, light weight, open source, cross platform active community for Q&amp;amp;A and add-on development able to organize all references in library or in specific &amp;ldquo;Collection&amp;rdquo; better bibtex support  Cons  note taking ability is very limited and simplistic  Current pick 2020-08-26  still using zotero for my personal library, but use Citavi for a cloud project shared with my team (share articles with each other for journal club and journal briefing) importing Zotero bibtex to Citavi issues: no collection, tag, related (article) info  </description>
+    </item>
+    
+    <item>
+      <title>Notes on Citation Syntax</title>
+      <link>https://soitflows.xyz/posts/Citation-Syntax/</link>
+      <pubDate>Tue, 08 Sep 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://soitflows.xyz/posts/Citation-Syntax/</guid>
+      <description>## MMD:
+ cite a paper: [locator][#citationkey] (locator is optional) cite multiple paper: [locator1][#citationkey1][locator2][citationkey2]&amp;hellip; inline citation: [#citationkey; locator]  ## Pandoc
+ citation: Citations go inside square brackets and are separated by semicolons cite a paper: [@citekey, locator] cite multiple paper [@citekey, locator; @citekey, locator&amp;hellip;] inline citation: @citekey [locator]  ## bibtex BibTeX cheat sheet and entry templates ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ by pts@fazekas.hu at Wed Jul 29 15:42:08 CEST 2009
+Based on information form http://en.</description>
     </item>
     
     <item>

@@ -84,7 +84,7 @@ I think I am not alone in this: the yearning for multitude of wonderful things  
 
 So I've picked up all the loose ends and started to sketch a road map to there. And this post is a record of what I have done.
 
-** The Three-Layer Structure
+** The Three-layer Structure
 
 I would like to achieve two seemingly contradictory goals with my organization system: keep track of everything, and don't overwhelm myself. My current workaround is a system with three nesting layers and each layer requires different degree of attention and monitoring (energy!).
 
@@ -100,7 +100,7 @@ Everything I do, every second I spend and every bit of energy I consume (even in
 
 My three areas of life may not be everyone's focus, but you can substitute anything that you deem precious and would like to keep a close eye on.
 
-** Create sub-areas within Areas
+** Create Sub-areas within Areas
 
 Using the area of life as a start point, what I did next is to write several statements to descriptive my prospect for each area. For example, I put down "I want to be a small expert in my small field" in the area of **serious stuff**, and I then formalized this vision into a sub-area called academic development. Eventually, I have four sub-areas in **serious stuff**: publication, academic development, teaching and organization; three sub-areas in **leisure stuff**: output, social, input; and two sub-areas in **misc stuff**: health (eating, skincare, workout, etc.) and chore (tax, record transaction, shopping, house cleaning, etc.). Noting that the sub-area of chore contains many elements, as they are not my focuses of life right now.
 
@@ -108,7 +108,7 @@ Using the area of life as a start point, what I did next is to write several sta
 
 The distinction between sub-areas and projects lies in whether they can be completed within a time frame. For example, health is a sub-area of my life that needs frequent investment, I cannot tick it off and say it's done. But I may have various projects within this sub-area that can and should be completed after certain duration of time, such as run for 5 km without stop in two months. And in order to reach this very specific goal, I can set concrete to-dos and keep track of its progress.
 
-** How Does It Work in Real Life?
+** How Does it Work in Real Life?
 
 The beauty of this system lies in the differentiated energy requirement for each layer. From area to sub-area to project, the degree of flexibility increase and active monitoring decrease.
 
@@ -116,7 +116,7 @@ To be more specific, at the start of a week, I will decide which sub-area(s) in 
 
 Essentially, what I need to plan and monitor actively everyday is the time/energy spent on each area. I will review and plan sub-areas only once a week, and for projects, once a month.
 
-** Does It Work?
+** Does it Work?
 
 Honestly, I don't know yet, but this system has given me clarity and a sense of purpose for the past two weeks. It is my current answer to the dilemma of wanting everything and getting burned out along the way. Noting that it is definitely not a manual or solution, but rather a record of my attempt to gather and organize the gruesome but magnificent beast which is life. And as everything in life, it's a work in progress.
 
@@ -341,26 +341,31 @@ square <- function(x)
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookToC true
 :END:
 
-People often talking about traveling far enough to meet one self. I would say travel early enough serves the same purpose.
-As a anxious wrecking young academic, I screened
+People often talk about traveling far enough to meet one self. I would say, travel early enough serves the same purpose.
+As a anxious wrecking young academic, I scratched the surface of my daily routine to find extra time for more work. It manifested as the forward marching of my wake up time. That line marker indicating start of the day currently falls at 5am.
 
 I often take the train running at dusk, and the passengers are mostly consists of two types. news paper-reading elder gents and sleepy late night construction workers getting off work. They are often bulky guys wearing canvas pants with too many pockets. The heavy beats leaking out of their ear buds, the blotchy stains-possibly can’t be washed off-on their pants, their bear-like existence (oh the Berlin bear), separate them apart from the orderly and somewhat delicate space in Bahn. They seem to be out of place, yet so comfortable with everything. Or maybe I’m the one who’s out of place. Then I realised that I do share the city with them, me on the dayside, they on the night side. Converging only in this train, through dusk it goes.
 
 The moment when road light switch off, from this side to the end of horizon, all of them switch off at the same time, yet no one is noticing. It’s like a massive lightning, without any sound.
 
-The grey craw bouncing on human belongings
+The grey craw bouncing on human leftovers.
 
-Early morning bring all forms of fantasy, not the kind of bizarre and hallucinating fantasy you would have at midnight, but bleak, sharp and unforgiving ones. It’s the gap between initiation and sustainment. What has been accomplished but yet to be fulfilled.
+Early morning bring all forms of fantasy, not the kind of bizarre and hallucinating fantasy you would have at midnight, but bleak, sharp and unforgiving ones. It’s the gap between initiation and sustainment. What has been reached but yet to be fulfilled.
 
 Nothing can be left aloft and unexplained, the brain is so stubborn at making sense of every thing, always ready for fight or flight. And now, in the conjunction of night and day, an island where neither the land of consciousness or sea of dreams, could control. I saw, or rather sense, workers, birds, the moon and the train.
 
-There’s one section between park sans Lissi and golm, where the meadow always seem to be moisturised by morning dew, it’s an unrealistic scene with drowsy horses stretching slender limbs, every step cracks one dusty grass. This creature always has dreamy eyes, but especially in early morning. Of course, they woke up with the first sunlight, when I get to see them on the train, they have already passed the human equivalent of coffee time. But still, they don’t appear active or crispy yet, they are handsome just the way it is: quiet, sentient and forgiving.
+There’s one section between park sans Lissi and golm, where the meadow always seem to be moisturised by morning dew, it’s an surreal scene with drowsy horses stretching slender limbs, every step cracks a patch of frosty grass. This creature always has dreamy eyes, but especially in early morning. Of course, they woke up with the first sunlight, when I get to see them on the train, they have already passed the human equivalent of coffee time. But still, they don’t appear active or crispy yet, they are handsome just the way it is: quiet, sentient and forgiving.
 
 What could I say about morning. The morning is too early that feels like more of a succession than a start.
 
 But there are experiences you can only get at early next morning. And I suggest visitors to Berlin at least keep an open mind to these dusk moments.
-
+-
 Be the first customer at that street corner bakery, count how many bottles left from the night before, take a Bahn through the woody area and see the cows and horses; hear morning chorus, according to Gordon Hampton, the natural sound scape recorder, argued that birds song are the sonic beacon of prosperity, safety for our ancestors.
+
+my perception of bahn in the dahn took a turn after knowing elia and danniel. being the eu hippies as they are, they pointed out the hypocracy in my stubbbon habbit of sleeping at fixed schedule and waking up early. "how early could you be, can you be earlier than people who's not even sleeping yet?". after spending a night in potsdam hbf and an unplanned all-nighter at elia's house, this time i had the chance to see the city at 4am, much earlier than my previous schedule, to my surprise, the train is beyond empty. there will always be people who's earlier, and  evetually the choice of waking up early and being the first one to see everything s a dilusion of self-control. i will always be later than people who's not sleep yet.
+
+but still, sleeping and waking at different times help me take different perspectives on the same city.
+
 * TODO Inferno pt.2 :@FanFic:manga:
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts
@@ -589,13 +594,27 @@ HIGHLIGHTS: 一个左倾，Ezra Klein 是最早用私人博客的形式报道政
 
 
 ## Topic: fiction, comedy, subculture
+* TODO RSS, a mild intro :technology:
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: posts
+:EXPORT_FILE_NAME: RSS a mild intro
+:EXPORT_DATE: 2019-05-01
+:EXPORT_HUGO_WEIGHT: auto
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookComments true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookHidden true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookToC true
+:END:
 
-* My Doom Emacs Configuaration :@Meta:technology:
+- State "TODO"       from              [2020-09-09 Wed 11:04]
+
+
+My young friend is starting a blog, recent surge of interest in RSS again.
+* My Doom Emacs Configuration :@Meta:technology:
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts
 :EXPORT_FILE_NAME: My Doom Emacs Configuration
 :EXPORT_HUGO_WEIGHT: auto
-:EXPORT_DATE: 2020-06-16
+:EXPORT_DATE: 2020-09-08
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookComments true
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookHidden true
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookToC true
@@ -608,665 +627,60 @@ file:~/itflows/static/doomsnap.png
 #+caption: Emacs quickshow window with Org agenda
 file:~/itflows/static/doomsnap2.png
 
-** Intro
-*** Forewords
-- A few words about my background. I'm a researcher in the field of social science. I don't program much, but Emacs is essential for both my work and leisure projects. I'm using Emacs for interacting with R environment, composing long format texts, and managing my schedule as well as logging everyday life.
-- I'm using [[https://formulae.brew.sh/formula/emacs][GNU Emacs]] under the [[https://github.com/hlissner/doom-emacs][Doom Emacs]] configuration framework. I'm running my Emacs in[[https://www.iterm2.com/][ iTerm2]]--a terminal emulator for macOS.
-*** Instructions
-- To install GNU Emacs and Doom, run the following in the terminal. References: https://github.com/hlissner/doom-emacs/blob/develop/docs/getting_started.org
-#+BEGIN_SRC sh :exports code :tangle no
-brew install git ripgrep
-brew install coreutils fd
-xcode-select --install
-brew install emacs
-git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
-~/.emacs.d/bin/doom install
-#+END_SRC
-- Add ~export PATH=~/.emacs.d/bin:$PATH~ in _.zshrc_ to use the bin/doom utility anywhere in terminal
-- Turn on ~literate~ in _init.el_ in _~/.dooms.d_, then create _config.org_
-- Add ~#+PROPERTY: header-args :tangle yes :cache yes :results silent :padline no~ anywhere in the _config.org_
-- Run ~M-x doom/reload~ in Emacs after changing the _config.org_, this will extract the Lisp source codes automatically to _config.el_
-- Run ~doom sync~ in terminal every time the _package.el_ is changed
-- How to debug:
-  - turn on ~toggle-debug-on-error~, then ~doom/reload~
-  - run ~doom doctor~ in terminal
+#+include: "~/.doom.d/config.org" :only-contents t
 
-** Global Backends
-*** Doom default
-#+BEGIN_SRC emacs-lisp
-(package-initialize t)
-(setq user-full-name "Eejain Huang"
-      user-mail-address "huangyizhen2002@gmail.com")
-#+END_SRC
-*** Change the default encoding to UTF-8, more suitable for multi-lan environment
-#+BEGIN_SRC emacs-lisp
-(prefer-coding-system       'utf-8)
-(set-default-coding-systems 'utf-8)
-(set-terminal-coding-system 'utf-8)
-(set-keyboard-coding-system 'utf-8)
-(setq default-buffer-file-coding-system 'utf-8)
-#+END_SRC
-*** Do not create lockfiles for files being edited
-references: https://github.com/Brettm12345/doom-emacs-literate-config/blob/master/config.org#completioncompany
-#+BEGIN_SRC emacs-lisp
-  (setq create-lockfiles nil)
-#+END_SRC
-*** Company config
-reference: https://github.com/Brettm12345/doom-emacs-literate-config/blob/master/config.org#completioncompany
-**** Set maximum candidates for ~company-box~
-#+BEGIN_SRC emacs-lisp
-  (after! company-box
-    (setq company-box-max-candidates 5))
-#+END_SRC
-**** Setup ~company-perscient~
-#+BEGIN_SRC emacs-lisp
-  (use-package company-prescient
-    :after company
-    :hook (company-mode . company-prescient-mode))
-#+END_SRC
-**** Setup company ui
-#+BEGIN_SRC emacs-lisp
-  (after! company
-    (setq company-tooltip-limit 5
-          company-tooltip-minimum-width 80
-          company-tooltip-minimum 5
-          company-backends
-          '(company-capf company-dabbrev company-files company-yasnippet)
-          company-global-modes '(not comint-mode erc-mode message-mode help-mode gud-mode)))
-#+END_SRC
-*** Ivy config
-reference: https://github.com/Brettm12345/doom-emacs-literate-config/blob/master/config.org#completioncompany
-**** Set ripgrep as the default program for ivy project search
-#+BEGIN_SRC emacs-lisp
-  (setq +ivy-project-search-engines '(rg))
-#+END_SRC
-**** Setup ~ivy-rich~
-#+BEGIN_SRC emacs-lisp
-(after! ivy-rich
-  (setq ivy-rich-display-transformers-list
-        '(ivy-switch-buffer
-          (:columns
-           ((ivy-rich-candidate (:width 30 :face bold))
-            (ivy-rich-switch-buffer-size (:width 7 :face font-lock-doc-face))
-            (ivy-rich-switch-buffer-indicators (:width 4 :face error :align right))
-            (ivy-rich-switch-buffer-major-mode (:width 18 :face doom-modeline-buffer-major-mode))
-            (ivy-rich-switch-buffer-path (:width 50)))
-           :predicate
-           (lambda (cand) (get-buffer cand)))
-          +ivy/switch-workspace-buffer
-          (:columns
-           ((ivy-rich-candidate (:width 30 :face bold))
-            (ivy-rich-switch-buffer-size (:width 7 :face font-lock-doc-face))
-            (ivy-rich-switch-buffer-indicators (:width 4 :face error :align right))
-            (ivy-rich-switch-buffer-major-mode (:width 18 :face doom-modeline-buffer-major-mode))
-            (ivy-rich-switch-buffer-path (:width 50)))
-           :predicate
-           (lambda (cand) (get-buffer cand)))
-          counsel-M-x
-          (:columns
-           ((counsel-M-x-transformer (:width 40))
-            (ivy-rich-counsel-function-docstring (:face font-lock-doc-face :width 80))))
-          counsel-describe-function
-          (:columns
-           ((counsel-describe-function-transformer (:width 40))
-            (ivy-rich-counsel-function-docstring (:face font-lock-doc-face :width 80))))
-          counsel-describe-variable
-          (:columns
-           ((counsel-describe-variable-transformer (:width 40))
-            (ivy-rich-counsel-variable-docstring (:face font-lock-doc-face :width 80))))
-          counsel-recentf
-          (:columns
-           ((ivy-rich-candidate (:width 100))
-            (ivy-rich-file-last-modified-time (:face font-lock-doc-face)))))))
+* My Reference Management Workflow with Zotero :@Academic:productivity:
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: posts
+:EXPORT_FILE_NAME: my reference literature management workflow
+:EXPORT_HUGO_WEIGHT: auto
+:EXPORT_DATE: 2020-09-09
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookComments true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookHidden true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookToC true
+:header-args: :tangle no eval: no-export :cache yes :results silent :padline no
+:END:
 
-(after! counsel
-  (setq counsel-evil-registers-height 20
-        counsel-yank-pop-height 20
-        counsel-org-goto-face-style 'org
-        counsel-org-headline-display-style 'title
-        counsel-org-headline-display-tags t
-        counsel-org-headline-display-todo t))
-#+END_SRC
+#+include: "/Users/naskuv/GoogleDrive/MarkdownNotes/MDNotes/my reference literature management workflow.org" :only-contents t
 
-#+BEGIN_SRC emacs-lisp
-  (after! ivy
-    (setq ivy-posframe-parameters
-          `((min-width . 160)
-            (min-height . ,ivy-height)
-            (left-fringe . 0)
-            (right-fringe . 0)
-            (internal-border-width . 10))
-          ivy-display-functions-alist
-          '((counsel-git-grep)
-            (counsel-grep)
-            (counsel-pt)
-            (counsel-ag)
-            (counsel-rg)
-            (counsel-notmuch)
-            (swiper)
-            (counsel-irony . ivy-display-function-overlay)
-            (ivy-completion-in-region . ivy-display-function-overlay)
-            (t . ivy-posframe-display-at-frame-center))))
-(after! ivy
-  (setq ivy-use-selectable-prompt t
-        ivy-auto-select-single-candidate t
-        ivy-rich-parse-remote-buffer nil
-        +ivy-buffer-icons nil
-        ivy-use-virtual-buffers nil
-        ivy-magic-slash-non-match-action 'ivy-magic-slash-non-match-cd-selected
-        ivy-height 20
-        ivy-rich-switch-buffer-name-max-length 50))
-#+END_SRC
-**** Add helpful action to ~counsel-M-x~
-#+BEGIN_SRC emacs-lisp
-  (after! ivy
-    (ivy-add-actions
-     'counsel-M-x
-     `(("h" +ivy/helpful-function "Helpful"))))
-#+END_SRC
-**** Setup ~counsel-tramp~
-#+BEGIN_SRC emacs-lisp
-  (use-package counsel-tramp
-    :commands (counsel-tramp))
-#+END_SRC
-**** Setup [[github:asok/all-the-icons-ivy][all-the-icons-ivy]]
-#+BEGIN_SRC emacs-lisp
-(use-package all-the-icons-ivy
-  :after ivy
-  :config
-  (dolist (cmd '( counsel-find-file
-                  counsel-file-jump
-                  projectile-find-file
-                  counsel-projectile-find-file
-                  counsel-dired-jump counsel-projectile-find-dir
-                  counsel-projectile-switch-project))
-    (ivy-set-display-transformer cmd #'all-the-icons-ivy-file-transformer)))
-#+END_SRC
-*** Dired config
-reference: https://github.com/Brettm12345/doom-emacs-literate-config/blob/master/config.org#completioncompany
-**** Set ~dired-k~ to use human readable styles
-#+BEGIN_SRC emacs-lisp
-  (after! dired-k
-    (setq dired-k-human-readable t))
-#+END_SRC
-**** Set ~dired-k~ filesize colors
-#+begin_src emacs-lisp
-  (after! dired-k
-    (setq dired-k-size-colors
-          `((1024 .   ,(doom-lighten (doom-color 'green) 0.3))
-            (2048 .   ,(doom-lighten (doom-color 'green) 0.2))
-            (3072 .   ,(doom-lighten (doom-color 'green) 0.1))
-            (5120 .   ,(doom-color 'green))
-            (10240 .  ,(doom-lighten (doom-color 'yellow) 0.2))
-            (20480 .  ,(doom-lighten (doom-color 'yellow) 0.1))
-            (40960 .  ,(doom-color 'yellow))
-            (102400 . ,(doom-lighten (doom-color 'orange) 0.2))
-            (262144 . ,(doom-lighten (doom-color 'orange) 0.1))
-            (524288 . ,(doom-color 'orange)))))
-#+end_src
+* My Academic Reading Workflow :@Academic:productivity:
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: posts
+:EXPORT_FILE_NAME: my academic reading workflow
+:EXPORT_HUGO_WEIGHT: auto
+:EXPORT_DATE: 2020-09-08
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookComments true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookHidden true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookToC true
+:header-args: :tangle no eval: no-export :cache yes :results silent :padline no
+:END:
 
-**** Enable ~diredfl-mode~ on ~dired~ buffers
-#+BEGIN_SRC emacs-lisp
-  (use-package diredfl
-    :hook (dired-mode . diredfl-mode))
-#+END_SRC
-**** Setup ~peep-dired~
-#+BEGIN_SRC emacs-lisp
-  (use-package peep-dired
-    :after dired
-    :defer t
-    :commands (peep-dired))
-#+END_SRC
-** Global Looks
-*** Color scheme and font
-#+begin_src emacs-lisp
-(setq doom-font (font-spec :faimily "monospace" :size 14))
-(setq doom-theme 'doom-tomorrow-night)
-(setq display-line-numbers-style 'relative)
-#+end_src
+#+include: "/Users/naskuv/GoogleDrive/MarkdownNotes/MDNotes/my academic reading workflow.org" :only-contents t
 
-*** Set up cursor shape in iterm emacs for indicating edit/normal mode
-the cursor shape of different vim mode is identical by default. use package term-cursor
-#+BEGIN_SRC emacs-lisp
-  (use-package term-cursor)
-  (global-term-cursor-mode)
-#+END_SRC
-*** Function to set visual line width
-references: https://www.emacswiki.org/emacs/VisualLineMode
-#+begin_src emacs-lisp
- (defvar visual-wrap-column nil)
- (defun set-visual-wrap-column (new-wrap-column &optional buffer)
-      "Force visual line wrap at NEW-WRAP-COLUMN in BUFFER (defaults
-    to current buffer) by setting the right-hand margin on every
-    window that displays BUFFER.  A value of NIL or 0 for
-    NEW-WRAP-COLUMN disables this behavior."
-      (interactive (list (read-number "New visual wrap column, 0 to disable: " (or visual-wrap-column fill-column 0))))
-      (if (and (numberp new-wrap-column)
-               (zerop new-wrap-column))
-        (setq new-wrap-column nil))
-      (with-current-buffer (or buffer (current-buffer))
-        (visual-line-mode t)
-        (set (make-local-variable 'visual-wrap-column) new-wrap-column)
-        (add-hook 'window-configuration-change-hook 'update-visual-wrap-column nil t)
-        (let ((windows (get-buffer-window-list)))
-          (while windows
-            (when (window-live-p (car windows))
-              (with-selected-window (car windows)
-                (update-visual-wrap-column)))
-            (setq windows (cdr windows))))))
-    (defun update-visual-wrap-column ()
-      (if (not visual-wrap-column)
-        (set-window-margins nil nil)
-        (let* ((current-margins (window-margins))
-               (right-margin (or (cdr current-margins) 0))
-               (current-width (window-width))
-               (current-available (+ current-width right-margin)))
-          (if (<= current-available visual-wrap-column)
-            (set-window-margins nil (car current-margins))
-            (set-window-margins nil (car current-margins)
-                                (- current-available visual-wrap-column))))))
+* A Quick Comparison between Zotero and Citavi :@Academic:productivity:
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: posts
+:EXPORT_FILE_NAME: compare zotero and citavi
+:EXPORT_HUGO_WEIGHT: auto
+:EXPORT_DATE: 2020-09-08
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookComments true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookHidden true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookToC true
+:header-args: :tangle no eval: no-export :cache yes :results silent :padline no
+:END:
 
+#+include: "/Users/naskuv/GoogleDrive/MarkdownNotes/MDNotes/compare zotero and citavi.org" :only-contents t
 
-#+end_src
-** Global Editing
-*** Key binding for Emacs in iTerm2 environment
-https://stackoverflow.com/questions/10660060/how-do-i-bind-c-in-emacs/40222318#40222318
-workflow: in iterm, set preferences-key add a keyboard short cut with emacs key
-binding, then choose Send Escape Sequence as the Action, then use the
-my/global-map-and-set-key funtion below to bind the short cut to the original
-emacs function (find out the function by running describe the key function)
-the current key map in iterm is saved in iterm_emacs.itermkeymap
+* Notes on Citation Syntax :@Academic:productivity:
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: posts
+:EXPORT_FILE_NAME: Citation Syntax
+:EXPORT_HUGO_WEIGHT: auto
+:EXPORT_DATE: 2020-09-08
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookComments true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookHidden true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookToC true
+:header-args: :tangle no eval: no-export :cache yes :results silent :padline no
+:END:
 
-#+BEGIN_SRC emacs-lisp
-
-;; define function
-(defun my/global-map-and-set-key (key command &optional prefix suffix)
-  "`my/map-key' KEY then `global-set-key' KEY with COMMAND.
- PREFIX or SUFFIX can wrap the key when passing to `global-set-key'."
-  (my/map-key key)
-  (global-set-key (kbd (concat prefix key suffix)) command))
-(defun my/map-key (key)
-  "Map KEY from escape sequence \"\e[emacs-KEY\."
-  (define-key function-key-map (concat "\e[emacs-" key) (kbd key)))
-
-;; the most important remapping, M-x
-(my/global-map-and-set-key "M-x" 'counsel-M-x)
-
-;; comment/uncomment: first bind a new key sequence C-/ (subsitute s-/) for commenting codes, then map iterm key to emacs
-(map!
- (:after evil
-   :m  "C-/" #'evilnc-comment-or-uncomment-lines))
-(my/global-map-and-set-key "C-/" 'evilnc-comment-or-uncomment-lines)
-
-;; copy, cut, paste
-(my/global-map-and-set-key "s-x" 'kill-region)
-(my/global-map-and-set-key "s-c" 'evil-yank)
-(my/global-map-and-set-key "s-v" 'evil-paste-after)
-
-;; create new heading below: first change the default keybinding (s-return) to M-return
-(map!
- (:after evil
-   :m  "<M-return>" #'+default/newline-below))
-(my/global-map-and-set-key "<M-return>" '+default/newline-below)
-
-;; move lines around
-(my/global-map-and-set-key "<M-up>" 'drag-stuff-up)
-(my/global-map-and-set-key "<M-down>" 'drag-stuff-down)
-
-;; meta drag
-(my/global-map-and-set-key "<M-S-up>" 'org-shiftmetaup)
-(my/global-map-and-set-key "<M-S-down>" 'org-shiftmetadown)
-
-;; outline promote/demote (metaleft/right)
-(my/global-map-and-set-key "M-h" 'org-metaleft)
-(my/global-map-and-set-key "M-H" 'org-shiftmetaleft)
-(my/global-map-and-set-key "M-l" 'org-metaright)
-(my/global-map-and-set-key "M-L" 'org-shiftmetaright)
-
-;; for evaluating r codes, not sure whether works or not yet
-(my/global-map-and-set-key "M-d" 'evil-multiedit-match-symbol-and-next)
-
-;; currently I disabled arrow keys for navigation, but command(s) + arrow key still work, and in terminal, use shift + arrow keys for normal arrow key behavior
-;; use ctrl + hjkl to navigate in function menus
-(my/global-map-and-set-key "<s-left>" 'evil-backward-char)
-(my/global-map-and-set-key "<s-right>" 'evil-forward-char)
-(my/global-map-and-set-key "<s-down>" 'evil-next-line)
-(my/global-map-and-set-key "<s-up>" 'evil-previous-line)
-
-
-;; create a new delete shortcut for easier access (works in both normal and insert mode)
-(map!
- (:after evil
-   :m  "s-[" #'evil-delete-backward-char))
-(my/global-map-and-set-key "s-[" 'evil-delete-backward-char)
-
-;; for ess-r short cut
-(my/global-map-and-set-key "<C-return>" 'ess-eval-line)
-(my/global-map-and-set-key "<C-S-return>" 'ess-eval-region-or-function-or-paragraph)
-
-#+END_SRC
-
-*** Copy paste from external clipboard (for terminal emacs window)
-#+begin_src emacs-lisp
-(setq osx-clipboard-mode t)
-#+end_src
-**** ARCV auto save and load current session layout (desktop)
-CLOSED: [2020-06-15 Mon 15:07]
-- State "ARCV"       from "TODO"       [2020-06-15 Mon 15:07]
-#+begin_src emacs-lisp
-
-;; save current window layout and load later: https://emacs.stackexchange.com/questions/2710/switching-between-window-layouts
-;; (defvar winstack-stack '()
-;;   "A Stack holding window configurations.
-;; Use `winstack-push' and
-;; `winstack-pop' to modify it.")
-
-;; (defun winstack-push()
-;;   "Push the current window configuration onto `winstack-stack'."
-;;   (interactive)
-;;   (if (and (window-configuration-p (first winstack-stack))
-;;          (compare-window-configurations (first winstack-stack) (current-window-configuration)))
-;;       (message "Current config already pushed")
-;;     (progn (push (current-window-configuration) winstack-stack)
-;;            (message (concat "pushed " (number-to-string
-;;                                        (length (window-list (selected-frame)))) " frame config")))))
-
-;; (defun winstack-pop()
-;;   "Pop the last window configuration off `winstack-stack' and apply it."
-;;   (interactive)
-;;   (if (first winstack-stack)
-;;       (progn (set-window-configuration (pop winstack-stack))
-;;              (message "popped"))
-;;     (message "End of window stack")))
-
-(use-package psession
-  :config
-  (psession-mode 1))
-#+end_src
-** Org Mode Backends
-*** Org directory
-references: https://lists.gnu.org/archive/html/emacs-orgmode/2009-10/msg00734.html
-#+BEGIN_SRC emacs-lisp
-(setq org-directory "~/GoogleDrive/MarkdownNotes/MDNotes")
-(setq org-agenda-directory "~/GoogleDrive/MarkdownNotes/MDNotes/")
-(setq org-agenda-files (directory-files (expand-file-name org-agenda-directory) t
-                                        "^[^\.][^#][[:alnum:]]+\.org$"))
-(setq org-default-notes-file (concat org-directory "/notes.org"))
-#+END_SRC
-*** Org keywords and tags
-  Previously I cannot override these settings because I changed setting in M-x
-  cutomization, now I deleted the content in ~/.emacs.d/.local/custom.el and add
-  after! org, then things are fine: https://github.com/hlissner/doom-emacs/issues/546
-#+BEGIN_SRC emacs-lisp
-  (after! org
-    (setq org-todo-keywords
-          '(;; Sequence for TASKS
-            ;; TODO means it's an item that needs addressing
-            ;; PEND means it's dependent on something else happening
-            ;; CANC means it's no longer necessary to finish
-            ;; DONE means it's complete
-            (sequence "TODO(t@/!)" "PEND(p@/!)" "|" "DONE(d@/!)" "CANC(c@/!)")
-
-            ;; Sequence for MULTIMEDIA
-            ;; MARK mark some media for future consuming
-            ;; ING means currently consuming
-            ;; REPO means the media has been consumed, and waiting to be shared in short or long form
-            ;; ARCV media alrady repoed, now archive for future reference
-            (sequence "MARK(m@/!)" "ING(i@/!)" "REPO(r@/!)" "|" "ARCV(a@/!)")
-            )))
-#+END_SRC
-*** Org setup
-references: https://github.com/sk8ingdom/.emacs.d/blob/master/org-mode-config/org-todo-states.el
-#+BEGIN_SRC emacs-lisp
-  (after! org
-    ;; prompt to record time and note when a task is completed
-    (setq org-log-done 'note)
-
-    ;; prompt to record time and note when the scheduled date of a task is modified
-    (setq org-log-reschedule 'note)
-
-    ;; promopt to record time and note when the deadline of a task is modified
-    (setq org-log-redeadline 'note)
-
-    ;; promopt to record time and note when clocking out of a task
-    (setq org-log-clock-out 'note)
-
-    (setq org-agenda-todo-ignore-scheduled 'all)
-
-    ;; set the scope of line-editing behavior to the visual line (not actual line)
-    (setq vim-style-visual-line-move-text t)
-(setq org-src-fontify-natively t
-    org-src-tab-acts-natively t
-    org-confirm-babel-evaluate nil
-    org-edit-src-content-indentation 0)
-    )
-
-(with-eval-after-load 'org
-  (add-to-list 'org-modules 'org-habit t))
-
-#+END_SRC
-*** Org capture
-references:
-https://emacs.stackexchange.com/questions/19391/can-t-set-directory-for-org-mode-capture
-https://orgmode.org/manual/Template-expansion.html#Template-expansion
-https://github.com/sk8ingdom/.emacs.d/blob/master/org-mode-config/org-capture-templates.el
-#+BEGIN_SRC emacs-lisp
-  (setq org-capture-templates
-        '(
-          ("t" "Todo" entry (file+headline "~/Googledrive/Markdownnotes/MDNotes/todo.org" "Inbox") "* TODO %?\n  %U\n")
-          ("d" "Drafts" entry (file+headline "~/Googledrive/Markdownnotes/MDNotes/todo.org" "Drafts") "* ARCV %?\n  %U\n")
-          ("j" "Journal" entry (function org-journal-find-location)
-           "* %(format-time-string org-journal-time-format)%^{Title}\n%i%?")
-          )
-        )
-#+END_SRC
-*** org-journal
-references: https://github.com/bastibe/org-journal
-#+BEGIN_SRC emacs-lisp
-(customize-set-variable 'org-journal-dir "~/GoogleDrive/Markdownnotes/MDNotes/")
-(customize-set-variable 'org-journal-date-format "%A, %d %B %Y")
-(customize-set-variable 'org-journal-file-format "%Y%m%d.org")
-(require 'org-journal)
-  ;; (use-package org-journal
-  ;;   :ensure t
-  ;;   :defer t
-  ;;   :custom
-  ;;   (org-journal-dir "~/GoogleDrive/MarkdownNotes/MDNotes/")
-  ;;   (org-journal-file-format "%Y%m%d.org")
-  ;;   (org-journal-date-format "%A, %B %d %Y"))
-(defun org-journal-find-location ()
-  ;; Open today's journal, but specify a non-nil prefix argument in order to
-  ;; inhibit inserting the heading; org-capture will insert the heading.
-  (org-journal-new-entry t)
-  ;; Position point on the journal's top-level heading so that org-capture
-  ;; will add the new entry as a child entry.
-  (goto-char (point-min)))
-#+END_SRC
-*** org-babel
-Write plain text in org mode with embedded source block supported by [[https://orgmode.org/worg/org-contrib/babel/index.html][Babel: active code in Org-mode]]
-also see https://orgmode.org/manual/Working-with-Source-Code.html
-#+begin_src emacs-lisp
-  (setq org-babel-load-languages
-        '(
-          (emacs-lisp. t)
-          (lisp. t)
-          (sh. t)
-          (org. t)
-          (python. t)
-          (latex. t)
-          (R. t)))
-
-;; activate Babel languages
-(org-babel-do-load-languages
- 'org-babel-load-languages
- org-babel-load-languages)
-
-  (add-hook 'org-babel-after-execute-hook 'org-display-inline-images)
-  (add-hook 'org-mode-hook 'org-display-inline-images)
-#+END_SRC
-
-** Org Mode Looks
-*** Change the character that displays on collapsed headings
-#+BEGIN_SRC emacs-lisp
-  (setq org-ellipsis " ▼ ")
-#+END_SRC
-*** Line wrapping
-#+begin_src emacs-lisp
-;; visual line mode will wrap lines at the window border without actually insert line breaks
-(add-hook 'org-mode-hook #'visual-line-mode)
-
-;; turn off auto fill mode so there won't be any hard line breaks after the wrap column
-(add-hook 'org-mode-hook #'turn-off-auto-fill)
-
-;; also add (setq evil-respect-visual-line-mode t) to init.el, enable navigation in visual line mode (evel-next-visual-line)
-(add-hook 'org-mode-hook #'adaptive-wrap-prefix-mode)
-#+end_src
-** Org Mode Editing
-*** Key binding for showing all todo headings
-#+BEGIN_SRC emacs-lisp
-  (global-set-key (kbd "C-c t") 'org-show-todo-tree)
-#+END_SRC
-*** Key binding for outline quicklook/goto
-#+BEGIN_SRC emacs-lisp
-  (global-set-key (kbd "C-c r") 'counsel-outline)
-#+END_SRC
-*** Key binding for jumping to the end of the line
-#+BEGIN_SRC emacs-lisp
-  (map!
-   (:after evil
-     :m  "C-e" #'doom/forward-to-last-non-comment-or-eol))
-#+END_SRC
-*** Key binding to insert newlines above and below
-Similar to [[github:tpope/vim-unimpaired][vim-unimpaired]]
-#+BEGIN_SRC emacs-lisp
-  (map!
-   (:after evil
-     :m  "] SPC" #'evil-motion-insert-newline-below
-     :m  "[ SPC" #'evil-motion-insert-newline-above))
-#+END_SRC
-*** Function to duplicate certain line
-inspired by Sublime Text cmd + shift + d (ref: https://stackoverflow.com/a/88828)
-#+BEGIN_SRC emacs-lisp
-  (defun duplicate-line()
-    (interactive)
-    (move-beginning-of-line 1)
-    (kill-line)
-    (yank)
-    (open-line 1)
-    (forward-line 1)
-    (yank)
-    )
-(global-set-key (kbd "C-c D") 'duplicate-line)
-#+END_SRC
-*** Function to create new scratch buffer in Org
-ref: https://emacs.stackexchange.com/questions/16492/is-it-possible-to-create-an-org-mode-scratch-buffer
-#+begin_src emacs-lisp
-(defun org-buffer-new ()
-"Create a new scratch buffer -- \*hello-world\*"
-(interactive)
-  (let ((n 0)
-        bufname buffer)
-    (catch 'done
-      (while t
-        (setq bufname (concat "*org-scratch"
-          (if (= n 0) "" (int-to-string n))
-            "*"))
-        (setq n (1+ n))
-        (when (not (get-buffer bufname))
-          (setq buffer (get-buffer-create bufname))
-          (with-current-buffer buffer
-            (org-mode))
-          ;; When called non-interactively, the `t` targets the other window (if it exists).
-          (throw 'done (display-buffer buffer t))) ))))
-
-  ;; SPC x is the default doom new scratch buffer key binding
-  (global-set-key (kbd "C-c x") 'org-buffer-new)
-#+end_src
-*** Auto update Org toc
-#+begin_src emacs-lisp
-(if (require 'toc-org nil t)
-    (add-hook 'org-mode-hook 'toc-org-mode)
-
-    ;; enable in markdown, too
-    (add-hook 'markdown-mode-hook 'toc-org-mode))
-#+end_src
-** Markdown Mode Looks
-#+begin_src emacs-lisp
-;; similar with org mode, use visual line mode without auto fill
-(add-hook 'markdown-mode-hook #'visual-line-mode)
-(add-hook 'markdown-mode-hook #'turn-off-auto-fill)
-
-;; disable syntax checker (markdownlint-cli) for markdown mode
-(setq-default flycheck-disabled-checkers '(markdown-markdownlint-cli))
-#+end_src
-** Hugo related config
-references:
-https://ox-hugo.scripter.co/
-https://mstempl.netlify.com/post/static-website-with-emacs-and-hugo/
-#+BEGIN_SRC emacs-lisp
-(with-eval-after-load 'ox
-  (require 'ox-hugo))
-#+END_SRC
-** R related config
-*** ESS R config
-references: https://iqss.github.io/IQSS.emacs/init.html#run_r_in_emacs_(ess)
-useful functions: R (run-ess-r), popup/raise, ess-eval-region-or-function-or-paragraph-and-step
-#+BEGIN_SRC emacs-lisp
-  (with-eval-after-load "ess"
-    (add-hook 'ess-r-mode-hook
-              (lambda()
-                'eglot-ensure
-                (make-local-variable 'company-backends)
-                (delete-dups (push 'company-capf company-backends))
-                (delete-dups (push 'company-files company-backends))))
-    (require 'ess-mode)
-
-    ;; evaluate codes with ctrl + enter (by line) or ctrl + shift + enter (by paragraph)
-    (define-key ess-mode-map (kbd "<C-return>") 'ess-eval-line)
-    (define-key ess-mode-map (kbd "<C-S-return>") 'ess-eval-region-or-function-or-paragraph)
-    ;; define the same keybindings for normal state (otheriwse the keybinding will only work in edit state)
-    (with-eval-after-load 'evil-maps
-      (define-key evil-normal-state-map (kbd "<C-return>") 'ess-eval-line))
-    (with-eval-after-load 'evil-maps
-      (define-key evil-normal-state-map (kbd "<C-S-return>") 'ess-eval-region-or-function-or-paragraph))
-
-
-    ;; Set ESS options
-    (setq
-     ess-auto-width 'window
-     ess-use-auto-complete nil
-     ess-use-company 't
-     ;; ess-r-package-auto-set-evaluation-env nil
-     inferior-ess-same-window nil
-   ess-indent-with-fancy-comments nil ; don't indent comments
-     ess-eval-visibly t                 ; enable echoing input
-     ess-eval-empty t                   ; don't skip non-code lines.
-     ess-ask-for-ess-directory nil ; start R in the working directory by default
-     ess-ask-for-ess-directory nil ; start R in the working directory by default
-     ess-R-font-lock-keywords      ; font-lock, but not too much
-     (quote
-      ((ess-R-fl-keyword:modifiers)
-       (ess-R-fl-keyword:fun-defs . t)
-       (ess-R-fl-keyword:keywords . t)
-       (ess-R-fl-keyword:assign-ops  . t)
-       (ess-R-fl-keyword:constants . 1)
-       (ess-fl-keyword:fun-calls . t)
-       (ess-fl-keyword:numbers)
-       (ess-fl-keyword:operators . t)
-       (ess-fl-keyword:delimiters)
-       (ess-fl-keyword:=)
-       (ess-R-fl-keyword:F&T)))))
-#+END_SRC
-*** Combine R and markdown mode in one buffer with polymode
-#+begin_src emacs-lisp
-  (use-package polymode)
-  (use-package poly-R)
-  (use-package poly-markdown
-    :config
-    (add-to-list 'auto-mode-alist '("\\.rmd" . poly-markdown+R-mode))
-    )
-(with-eval-after-load "markdown"
-  (use-package poly-markdown))
-(with-eval-after-load "org"
-  (use-package poly-org))
-#+end_src
+#+include: "/Users/naskuv/GoogleDrive/MarkdownNotes/MDNotes/Citation Syntax.md" :only-contents t

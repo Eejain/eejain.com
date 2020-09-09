@@ -19,27 +19,57 @@
   
   <url>
     <loc>https://soitflows.xyz/posts/My-Doom-Emacs-Configuration/</loc>
-    <lastmod>2020-06-16T00:00:00+02:00</lastmod>
+    <lastmod>2020-09-08T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/posts/my-reference-literature-management-workflow/</loc>
+    <lastmod>2020-09-09T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/posts/my-academic-reading-workflow/</loc>
+    <lastmod>2020-09-08T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/posts/compare-zotero-and-citavi/</loc>
+    <lastmod>2020-09-08T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/posts/Citation-Syntax/</loc>
+    <lastmod>2020-09-08T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/categories/Academic/</loc>
+    <lastmod>2020-09-09T00:00:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://soitflows.xyz/categories/</loc>
-    <lastmod>2020-06-16T00:00:00+02:00</lastmod>
+    <lastmod>2020-09-09T00:00:00+02:00</lastmod>
   </url>
   
   <url>
-    <loc>https://soitflows.xyz/categories/Meta/</loc>
-    <lastmod>2020-06-16T00:00:00+02:00</lastmod>
+    <loc>https://soitflows.xyz/tags/productivity/</loc>
+    <lastmod>2020-09-09T00:00:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://soitflows.xyz/tags/</loc>
-    <lastmod>2020-06-16T00:00:00+02:00</lastmod>
+    <lastmod>2020-09-09T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://soitflows.xyz/categories/Meta/</loc>
+    <lastmod>2020-09-08T00:00:00+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://soitflows.xyz/tags/technology/</loc>
-    <lastmod>2020-06-16T00:00:00+02:00</lastmod>
+    <lastmod>2020-09-08T00:00:00+02:00</lastmod>
   </url>
   
   <url>
@@ -49,11 +79,6 @@
   
   <url>
     <loc>https://soitflows.xyz/categories/Life/</loc>
-    <lastmod>2020-01-03T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/tags/productivity/</loc>
     <lastmod>2020-01-03T00:00:00+01:00</lastmod>
   </url>
   
