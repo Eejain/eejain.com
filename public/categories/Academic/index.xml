@@ -11,6 +11,16 @@
     
     
     <item>
+      <title>Org R Sandbox</title>
+      <link>https://soitflows.xyz/posts/R-Sandbox/</link>
+      <pubDate>Mon, 25 May 2020 00:00:00 +0200</pubDate>
+      
+      <guid>https://soitflows.xyz/posts/R-Sandbox/</guid>
+      <description>This post presents the workflow of interacting with R in org mode. I am mainly seeking three functions in this workflow: automatic output; persistent R session across multiple source blocks; ability to present both codes and outputs.
+Preparation  org-babel for executing and tangling source blocks ESS for interacting directly with R in emacs through the inferior R process  Instruction  set up proper sub-tree/buffer header arguments, for this blog post I used sub-tree header arguments: :header-args:R: :session *R* :exports both :eval no-export run org-bable-execute-src-block (or on sub-tree/buffer level) to produce outputs in the text area  Example Plot output  For the following code block, I used the source block header arguments #+begin_src R :results output graphics file :file test.</description>
+    </item>
+    
+    <item>
       <title>My Reference Management Workflow with Zotero</title>
       <link>https://soitflows.xyz/posts/my-reference-literature-management-workflow/</link>
       <pubDate>Wed, 09 Sep 2020 00:00:00 +0200</pubDate>

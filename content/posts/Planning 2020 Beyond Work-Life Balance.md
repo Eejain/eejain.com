@@ -5,7 +5,7 @@ date = 2020-01-03
 tags = ["productivity"]
 categories = ["Life"]
 draft = false
-weight = 1004
+weight = 1014
 bookComments = true
 bookHidden = true
 bookToC = true
@@ -21,7 +21,7 @@ I think I am not alone in this: the yearning for multitude of wonderful things  
 So I've picked up all the loose ends and started to sketch a road map to there. And this post is a record of what I have done.
 
 
-## The Three-Layer Structure {#the-three-layer-structure}
+## The Three-layer Structure {#the-three-layer-structure}
 
 I would like to achieve two seemingly contradictory goals with my organization system: keep track of everything, and don't overwhelm myself. My current workaround is a system with three nesting layers and each layer requires different degree of attention and monitoring (energy!).
 
@@ -39,7 +39,7 @@ Everything I do, every second I spend and every bit of energy I consume (even in
 My three areas of life may not be everyone's focus, but you can substitute anything that you deem precious and would like to keep a close eye on.
 
 
-## Create sub-areas within Areas {#create-sub-areas-within-areas}
+## Create Sub-areas within Areas {#create-sub-areas-within-areas}
 
 Using the area of life as a start point, what I did next is to write several statements to descriptive my prospect for each area. For example, I put down "I want to be a small expert in my small field" in the area of ****serious stuff****, and I then formalized this vision into a sub-area called academic development. Eventually, I have four sub-areas in ****serious stuff****: publication, academic development, teaching and organization; three sub-areas in ****leisure stuff****: output, social, input; and two sub-areas in ****misc stuff****: health (eating, skincare, workout, etc.) and chore (tax, record transaction, shopping, house cleaning, etc.). Noting that the sub-area of chore contains many elements, as they are not my focuses of life right now.
 
@@ -49,7 +49,7 @@ Using the area of life as a start point, what I did next is to write several sta
 The distinction between sub-areas and projects lies in whether they can be completed within a time frame. For example, health is a sub-area of my life that needs frequent investment, I cannot tick it off and say it's done. But I may have various projects within this sub-area that can and should be completed after certain duration of time, such as run for 5 km without stop in two months. And in order to reach this very specific goal, I can set concrete to-dos and keep track of its progress.
 
 
-## How Does It Work in Real Life? {#how-does-it-work-in-real-life}
+## How Does it Work in Real Life? {#how-does-it-work-in-real-life}
 
 The beauty of this system lies in the differentiated energy requirement for each layer. From area to sub-area to project, the degree of flexibility increase and active monitoring decrease.
 
@@ -58,7 +58,7 @@ To be more specific, at the start of a week, I will decide which sub-area(s) in 
 Essentially, what I need to plan and monitor actively everyday is the time/energy spent on each area. I will review and plan sub-areas only once a week, and for projects, once a month.
 
 
-## Does It Work? {#does-it-work}
+## Does it Work? {#does-it-work}
 
 Honestly, I don't know yet, but this system has given me clarity and a sense of purpose for the past two weeks. It is my current answer to the dilemma of wanting everything and getting burned out along the way. Noting that it is definitely not a manual or solution, but rather a record of my attempt to gather and organize the gruesome but magnificent beast which is life. And as everything in life, it's a work in progress.
 

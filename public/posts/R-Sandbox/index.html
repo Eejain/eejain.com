@@ -4,18 +4,18 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="this post tests the org-babel function of rendering R block. I am mainly seeking three functions: automatic graphic output; persistent R session; present both codes and outputs
-setwd(&#39;~/itflows/content-org/&#39;) library(dplyr) library(ggplot2) ggplot(iris, aes(x = Sepal.Width, y = Sepal.Length)) &#43; geom_point() square &lt;- function(x) { x * x }   square(1:10) [1] 1 4 9 16 25 36 49 64 81 100 "><meta property="og:title" content="R Sandbox" />
-<meta property="og:description" content="this post tests the org-babel function of rendering R block. I am mainly seeking three functions: automatic graphic output; persistent R session; present both codes and outputs
-setwd(&#39;~/itflows/content-org/&#39;) library(dplyr) library(ggplot2) ggplot(iris, aes(x = Sepal.Width, y = Sepal.Length)) &#43; geom_point() square &lt;- function(x) { x * x }   square(1:10) [1] 1 4 9 16 25 36 49 64 81 100 " />
+<meta name="description" content="This post presents the workflow of interacting with R in org mode. I am mainly seeking three functions in this workflow: automatic output; persistent R session across multiple source blocks; ability to present both codes and outputs.
+Preparation  org-babel for executing and tangling source blocks ESS for interacting directly with R in emacs through the inferior R process  Instruction  set up proper sub-tree/buffer header arguments, for this blog post I used sub-tree header arguments: :header-args:R: :session *R* :exports both :eval no-export run org-bable-execute-src-block (or on sub-tree/buffer level) to produce outputs in the text area  Example Plot output  For the following code block, I used the source block header arguments #&#43;begin_src R :results output graphics file :file test."><meta property="og:title" content="Org R Sandbox" />
+<meta property="og:description" content="This post presents the workflow of interacting with R in org mode. I am mainly seeking three functions in this workflow: automatic output; persistent R session across multiple source blocks; ability to present both codes and outputs.
+Preparation  org-babel for executing and tangling source blocks ESS for interacting directly with R in emacs through the inferior R process  Instruction  set up proper sub-tree/buffer header arguments, for this blog post I used sub-tree header arguments: :header-args:R: :session *R* :exports both :eval no-export run org-bable-execute-src-block (or on sub-tree/buffer level) to produce outputs in the text area  Example Plot output  For the following code block, I used the source block header arguments #&#43;begin_src R :results output graphics file :file test." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://soitflows.xyz/posts/R-Sandbox/" />
 <meta property="article:published_time" content="2020-05-25T00:00:00+02:00" />
-<meta property="article:modified_time" content="2020-04-12T13:16:50+02:00" />
-<title>R Sandbox | ☴ so it flows ☵</title>
+<meta property="article:modified_time" content="2020-05-25T00:00:00+02:00" />
+<title>Org R Sandbox | ☴ so it flows ☵</title>
 <link rel="icon" href="/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="/book.min.55d0a09c72b2b1af8595e78357b26759f31e2e79c37082a05215aa9899c44dfc.css" integrity="sha256-VdCgnHKysa&#43;FleeDV7JnWfMeLnnDcIKgUhWqmJnETfw=">
-<script defer src="/en.search.min.ed0067854a61b2d7f6ac7e14476326ef9ed5ccb0bf1f4ae0f07b6156358f28ad.js" integrity="sha256-7QBnhUphstf2rH4UR2Mm757VzLC/H0rg8HthVjWPKK0="></script>
+<link rel="stylesheet" href="/book.min.6ab07336876c95e8d78ff480820ddfa0af19497f9770decb6c1fdd1eaa5f0d01.css" integrity="sha256-arBzNodslejXj/SAgg3foK8ZSX&#43;XcN7LbB/dHqpfDQE=">
+<script defer src="/en.search.min.e9ad5249b913afb0cf67aa78684c520c3b29be9164542eaea5ce8198b9c4f7cb.js" integrity="sha256-6a1SSbkTr7DPZ6p4aExSDDspvpFkVC6upc6BmLnE98s="></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -147,13 +147,13 @@ https://github.com/alex-shpak/hugo-book
 &#8258;
 </p>
 <p align="left">
-<a href="https://twitter.com/na_naskuv">🐦Twitter</a>
+<a href="https://twitter.com/na_naskuv">🐦 Twitter</a>
 <br>
 <br>
-<a href="https://flickr.com/photos/ee-jain/">📷Flickr</a>
+<a href="https://flickr.com/photos/ee-jain/">📷 Flickr</a>
 <br>
 <br>
-<a href="https://www.douban.com/people/hessen/">📗Douban</a>
+<a href="https://www.douban.com/people/hessen/">📗 Douban</a>
 </p>
 
 </nav>
@@ -175,7 +175,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>R Sandbox</strong>
+  <strong>Org R Sandbox</strong>
 
   <label for="toc-control">
     <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
@@ -187,7 +187,17 @@ https://github.com/alex-shpak/hugo-book
     <input type="checkbox" class="hidden" id="toc-control" />
     <aside class="hidden clearfix">
       
-  <nav id="TableOfContents"></nav>
+  <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#preparation">Preparation</a></li>
+        <li><a href="#instruction">Instruction</a></li>
+        <li><a href="#example">Example</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 
 
     </aside>
@@ -199,7 +209,7 @@ https://github.com/alex-shpak/hugo-book
       
 <article class="markdown">
   <h1>
-    <a href="/posts/R-Sandbox/">R Sandbox</a>
+    <a href="/posts/R-Sandbox/">Org R Sandbox</a>
   </h1>
   
 
@@ -208,26 +218,67 @@ https://github.com/alex-shpak/hugo-book
 
 
   
+  <div>
+    
+        <a href="/categories/Academic/">Academic</a>, 
+        <a href="/categories/Meta/">Meta</a>
+  </div>
+  
 
   
 
 
-  <p><p>this post tests the org-babel function of rendering R block. I am mainly seeking three functions: automatic graphic output; persistent R session; present both codes and outputs</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#a6e22e">setwd</span>(<span style="color:#e6db74">&#39;~/itflows/content-org/&#39;</span>)
-  <span style="color:#a6e22e">library</span>(dplyr)
-  <span style="color:#a6e22e">library</span>(ggplot2)
-  <span style="color:#a6e22e">ggplot</span>(iris, <span style="color:#a6e22e">aes</span>(x <span style="color:#f92672">=</span>  Sepal.Width, y <span style="color:#f92672">=</span> Sepal.Length)) <span style="color:#f92672">+</span>
-    <span style="color:#a6e22e">geom_point</span>()
+  <p><p>This post presents the workflow of interacting with R in org mode. I am mainly seeking three functions in this workflow: automatic output; persistent R session across multiple source blocks; ability to present both codes and outputs.</p>
+<h2 id="preparation">Preparation</h2>
+<ul>
+<li><code>org-babel</code> for executing and tangling source blocks</li>
+<li><code>ESS</code> for interacting directly with R in emacs through the inferior R process</li>
+</ul>
+<h2 id="instruction">Instruction</h2>
+<ul>
+<li>set up proper sub-tree/buffer header arguments, for this blog post I used sub-tree header arguments: <code>:header-args:R: :session *R* :exports both :eval no-export</code></li>
+<li>run <code>org-bable-execute-src-block</code> (or on sub-tree/buffer level) to produce outputs in the text area</li>
+</ul>
+<h2 id="example">Example</h2>
+<h3 id="plot-output">Plot output</h3>
+<ul>
+<li>For the following code block, I used the source block header arguments <code>#+begin_src R :results output graphics file :file test.svg :output-dir ~/itflows/static</code></li>
+<li>Note on the header arguments:
+<ul>
+<li>use <code>:results graphics file</code> when producing base R plot. use <code>:results output graphics file</code> for ggplot (see <a href="https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-R.html">https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-R.html</a>).</li>
+<li>remember to specify <code>:output-dir</code> as the static folder in your hugo directory, or else the org-link to the output plot after code evaluation will be directed to the same directory as the .org file by default</li>
+</ul>
+</li>
+</ul>
+<!--listend-->
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#a6e22e">setwd</span>(<span style="color:#e6db74">&#39;~/itflows/static&#39;</span>) <span style="color:#75715e"># output plot stored in the static directory of your hugo blog</span>
+<span style="color:#a6e22e">library</span>(dplyr)
+<span style="color:#a6e22e">library</span>(ggplot2)
+<span style="color:#a6e22e">print</span>(<span style="color:#a6e22e">ggplot</span>(iris, <span style="color:#a6e22e">aes</span>(x <span style="color:#f92672">=</span>  Sepal.Width, y <span style="color:#f92672">=</span> Sepal.Length)) <span style="color:#f92672">+</span>
+      <span style="color:#a6e22e">geom_point</span>() <span style="color:#f92672">+</span>
+      <span style="color:#a6e22e">theme_bw</span>()
+      )
+                                        <span style="color:#75715e"># If the source code block uses grid-based R graphics, e.g., the lattice and ggplot2 packages, then care must be taken either to print() the graphics object, specify :results output, or run the code in a :session&#34;, use print() to produce proper .svg output</span>
 
-square <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">function</span>(x)
+square <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">function</span>(x) <span style="color:#75715e"># test session persistency</span>
   {
     x <span style="color:#f92672">*</span> x
   }
 </code></pre></div><figure>
-    <img src="test_r.png"/> 
+    <img src="/test.svg"/> 
 </figure>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R">  <span style="color:#a6e22e">square</span>(<span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#ae81ff">10</span>)
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#a6e22e">plot</span>(<span style="color:#a6e22e">matrix</span>(<span style="color:#a6e22e">rnorm</span>(<span style="color:#ae81ff">100</span>), ncol<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>), type<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;h&#34;</span>)
+</code></pre></div><figure>
+    <img src="/test2.svg"/> 
+</figure>
+
+<h3 id="plain-text-output">Plain text output</h3>
+<ul>
+<li>source block header arguments: <code>#+begin_src R :results output</code></li>
+</ul>
+<!--listend-->
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-R" data-lang="R"><span style="color:#a6e22e">square</span>(<span style="color:#ae81ff">1</span><span style="color:#f92672">:</span><span style="color:#ae81ff">10</span>)
 </code></pre></div><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"> [1]   1   4   9  16  25  36  49  64  81 100
 </code></pre></div></p>
 </article>
@@ -240,22 +291,7 @@ square <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">func
 
 
 
-  <div>
-    
-    <a class="flex align-center" href="https://github.com/Eejain/itflows/commit/master/13c34c931effd438475eb13430e24d49bf2e145e">
-      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
-      <span>Last modified on Apr 12, 2020</span>
-    </a>
-  </div>
 
-
-
-  <div>
-    <a class="flex align-center" href="https://github.com/Eejain/itflows/tree/master/content/posts/R%20Sandbox.md" target="_blank" rel="noopener">
-      <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
-      <span>Edit this page</span>
-    </a>
-  </div>
 
 </div>
 
@@ -291,7 +327,7 @@ square <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">func
         <p align="center">
     <br>
     <sup>
-       <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work by <a xmlns:cc="http://creativecommons.org/ns#" href="https://www.soitflows.xyz/" property="cc:attributionName" rel="cc:attributionURL">Naskuv 2018–2020</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+       <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work by <a xmlns:cc="http://creativecommons.org/ns#" href="https://www.soitflows.xyz/" property="cc:attributionName" rel="cc:attributionURL">Eejain Huang 2018–2020</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
 <br>
         Powered by <a href="http://www.gohugo.io/">Hugo</a> + <a href="https://ox-hugo.scripter.co/">ox-hugo</a>
     </sup>
@@ -306,7 +342,17 @@ square <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">func
     
     <aside class="book-toc">
       
-  <nav id="TableOfContents"></nav>
+  <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#preparation">Preparation</a></li>
+        <li><a href="#instruction">Instruction</a></li>
+        <li><a href="#example">Example</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 
  
     </aside>

@@ -5,7 +5,7 @@ date = 2020-09-08
 tags = ["technology"]
 categories = ["Meta"]
 draft = false
-weight = 1011
+weight = 1013
 bookComments = true
 bookHidden = true
 bookToC = true
@@ -605,6 +605,11 @@ reference: <http://ergoemacs.org/emacs/emacs%5Fmouse%5Fwheel%5Fconfig.html>
 references: <https://lists.gnu.org/archive/html/emacs-orgmode/2009-10/msg00734.html>
 
 ```emacs-lisp
+;; set path abbreviation, useful for inserting org links, easier to change parent path later: https://stackoverflow.com/questions/24782184/emacs-org-mode-folder-alias-for-links-in-org-files
+(setq org-link-abbrev-alist
+      '(("orgdirtxt" . "~/GoogleDrive/MarkdownNotes/MDNotes/")
+      ("orgdirimg" . "~/GoogleDrive/MarkdownNotes/MDImage/")))
+
 (setq org-directory "~/GoogleDrive/MarkdownNotes/MDNotes")
 (setq org-agenda-directory "~/GoogleDrive/MarkdownNotes/MDNotes/")
 (setq org-agenda-files (directory-files (expand-file-name org-agenda-directory) t
@@ -994,7 +999,6 @@ references: <https://iqss.github.io/IQSS.emacs/init.html#run%5Fr%5Fin%5Femacs%5F
      ess-eval-visibly t                 ; enable echoing input
      ess-eval-empty t                   ; don't skip non-code lines.
      ess-ask-for-ess-directory nil ; start R in the working directory by default
-     ess-ask-for-ess-directory nil ; start R in the working directory by default
      ess-R-font-lock-keywords      ; font-lock, but not too much
      (quote
       ((ess-R-fl-keyword:modifiers)
@@ -1025,5 +1029,3 @@ references: <https://iqss.github.io/IQSS.emacs/init.html#run%5Fr%5Fin%5Femacs%5F
 (with-eval-after-load "org"
   (use-package poly-org))
 ```
-
-2020-09-08
