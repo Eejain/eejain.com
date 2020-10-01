@@ -1,15 +1,17 @@
 +++
 title = "Inferno pt.2"
 author = ["Naskuv"]
-date = 2016-08-01
+date = 2020-09-24T10:15:00+02:00
 tags = ["manga"]
 categories = ["FanFic"]
-draft = true
-weight = 1008
+draft = false
+weight = 1006
 bookComments = true
 bookHidden = true
 bookToC = true
 +++
+
+-   State "CANC"       from "TODO"       <span class="timestamp-wrapper"><span class="timestamp">[2020-09-24 Thu 10:15]</span></span>
 
 家入轰垂眉敛目，眼观鼻，鼻观心，心知这重眼帘不能拉开，抬眼即是万劫。
 
