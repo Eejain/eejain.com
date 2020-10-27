@@ -65,74 +65,6 @@ So it flows. [^1]
 p test
 
 
-* Org R Sandbox :@Meta:@Academic:
-:PROPERTIES:
-:EXPORT_HUGO_SECTION: posts
-:EXPORT_FILE_NAME: R Sandbox
-:EXPORT_HUGO_WEIGHT: auto
-:EXPORT_DATE: 2020-05-25
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookComments true
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookHidden true
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookToC true
-:header-args:R: :session *R* :exports both :eval no-export
-:END:
-
-This post presents the workflow of interacting with R in org mode. I am mainly seeking three functions in this workflow: automatic output; persistent R session across multiple source blocks; ability to present both codes and outputs.
-
-** Preparation
-- ~org-babel~ for executing and tangling source blocks
-- ~ESS~ for interacting directly with R in emacs through the inferior R process
-
-** Instruction
-- set up proper sub-tree/buffer header arguments, for this blog post I used sub-tree header arguments: ~:header-args:R: :session *R* :exports both :eval no-export~
-- run ~org-bable-execute-src-block~ (or on sub-tree/buffer level) to produce outputs in the text area
-
-** Example
-*** Plot output
-- For the following code block, I used the source block header arguments ~#+begin_src R :results output graphics file :file test.svg :output-dir ~/itflows/static~
-- Note on the header arguments:
-  + use ~:results graphics file~ when producing base R plot. use ~:results output graphics file~ for ggplot (see https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-R.html).
-  + remember to specify ~:output-dir~ as the static folder in your hugo directory, or else the org-link to the output plot after code evaluation will be directed to the same directory as the .org file by default
-
-#+begin_src R :results output graphics file :file test.svg :output-dir ~/itflows/static :R-dev-args bg="transparent"
-setwd('~/itflows/static') # output plot stored in the static directory of your hugo blog
-library(dplyr)
-library(ggplot2)
-print(ggplot(iris, aes(x =  Sepal.Width, y = Sepal.Length)) +
-      geom_point() +
-      theme_bw()
-      )
-                                        # If the source code block uses grid-based R graphics, e.g., the lattice and ggplot2 packages, then care must be taken either to print() the graphics object, specify :results output, or run the code in a :session", use print() to produce proper .svg output
-
-square <- function(x) # test session persistency
-  {
-    x * x
-  }
-#+end_src
-
-#+RESULTS:
-[[file:~/itflows/static/test.svg]]
-
-
-
-#+begin_src R :file test2.svg :results graphics file :output-dir ~/itflows/static
-plot(matrix(rnorm(100), ncol=2), type="h")
-#+end_src
-
-#+RESULTS:
-[[file:~/itflows/static/test2.svg]]
-
-
-*** Plain text output
-- source block header arguments: ~#+begin_src R :results output~
-
-#+begin_src R :results output
-square(1:10)
-#+end_src
-
-#+RESULTS:
-:  [1]   1   4   9  16  25  36  49  64  81 100
-
 * TODO Bahn in the Dawn :@Life:Germany:
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts
@@ -246,7 +178,99 @@ HIGHLIGHTS: 一个左倾，Ezra Klein 是最早用私人博客的形式报道政
 - State "TODO"       from              [2020-09-09 Wed 11:04]
 
 
-My young friend is starting a blog, recent surge of interest in RSS again.
+My young friend is starting a blog, recent surge of interest in RSS again   .
+* TODO Creating Diagram :@Academic:technology:visualization:
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: posts
+:EXPORT_FILE_NAME: creating diagram
+:EXPORT_DATE: 2020-10-07
+:EXPORT_HUGO_WEIGHT: auto
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookComments true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookHidden true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookToC true
+:END:
+[[file:~/Dropbox/MarkdownNotes/MDNotes/todo.org::*check out options to create diagram][check out options to create diagram]]
+* A pond and a river :@Life:literature:poem:
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: posts
+:EXPORT_FILE_NAME: a pond and a river
+:EXPORT_DATE: 2020-10-14
+:EXPORT_HUGO_WEIGHT: auto
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookComments true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookHidden true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookToC true
+:END:
+
+#+include: "~/Dropbox/MarkdownNotes/MDNotes/hu saids.org::*a pond and a river" :only-contents t
+
+* Org R Sandbox :@Meta:@Academic:
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: posts
+:EXPORT_FILE_NAME: R Sandbox
+:EXPORT_HUGO_WEIGHT: auto
+:EXPORT_DATE: 2020-05-25
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookComments true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookHidden true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookToC true
+:header-args:R: :session *R* :exports both :eval no-export
+:END:
+
+This post presents the workflow of interacting with R in org mode. I am mainly seeking three functions in this workflow: automatic output; persistent R session across multiple source blocks; ability to present both codes and outputs.
+
+** Preparation
+- ~org-babel~ for executing and tangling source blocks
+- ~ESS~ for interacting directly with R in emacs through the inferior R process
+
+** Instruction
+- set up proper sub-tree/buffer header arguments, for this blog post I used sub-tree header arguments: ~:header-args:R: :session *R* :exports both :eval no-export~
+- run ~org-bable-execute-src-block~ (or on sub-tree/buffer level) to produce outputs in the text area
+
+** Example
+*** Plot output
+- For the following code block, I used the source block header arguments ~#+begin_src R :results output graphics file :file test.svg :output-dir ~/itflows/static~
+- Note on the header arguments:
+  + use ~:results graphics file~ when producing base R plot. use ~:results output graphics file~ for ggplot (see https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-R.html).
+  + remember to specify ~:output-dir~ as the static folder in your hugo directory, or else the org-link to the output plot after code evaluation will be directed to the same directory as the .org file by default
+
+#+begin_src R :results output graphics file :file test.svg :output-dir ~/itflows/static :R-dev-args bg="transparent"
+setwd('~/itflows/static') # output plot stored in the static directory of your hugo blog
+library(dplyr)
+library(ggplot2)
+print(ggplot(iris, aes(x =  Sepal.Width, y = Sepal.Length)) +
+      geom_point() +
+      theme_bw()
+      )
+                                        # If the source code block uses grid-based R graphics, e.g., the lattice and ggplot2 packages, then care must be taken either to print() the graphics object, specify :results output, or run the code in a :session", use print() to produce proper .svg output
+
+square <- function(x) # test session persistency
+  {
+    x * x
+  }
+#+end_src
+
+#+RESULTS:
+[[file:~/itflows/static/test.svg]]
+
+
+
+#+begin_src R :file test2.svg :results graphics file :output-dir ~/itflows/static
+plot(matrix(rnorm(100), ncol=2), type="h")
+#+end_src
+
+#+RESULTS:
+[[file:~/itflows/static/test2.svg]]
+
+
+*** Plain text output
+- source block header arguments: ~#+begin_src R :results output~
+
+#+begin_src R :results output
+square(1:10)
+#+end_src
+
+#+RESULTS:
+:  [1]   1   4   9  16  25  36  49  64  81 100
+
 * My Reference Management Workflow with Zotero :@Academic:productivity:
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts
