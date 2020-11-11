@@ -64,7 +64,6 @@ So it flows. [^1]
 
 p test
 
-
 * TODO Bahn in the Dawn :@Life:Germany:
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts
@@ -164,21 +163,6 @@ HIGHLIGHTS: 一个左倾，Ezra Klein 是最早用私人博客的形式报道政
 
 
 ## Topic: fiction, comedy, subculture
-* TODO RSS, a mild intro :technology:
-:PROPERTIES:
-:EXPORT_HUGO_SECTION: posts
-:EXPORT_FILE_NAME: RSS a mild intro
-:EXPORT_DATE: 2019-05-01
-:EXPORT_HUGO_WEIGHT: auto
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookComments true
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookHidden true
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookToC true
-:END:
-
-- State "TODO"       from              [2020-09-09 Wed 11:04]
-
-
-My young friend is starting a blog, recent surge of interest in RSS again   .
 * TODO Creating Diagram :@Academic:technology:visualization:
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts
@@ -190,6 +174,33 @@ My young friend is starting a blog, recent surge of interest in RSS again   .
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookToC true
 :END:
 [[file:~/Dropbox/MarkdownNotes/MDNotes/todo.org::*check out options to create diagram][check out options to create diagram]]
+
+* TODO How to Follow Anyone Online :technology:
+:PROPERTIES:
+:EXPORT_HUGO_SECTION: posts
+:EXPORT_FILE_NAME: how to follow
+:EXPORT_DATE: 2019-05-01
+:EXPORT_HUGO_WEIGHT: auto
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookComments true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookHidden true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookToC true
+:END:
+
+SCHEDULED: <2020-11-06 Fri>
+- bookmark the webpage
+- web feed
+- light weight feed info: fraidycat (not a reader)
+  [2020-11-03 Tue 13:25]
+- feed generator/creator, feed aggregator, feed reader
+- rss vs atom
+- generator: rss hub, rss bridge
+  https://news.ycombinator.com/item?id=24213682
+  test: https://www.apmreports.org/
+  https://github.com/RSS-Bridge/rss-bridge
+  https://docs.rsshub.app/
+- aggregator: https://en.wikipedia.org/wiki/Comparison_of_feed_aggregators
+- reader: reeder, often embeded in aggregator
+
 * A pond and a river :@Life:literature:poem:
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts
@@ -740,3 +751,11 @@ CLOSED: [2020-09-24 Thu 10:15]
 
 
 只属于我一个人的恋情在四年的长度上展开
+* CANC RSS, a mild intro :technology:
+CLOSED: [2020-11-10 Tue 10:08]
+
+- State "CANC"       from "TODO"       [2020-11-10 Tue 10:08]
+- State "TODO"       from              [2020-09-09 Wed 11:04]
+
+
+My young friend is starting a blog, recent surge of interest in RSS again   .
