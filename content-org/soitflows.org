@@ -64,7 +64,7 @@ So it flows. [^1]
 
 p test
 
-* TODO Bahn in the Dawn :@Life:Germany:
+* TODO Bahn in the Dawn :@Life:Germany:ant:
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts
 :EXPORT_FILE_NAME: Bahn in the Dawn
@@ -100,7 +100,7 @@ my perception of bahn in the dahn took a turn after knowing elia and danniel. be
 
 but still, sleeping and waking at different times help me take different perspectives on the same city.
 
-* TODO Current Podcast Favorites :@Media:podcast:
+* TODO Current Podcast Favorites :@Media:podcast:ant:
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts
 :EXPORT_FILE_NAME: Current Podcast Favorites
@@ -163,7 +163,7 @@ HIGHLIGHTS: 一个左倾，Ezra Klein 是最早用私人博客的形式报道政
 
 
 ## Topic: fiction, comedy, subculture
-* TODO Creating Diagram :@Academic:technology:visualization:
+* TODO Creating Diagram :@Academic:technology:visualization:ant:
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts
 :EXPORT_FILE_NAME: creating diagram
@@ -175,7 +175,7 @@ HIGHLIGHTS: 一个左倾，Ezra Klein 是最早用私人博客的形式报道政
 :END:
 [[file:~/Dropbox/MarkdownNotes/MDNotes/todo.org::*check out options to create diagram][check out options to create diagram]]
 
-* TODO How to Follow Anyone Online :technology:
+* TODO How to Follow Anyone Online :technology:ant:
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts
 :EXPORT_FILE_NAME: how to follow

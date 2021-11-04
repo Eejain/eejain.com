@@ -1,6 +1,6 @@
 # hugo server --minify --themesDir ... --baseURL=http://0.0.0.0:1313/theme/hugo-book/
 
-baseurl = 'https://soitflows.xyz/'
+baseurl = 'https://eejain.com/'
 title = '☴ so it flows ☵'
 theme = 'hugo-book'
 disqusshortname = "soitflows"
