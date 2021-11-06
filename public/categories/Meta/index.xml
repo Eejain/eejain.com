@@ -1,34 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Meta on ☴ so it flows ☵</title>
-    <link>https://soitflows.xyz/categories/Meta/</link>
-    <description>Recent content in Meta on ☴ so it flows ☵</description>
+    <title>Meta on Eejain Huang</title>
+    <link>https://eejain.com/categories/Meta/</link>
+    <description>Recent content in Meta on Eejain Huang</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 08 Sep 2020 00:00:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://soitflows.xyz/categories/Meta/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 25 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://eejain.com/categories/Meta/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Org R Sandbox</title>
-      <link>https://soitflows.xyz/posts/R-Sandbox/</link>
-      <pubDate>Mon, 25 May 2020 00:00:00 +0200</pubDate>
+      <link>https://eejain.com/posts/R-Sandbox/</link>
+      <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://soitflows.xyz/posts/R-Sandbox/</guid>
+      <guid>https://eejain.com/posts/R-Sandbox/</guid>
       <description>This post presents the workflow of interacting with R in org mode. I am mainly seeking three functions in this workflow: automatic output; persistent R session across multiple source blocks; ability to present both codes and outputs.
-Preparation  org-babel for executing and tangling source blocks ESS for interacting directly with R in emacs through the inferior R process  Instruction  set up proper sub-tree/buffer header arguments, for this blog post I used sub-tree header arguments: :header-args:R: :session *R* :exports both :eval no-export run org-bable-execute-src-block (or on sub-tree/buffer level) to produce outputs in the text area  Example Plot output  For the following code block, I used the source block header arguments #+begin_src R :results output graphics file :file test.</description>
-    </item>
-    
-    <item>
-      <title>My Doom Emacs Configuration</title>
-      <link>https://soitflows.xyz/posts/My-Doom-Emacs-Configuration/</link>
-      <pubDate>Tue, 08 Sep 2020 00:00:00 +0200</pubDate>
-      
-      <guid>https://soitflows.xyz/posts/My-Doom-Emacs-Configuration/</guid>
-      <description>Figure 1: Emacs main window in iTerm2
-    Figure 2: Emacs quickshow window with Org agenda
-  Intro Forewords  A few words about my background. I&amp;rsquo;m a researcher in the field of educational science. I am no programmer, other than borrowing codes from stack overflow all the time. My experience with plain text editors started with writing monkey,and then Sublime Text. But Emacs quickly replaced almost every app in both my work and leisure workflow.</description>
+Preparation #   org-babel for executing and tangling source blocks ESS for interacting directly with R in emacs through the inferior R process  Instruction #   set up proper sub-tree/buffer header arguments, for this blog post I used sub-tree header arguments: :header-args:R: :session *R* :exports both :eval no-export run org-bable-execute-src-block (or on sub-tree/buffer level) to produce outputs in the text area  Example #  Plot output #   For the following code block, I used the source block header arguments #+begin_src R :results output graphics file :file test.</description>
     </item>
     
   </channel>

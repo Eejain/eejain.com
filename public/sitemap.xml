@@ -1,93 +1,71 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://soitflows.xyz/posts/</loc>
-    <lastmod>2020-06-15T00:00:00+02:00</lastmod>
+    <loc>https://eejain.com/posts/</loc>
+    <lastmod>2020-06-18T15:33:16+02:00</lastmod>
+  </url><url>
+    <loc>https://eejain.com/posts/R-Sandbox/</loc>
+    <lastmod>2020-09-23T15:37:07+02:00</lastmod>
+  </url><url>
+    <loc>https://eejain.com/posts/a-pond-and-a-river/</loc>
+    <lastmod>2020-10-27T17:25:00+01:00</lastmod>
+  </url><url>
+    <loc>https://eejain.com/posts/my-reference-literature-management-workflow/</loc>
+    <lastmod>2020-09-09T15:03:25+02:00</lastmod>
+  </url><url>
+    <loc>https://eejain.com/posts/my-academic-reading-workflow/</loc>
+    <lastmod>2020-09-09T15:03:25+02:00</lastmod>
+  </url><url>
+    <loc>https://eejain.com/posts/compare-zotero-and-citavi/</loc>
+    <lastmod>2020-09-09T15:03:25+02:00</lastmod>
+  </url><url>
+    <loc>https://eejain.com/posts/Planning-2020-Beyond-Work-Life-Balance/</loc>
+    <lastmod>2020-09-23T15:37:07+02:00</lastmod>
+  </url><url>
+    <loc>https://eejain.com/posts/Citation-Syntax/</loc>
+    <lastmod>2020-09-09T15:03:25+02:00</lastmod>
+  </url><url>
+    <loc>https://eejain.com/posts/Infern2/</loc>
+    <lastmod>2020-10-27T17:25:00+01:00</lastmod>
+  </url><url>
+    <loc>https://eejain.com/categories/</loc>
+    <lastmod>2020-10-27T17:25:00+01:00</lastmod>
+  </url><url>
+    <loc>https://eejain.com/categories/Life/</loc>
+    <lastmod>2020-10-27T17:25:00+01:00</lastmod>
+  </url><url>
+    <loc>https://eejain.com/tags/literature/</loc>
+    <lastmod>2020-10-27T17:25:00+01:00</lastmod>
+  </url><url>
+    <loc>https://eejain.com/tags/poem/</loc>
+    <lastmod>2020-10-27T17:25:00+01:00</lastmod>
+  </url><url>
+    <loc>https://eejain.com/tags/</loc>
+    <lastmod>2020-10-27T17:25:00+01:00</lastmod>
+  </url><url>
+    <loc>https://eejain.com/categories/FanFic/</loc>
+    <lastmod>2020-10-27T17:25:00+01:00</lastmod>
+  </url><url>
+    <loc>https://eejain.com/tags/manga/</loc>
+    <lastmod>2020-10-27T17:25:00+01:00</lastmod>
+  </url><url>
+    <loc>https://eejain.com/categories/Academic/</loc>
+    <lastmod>2020-09-23T15:37:07+02:00</lastmod>
+  </url><url>
+    <loc>https://eejain.com/tags/productivity/</loc>
+    <lastmod>2020-09-23T15:37:07+02:00</lastmod>
+  </url><url>
+    <loc>https://eejain.com/</loc>
+    <lastmod>2020-06-18T15:33:16+02:00</lastmod>
+  </url><url>
+    <loc>https://eejain.com/categories/Meta/</loc>
+    <lastmod>2020-09-23T15:37:07+02:00</lastmod>
+  </url><url>
+    <loc>https://eejain.com/docs/About/</loc>
+    <lastmod>2020-09-23T15:37:07+02:00</lastmod>
+  </url><url>
+    <loc>https://eejain.com/docs/</loc>
+    <lastmod>2020-09-23T15:37:07+02:00</lastmod>
   </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/posts/R-Sandbox/</loc>
-    <lastmod>2020-05-25T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/posts/my-reference-literature-management-workflow/</loc>
-    <lastmod>2020-09-09T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/posts/my-academic-reading-workflow/</loc>
-    <lastmod>2020-09-08T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/posts/My-Doom-Emacs-Configuration/</loc>
-    <lastmod>2020-09-08T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/posts/compare-zotero-and-citavi/</loc>
-    <lastmod>2020-09-08T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/posts/Planning-2020-Beyond-Work-Life-Balance/</loc>
-    <lastmod>2020-01-03T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/posts/Citation-Syntax/</loc>
-    <lastmod>2020-09-08T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/categories/Academic/</loc>
-    <lastmod>2020-09-09T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/categories/</loc>
-    <lastmod>2020-09-09T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/tags/productivity/</loc>
-    <lastmod>2020-09-09T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/tags/</loc>
-    <lastmod>2020-09-09T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/categories/Meta/</loc>
-    <lastmod>2020-09-08T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/tags/technology/</loc>
-    <lastmod>2020-09-08T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/</loc>
-    <lastmod>2020-06-15T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/categories/Life/</loc>
-    <lastmod>2020-01-03T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/docs/About/</loc>
-  </url>
-  
-  <url>
-    <loc>https://soitflows.xyz/docs/</loc>
-  </url>
-  
 </urlset>

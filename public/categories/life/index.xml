@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Life on ☴ so it flows ☵</title>
-    <link>https://soitflows.xyz/categories/Life/</link>
-    <description>Recent content in Life on ☴ so it flows ☵</description>
+    <title>Life on Eejain Huang</title>
+    <link>https://eejain.com/categories/Life/</link>
+    <description>Recent content in Life on Eejain Huang</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0100</lastBuildDate>
-    
-	<atom:link href="https://soitflows.xyz/categories/Life/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Wed, 14 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://eejain.com/categories/Life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A pond and a river</title>
+      <link>https://eejain.com/posts/a-pond-and-a-river/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eejain.com/posts/a-pond-and-a-river/</guid>
+      <description>.org-center { margin-left: auto; margin-right: auto; text-align: center; }  I pondered a lot about the pale thin limbs of hers, of curves that blends into mine. I coil around her eyes possessed of a deepest black, soaked with the obsessive fixation on outcry. Yet her blood from screaming is asphalt grey. It&amp;rsquo;s greying, it&amp;rsquo;s the grass by the pond. I am in love with her sudden burst of emotion of unknown origin.</description>
+    </item>
     
     <item>
       <title>Planning 2020 Beyond Work-Life Balance</title>
-      <link>https://soitflows.xyz/posts/Planning-2020-Beyond-Work-Life-Balance/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0100</pubDate>
+      <link>https://eejain.com/posts/Planning-2020-Beyond-Work-Life-Balance/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://soitflows.xyz/posts/Planning-2020-Beyond-Work-Life-Balance/</guid>
-      <description>A Broken Self and a New Decade With the tingly smell of mulled wine, the dazzling Christmas lights in Berlin streets, I found myself in a very dark place at the end of 2019: it&amp;rsquo;s the end of a decade yet my life is full of loose ends. Trying so hard to be the best version of myself as an instructor, a scholar, and a creator, I had, not literally, untied shoe laces that will trip myself over nothing every single day.</description>
+      <guid>https://eejain.com/posts/Planning-2020-Beyond-Work-Life-Balance/</guid>
+      <description>A Broken Self and a New Decade #  With the tingly smell of mulled wine, the dazzling Christmas lights in Berlin streets, I found myself in a very dark place at the end of 2019: it&amp;rsquo;s the end of a decade yet my life is full of loose ends. Trying so hard to be the best version of myself as an instructor, a scholar, and a creator, I had, not literally, untied shoe laces that will trip myself over nothing every single day.</description>
     </item>
     
   </channel>

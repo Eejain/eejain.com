@@ -1,39 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on ☴ so it flows ☵</title>
-    <link>https://soitflows.xyz/categories/</link>
-    <description>Recent content in Categories on ☴ so it flows ☵</description>
+    <title>Categories on Eejain Huang</title>
+    <link>https://eejain.com/categories/</link>
+    <description>Recent content in Categories on Eejain Huang</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://eejain.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Life</title>
+      <link>https://eejain.com/categories/Life/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eejain.com/categories/Life/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="https://soitflows.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>FanFic</title>
+      <link>https://eejain.com/categories/FanFic/</link>
+      <pubDate>Thu, 24 Sep 2020 10:15:00 +0200</pubDate>
+      
+      <guid>https://eejain.com/categories/FanFic/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Academic</title>
-      <link>https://soitflows.xyz/categories/Academic/</link>
-      <pubDate>Wed, 09 Sep 2020 00:00:00 +0200</pubDate>
+      <link>https://eejain.com/categories/Academic/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://soitflows.xyz/categories/Academic/</guid>
+      <guid>https://eejain.com/categories/Academic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Meta</title>
-      <link>https://soitflows.xyz/categories/Meta/</link>
-      <pubDate>Tue, 08 Sep 2020 00:00:00 +0200</pubDate>
+      <link>https://eejain.com/categories/Meta/</link>
+      <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://soitflows.xyz/categories/Meta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Life</title>
-      <link>https://soitflows.xyz/categories/Life/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0100</pubDate>
-      
-      <guid>https://soitflows.xyz/categories/Life/</guid>
+      <guid>https://eejain.com/categories/Meta/</guid>
       <description></description>
     </item>
     

@@ -1,8 +1,8 @@
-#+title: soitflows
-#+author: Naskuv
-#+startup: overview inlineimage
+#+TITLE: eejain.com content
+#+AUTHOR: Eejain Huang
+#+STARTUP: overview inlineimage
 
-#+hugo_base_dir: ~/itflows/
+#+hugo_base_dir: ~/eejainsite/
 
 * Front Page
 :PROPERTIES:
@@ -11,7 +11,7 @@
 :EXPORT_DATE: 2020-06-15
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookComments false
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookHidden false
-:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookToC true
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookToC false
 :END:
 
 file:front.jpg

@@ -1,30 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on ☴ so it flows ☵</title>
-    <link>https://soitflows.xyz/tags/</link>
-    <description>Recent content in Tags on ☴ so it flows ☵</description>
+    <title>Tags on Eejain Huang</title>
+    <link>https://eejain.com/tags/</link>
+    <description>Recent content in Tags on Eejain Huang</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://soitflows.xyz/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 14 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://eejain.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>productivity</title>
-      <link>https://soitflows.xyz/tags/productivity/</link>
-      <pubDate>Wed, 09 Sep 2020 00:00:00 +0200</pubDate>
+      <title>literature</title>
+      <link>https://eejain.com/tags/literature/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://soitflows.xyz/tags/productivity/</guid>
+      <guid>https://eejain.com/tags/literature/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>technology</title>
-      <link>https://soitflows.xyz/tags/technology/</link>
-      <pubDate>Tue, 08 Sep 2020 00:00:00 +0200</pubDate>
+      <title>poem</title>
+      <link>https://eejain.com/tags/poem/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://soitflows.xyz/tags/technology/</guid>
+      <guid>https://eejain.com/tags/poem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>manga</title>
+      <link>https://eejain.com/tags/manga/</link>
+      <pubDate>Thu, 24 Sep 2020 10:15:00 +0200</pubDate>
+      
+      <guid>https://eejain.com/tags/manga/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>productivity</title>
+      <link>https://eejain.com/tags/productivity/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eejain.com/tags/productivity/</guid>
       <description></description>
     </item>
     
