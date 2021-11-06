@@ -1,11 +1,11 @@
 +++
 title = "My Academic Reading Workflow"
-author = ["Naskuv"]
+author = ["Eejain Huang"]
 date = 2020-09-08
 tags = ["productivity"]
 categories = ["Academic"]
-draft = false
-weight = 1013
+draft = true
+weight = 1011
 bookComments = true
 bookHidden = true
 bookToC = true

@@ -1,11 +1,11 @@
 +++
 title = "A Quick Comparison between Zotero and Citavi"
-author = ["Naskuv"]
+author = ["Eejain Huang"]
 date = 2020-09-08
 tags = ["productivity"]
 categories = ["Academic"]
-draft = false
-weight = 1014
+draft = true
+weight = 1010
 bookComments = true
 bookHidden = true
 bookToC = true

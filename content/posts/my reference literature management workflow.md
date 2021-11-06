@@ -1,35 +1,54 @@
 +++
 title = "My Reference Management Workflow with Zotero"
-author = ["Naskuv"]
+author = ["Eejain Huang"]
 date = 2020-09-09
 tags = ["productivity"]
 categories = ["Academic"]
-draft = false
-weight = 1012
+draft = true
+weight = 1009
 bookComments = true
 bookHidden = true
 bookToC = true
 +++
 
-## Get references {#get-references}
+## Current workflow {#current-workflow}
 
--   Search engine like Google scholar, or databases like Scopus
+
+### 1. Get references {#1-dot-get-references}
+
+-   Search engine like Google scholar, or databases like Scopus, use tools like Publish or Perish with proper
 -   Social network like email, journal club, researcher gate, rss of keywords or journals
 -   Remember to take note of search keywords and the thinking process
     -   Why am I interested in this article? What leads me here (keyword, or citation from another article, or interested authors)
 -   Save new references with proper tags as best as you can in **Inbox** collection for further processing
 
 
-## Review Inbox {#review-inbox}
+### 2. Inbox Processing Workflow {#2-dot-inbox-processing-workflow}
 
--   Clean the citation format, see [Citation format checking workflow](#citation-format-checking-workflow)
--   Use Zotfile to rename attached pdf files and move the attachment to customized location, see[ Notes about Zotero plugins](#notes-about-zotero-plugins)
--   Add appropriate tag/notes
-    -   For articles that need deeper processing, add "todo" tag and read the article according to [My Academic Reading Workflow]({{< relref "my academic reading workflow" >}})
--   Move the articles out of Inbox to appropriate collection (cmd + drag) once reviewed
+If this is too much, just tag and refile to publication project collection. Deal with format checking, and attachment management if preparing for manuscript.
 
 
-## Citation format checking workflow {#citation-format-checking-workflow}
+#### Add appropriate tags {#add-appropriate-tags}
+
+-   topic (construct, term, phenomenon)
+    -   e.g., noticing, prof\_vision, prof\_knowledge
+-   sample (tageted group)
+    -   e.g., novice, teacher, learner, global
+-   method (statistical procedure, data type)
+    -   type of stimulus/material: real, sim, video, text,
+    -   type of instrument/measurement: interview, behavioral, em, rating
+    -   type of stats procedure: e.g., spatial\_analy
+-   format (audiences)
+    -   review, empirical, evaluation, pratical
+-   For articles that need deeper processing, add "todo" tag and read the article according to [My Academic Reading Workflow]({{< relref "my academic reading workflow" >}})
+
+
+#### Move articles to collection {#move-articles-to-collection}
+
+-   cmd + drag
+
+
+#### Check citation format and info {#check-citation-format-and-info}
 
 -   Check whether the item type is correct (book chapter, conference paper, journal article, etc.)
 -   Check whether the information is complete and correct: issue, doi, page, name spelling
@@ -40,13 +59,7 @@ bookToC = true
 -   Use full sentence case not APA sentence case (right click the title then choose sentence case), and not title case (e.g. Concerns of teachers: A developmental conceptualisation)
 
 
-## Use the references {#use-the-references}
-
--   In word document, use the Zotero add-on (cmd + opt + Z)
--   In other documents, see [Citation Syntax](<../../GoogleDrive/MarkdownNotes/MDNotes/Citation Syntax.md>)
-
-
-## Zotero bibliography management workflow {#zotero-bibliography-management-workflow}
+#### Check and manage attachment {#check-and-manage-attachment}
 
 -   Tools → Storage Scanner, check entries with the broken\_attachments and duplicate\_attachments and nosource tags
     -   broken\_attachments: likely missing pdf
@@ -54,10 +67,19 @@ bookToC = true
     -   nosource: likely just for citation, no need to attach the original file
 -   check "Duplicate Items", merge both metadata and attachments
 -   choose all entries (or newly added entries), right click context menu choose "Manage Attachments" → Rename Attachments (now the renamed attachment should be moved to GoogleDrive/dropbox/Paper from the internal folder)
--   delete internal folders with the stored copy of files in ~/Zotero/storage, close the zotero software at this step, also see [Note about stored copy vs linked file in Zotero](#note-about-stored-copy-vs-linked-file-in-zotero)
+-   delete internal folders with the stored copy of files in ~/Zotero/storage, close the zotero software at this step, also see
 
 
-## Notes about Zotero plugins {#notes-about-zotero-plugins}
+### 3. Use the references {#3-dot-use-the-references}
+
+-   In word document, use the Zotero add-on (cmd + opt + Z)
+-   In other documents, see [Citation Syntax](<../../Dropbox/MarkdownNotes/MDNotes/Citation Syntax.md>)
+
+
+### Appendix {#appendix}
+
+
+#### Notes about Zotero plugins {#notes-about-zotero-plugins}
 
 -   <https://www.zotero.org/support/plugins>
 -   [Zotero Storage Scanner](https://github.com/retorquere/zotero-storage-scanner): check and tag the entries with broken or duplicate attachment link then generate corresponding tags
@@ -83,26 +105,7 @@ bookToC = true
 -   [Zotero Scholar Citations](https://github.com/MaxKuehn/zotero-scholar-citations): add citaion counts of an item in the extra field ZSCC, not really working
 
 
-## Article tags {#article-tags}
-
--   topic (construct, term, phenomenon)
-    -   e.g., noticing, prof\_vision, prof\_knowledge
--   sample (tageted group)
-    -   e.g., novice, teacher, learner, global
--   method (statistical procedure, data type)
-    -   type of stimulus/material: real, sim, video, text,
-    -   type of instrument/measurement: interview, behavioral, em, rating
-    -   type of stats procedure: e.g., spatial\_analy
--   format (audiences)
-    -   review, empirical, evaluation, pratical
-
-
-## Related notes {#related-notes}
-
-[{{< relref "compare zotero and citavi" >}}]({{< relref "compare zotero and citavi" >}})
-
-
-## Note about stored copy vs linked file in Zotero {#note-about-stored-copy-vs-linked-file-in-zotero}
+#### Notes about stored copy vs linked file in Zotero {#notes-about-stored-copy-vs-linked-file-in-zotero}
 
 [zotero manual](https://www.zotero.org/support/attaching%5Ffiles#:~:text=Stored%20files%2C%20which%20are%20the,the%20attachment%20item%20in%20Zotero.&text=With%20linked%20files%2C%20Zotero%20only,original%20file%20on%20your%20computer.)
 
@@ -114,3 +117,37 @@ bookToC = true
     -   linked files are suitable for workflow based on a folder
 -   From stored file to linked file: use right click → Manage Attachments → Rename Attachments (function from ZotFile). the stored files will remain in the internal folder.
 -   From linked file to stored file: use Tools → Manage Attachments → Convert Linked Files to Stored Files. the linked files will remain in the original folder.
+
+
+#### Related notes {#related-notes}
+
+[{{< relref "compare zotero and citavi" >}}]({{< relref "compare zotero and citavi" >}})
+
+
+## Ideal workflow {#ideal-workflow}
+
+
+### Get and organize references in zotero {#get-and-organize-references-in-zotero}
+
+
+### read and take note in emacs {#read-and-take-note-in-emacs}
+
+-   pdf-view, org-noter
+-   choose emacs as default pdf reader, open the pdf from folder or zotero, then start org-noter
+-   turn off centered-window-mode
+-   note saved separately, allows for system wide search
+-   when finished, kill the noter session
+-   but need to add org notes as attachment file in zotero manually (cmd + ctrl + L)
+-   useful shortcuts:
+    -   pdf add highlight annotation `C-c C-a h`
+    -   org-noter insert note at precise location `M-i`
+    -   list all occurrences in popup `M-s o`
+    -   open outline in popup `o`
+    -   in note file, sync the current position `C-M-.`
+
+
+### feature wishlist {#feature-wishlist}
+
+-   [ ] how to highlight searches across pages
+-   [ ] mouse scroll (currently way too fast)
+-   [ ] show reading progress (page number)

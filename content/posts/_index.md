@@ -1,6 +1,6 @@
 +++
 title = "Recent Posts"
-author = ["Naskuv"]
+author = ["Eejain Huang"]
 date = 2020-06-15
 draft = false
 weight = 1

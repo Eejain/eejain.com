@@ -1,11 +1,11 @@
 +++
 title = "Notes on Citation Syntax"
-author = ["Naskuv"]
+author = ["Eejain Huang"]
 date = 2020-09-08
 tags = ["productivity"]
 categories = ["Academic"]
-draft = false
-weight = 1015
+draft = true
+weight = 1012
 bookComments = true
 bookHidden = true
 bookToC = true

@@ -1,11 +1,11 @@
 +++
 title = "Planning 2020 Beyond Work-Life Balance"
-author = ["Naskuv"]
+author = ["Eejain Huang"]
 date = 2020-01-03
 tags = ["productivity"]
 categories = ["Life"]
 draft = false
-weight = 1014
+weight = 1015
 bookComments = true
 bookHidden = true
 bookToC = true

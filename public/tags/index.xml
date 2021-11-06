@@ -1,42 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Eejain Huang</title>
+    <title>Tags on </title>
     <link>https://eejain.com/tags/</link>
-    <description>Recent content in Tags on Eejain Huang</description>
+    <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 14 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://eejain.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>literature</title>
-      <link>https://eejain.com/tags/literature/</link>
-      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://eejain.com/tags/literature/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>poem</title>
-      <link>https://eejain.com/tags/poem/</link>
-      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://eejain.com/tags/poem/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>manga</title>
-      <link>https://eejain.com/tags/manga/</link>
-      <pubDate>Thu, 24 Sep 2020 10:15:00 +0200</pubDate>
-      
-      <guid>https://eejain.com/tags/manga/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://eejain.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>productivity</title>
       <link>https://eejain.com/tags/productivity/</link>
-      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://eejain.com/tags/productivity/</guid>
       <description></description>

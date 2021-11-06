@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic on Eejain Huang</title>
+    <title>Academic on </title>
     <link>https://eejain.com/categories/Academic/</link>
-    <description>Recent content in Academic on Eejain Huang</description>
+    <description>Recent content in Academic on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://eejain.com/categories/Academic/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://eejain.com/categories/Academic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Org R Sandbox</title>
       <link>https://eejain.com/posts/R-Sandbox/</link>
@@ -14,46 +14,6 @@
       <guid>https://eejain.com/posts/R-Sandbox/</guid>
       <description>This post presents the workflow of interacting with R in org mode. I am mainly seeking three functions in this workflow: automatic output; persistent R session across multiple source blocks; ability to present both codes and outputs.
 Preparation #   org-babel for executing and tangling source blocks ESS for interacting directly with R in emacs through the inferior R process  Instruction #   set up proper sub-tree/buffer header arguments, for this blog post I used sub-tree header arguments: :header-args:R: :session *R* :exports both :eval no-export run org-bable-execute-src-block (or on sub-tree/buffer level) to produce outputs in the text area  Example #  Plot output #   For the following code block, I used the source block header arguments #+begin_src R :results output graphics file :file test.</description>
-    </item>
-    
-    <item>
-      <title>My Reference Management Workflow with Zotero</title>
-      <link>https://eejain.com/posts/my-reference-literature-management-workflow/</link>
-      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://eejain.com/posts/my-reference-literature-management-workflow/</guid>
-      <description>Get references #   Search engine like Google scholar, or databases like Scopus Social network like email, journal club, researcher gate, rss of keywords or journals Remember to take note of search keywords and the thinking process  Why am I interested in this article? What leads me here (keyword, or citation from another article, or interested authors)   Save new references with proper tags as best as you can in Inbox collection for further processing  Review Inbox #   Clean the citation format, see Citation format checking workflow Use Zotfile to rename attached pdf files and move the attachment to customized location, see Notes about Zotero plugins Add appropriate tag/notes  For articles that need deeper processing, add &amp;ldquo;todo&amp;rdquo; tag and read the article according to My Academic Reading Workflow   Move the articles out of Inbox to appropriate collection (cmd + drag) once reviewed  Citation format checking workflow #   Check whether the item type is correct (book chapter, conference paper, journal article, etc.</description>
-    </item>
-    
-    <item>
-      <title>My Academic Reading Workflow</title>
-      <link>https://eejain.com/posts/my-academic-reading-workflow/</link>
-      <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://eejain.com/posts/my-academic-reading-workflow/</guid>
-      <description>Tools #  Skim #   notes are saved in a separate .skim file, cannot be extracted in Zotero resolution not as sharp as acrobat only one highlight color no type machine function small and fast, good for note taking  Adobe Acrobat #    highlights color coding:
- light green: key word  !       light yellow: key statement  !    light pink: method, operationalisation, key results  !</description>
-    </item>
-    
-    <item>
-      <title>A Quick Comparison between Zotero and Citavi</title>
-      <link>https://eejain.com/posts/compare-zotero-and-citavi/</link>
-      <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://eejain.com/posts/compare-zotero-and-citavi/</guid>
-      <description>Citavi #   my team is already using this software proprietary, mostly used by German institutions  Prossss #   in-app pdf viewer, pretty fast compared to Acrobat, similar with Preview save pdf annotation directly in app embedded todo management powerful note taking system (Quotation) able to preview search result  Con #     proprietary, not many users outside Germany (forum discussion mostly in German)</description>
-    </item>
-    
-    <item>
-      <title>Notes on Citation Syntax</title>
-      <link>https://eejain.com/posts/Citation-Syntax/</link>
-      <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://eejain.com/posts/Citation-Syntax/</guid>
-      <description>## MMD:
- cite a paper: [locator][#citationkey] (locator is optional) cite multiple paper: [locator1][#citationkey1][locator2][citationkey2]&amp;hellip; inline citation: [#citationkey; locator]  ## Pandoc
- citation: Citations go inside square brackets and are separated by semicolons cite a paper: [@citekey, locator] cite multiple paper [@citekey, locator; @citekey, locator&amp;hellip;] inline citation: @citekey [locator]  ## bibtex BibTeX cheat sheet and entry templates ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ by pts@fazekas.hu at Wed Jul 29 15:42:08 CEST 2009
-Based on information form http://en.</description>
     </item>
     
   </channel>
