@@ -1,9 +1,9 @@
-[context.production.environment]
-  HUGO_VERSION = "0.68"
-
 [build]
-publish = "public"
-command = "hugo --gc --minify"
+  command = "hugo --gc --minify"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.89.1"
 
 # [context.production.environment]
 # HUGO_VERSION = "0.89.1"
