@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="\(\Bbb{MADE}\enspace\Bbb{BY}\enspace\Bbb{EEJAIN}\)  #  Who is speaking?  Hi there, this is Eejain.
-Many tags can be attached to me: gender-queer, born and raised Chinese, a half-made geek plus self-taught scribbler, a young scholar dangling between publish or perish, and an enthusiast with all things quaint yet profound.
+Many tags can be attached to me: a young scholar dangling between publish or perish, a half-made geek plus self-taught scribbler, and an enthusiast with all things quaint yet profound.
 But none of them will stick.
 Pared to the bone, I am just a curious soul that wants to share bits and pieces of thoughts with you.">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Front Page" />
@@ -165,209 +165,15 @@ https://github.com/alex-shpak/hugo-book
     <h2 id="who-is-speaking">Who is speaking?</h2>
 <hr>
 <p>Hi there, this is Eejain.</p>
-<p>Many tags can be attached to me: gender-queer, born and raised Chinese, a half-made geek plus self-taught scribbler, a young scholar dangling between publish or perish, and an enthusiast with all things quaint yet profound.</p>
+<p>Many tags can be attached to me: a young scholar dangling between publish or perish, a half-made geek plus self-taught scribbler,  and an enthusiast with all things quaint yet profound.</p>
 <p>But none of them will stick.</p>
 <p>Pared to the bone, I am just a <strong>curious</strong> soul that wants to share bits and pieces of thoughts with you.</p>
-<figure><img src="front.jpg"/>
-</figure>
 
   </div>
   
   <div class="flex-even markdown-inner">
     <h2 id="where-is-this-place">Where is this place?</h2>
 <hr>
-<script type="text/javascript" src= '//js/pdf-js/build/pdf.js'></script>
-<style>
-#the-canvas {
-  border: 1px solid black;
-  direction: ltr;
-  width: 100%;
-  height: auto;
-  display: none;
-}
-
-#paginator {
-  display: none;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-#loadingWrapper {
-  display: none;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 350px;
-}
-
-#loading {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  border: 3px solid #d2d0d0;;
-  border-radius: 50%;
-  border-top-color: #383838;
-  animation: spin 1s ease-in-out infinite;
-  -webkit-animation: spin 1s ease-in-out infinite;
-}
-
-@keyframes spin {
-  to { -webkit-transform: rotate(360deg); }
-}
-@-webkit-keyframes spin {
-  to { -webkit-transform: rotate(360deg); }
-}
-</style>
-<div id="paginator">
-    <button id="prev">Previous</button>
-    <button id="next">Next</button>
-    &nbsp; &nbsp;
-    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
-</div>
-<div id="embed-pdf-container">
-    <div id="loadingWrapper">
-      <div id="loading"></div>
-    </div>
-    <canvas id="the-canvas"></canvas>
-</div>
-<script type="text/javascript">
-window.onload = function() {
-
-
-var url = "https:\/\/eejain.com\/" + '~\/eejainsite\/static\/test2.pdf';
-
-var hidePaginator = "" === "true";
-var hideLoader = "" === "true";
-var selectedPageNum = parseInt("") || 1;
-
-
-var pdfjsLib = window['pdfjs-dist/build/pdf'];
-
-
-pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/eejain.com\/" + '/js/pdf-js/build/pdf.worker.js';
-
-
-var pdfDoc = null,
-    pageNum = selectedPageNum,
-    pageRendering = false,
-    pageNumPending = null,
-    scale = 3,
-    canvas = document.getElementById('the-canvas'),
-    ctx = canvas.getContext('2d'),
-    paginator = document.getElementById("paginator"),
-    loadingWrapper = document.getElementById('loadingWrapper');
-
-
-
-showPaginator();
-showLoader();
-
-
-
-function renderPage(num) {
-  pageRendering = true;
-  
-  pdfDoc.getPage(num).then(function(page) {
-    var viewport = page.getViewport({scale: scale});
-    canvas.height = viewport.height;
-    canvas.width = viewport.width;
-
-    
-    var renderContext = {
-      canvasContext: ctx,
-      viewport: viewport
-    };
-    var renderTask = page.render(renderContext);
-
-    
-    renderTask.promise.then(function() {
-      pageRendering = false;
-      showContent();
-      
-      if (pageNumPending !== null) {
-        
-        renderPage(pageNumPending);
-        pageNumPending = null;
-      }
-    });
-  });
-
-  
-  document.getElementById('page_num').textContent = num;
-}
-
-
-
-function showContent() {
-  loadingWrapper.style.display = 'none';
-  canvas.style.display = 'block';
-}
-
-
-
-function showLoader() {
-  if(hideLoader) return
-  loadingWrapper.style.display = 'flex';
-  canvas.style.display = 'none';
-}
-
-
-
-function showPaginator() {
-  if(hidePaginator) return
-  paginator.style.display = 'block';
-}
-
-
-
-function queueRenderPage(num) {
-  if (pageRendering) {
-    pageNumPending = num;
-  } else {
-    renderPage(num);
-  }
-}
-
-
-
-function onPrevPage() {
-  if (pageNum <= 1) {
-    return;
-  }
-  pageNum--;
-  queueRenderPage(pageNum);
-}
-document.getElementById('prev').addEventListener('click', onPrevPage);
-
-
-
-function onNextPage() {
-  if (pageNum >= pdfDoc.numPages) {
-    return;
-  }
-  pageNum++;
-  queueRenderPage(pageNum);
-}
-document.getElementById('next').addEventListener('click', onNextPage);
-
-
-
-pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
-  pdfDoc = pdfDoc_;
-  var numPages = pdfDoc.numPages;
-  document.getElementById('page_count').textContent = numPages;
-  
-  
-  if(pageNum > numPages) {
-    pageNum = numPages
-  }
-
-  
-  renderPage(pageNum);
-});
-}
-
-</script>
 <p>This a collection of short essays on subculture, media, and human mind. They are possibly opinionated but guaranteed to be honest. And on the flip side, I avoid documenting brief passing thoughts, egocentric fantasies, and plain life events. Those writings can be better approached by using social media, personal journal, and a good old diary.</p>
 <p>This virtual folio starts as a serious writing practice outside academia, an earnest attempt to speak in my real voice about things that resonates with me. Things that maybe trivial and obscure, but at one point, rippled through my stream of consciousness and finds their niche.</p>
 <p>So it flows. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
@@ -394,9 +200,9 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 
 
 
-  <div><a class="flex align-center" href="https://github.com/Eejain/eejain.com/commit/1fb94b6486842ad3212ad46ac22c9d74302d66fd" title='Last modified by Eejain Huang | 2021-11-06' target="_blank" rel="noopener">
+  <div><a class="flex align-center" href="https://github.com/Eejain/eejain.com/commit/0ef8510a1db719ec014145494e9497caebe4e805" title='Last modified by Eejain Huang | 2021-11-08' target="_blank" rel="noopener">
       <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
-      <span>2021-11-06</span>
+      <span>2021-11-08</span>
     </a>
   </div>
 
