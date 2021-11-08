@@ -25,8 +25,6 @@ But none of them will stick.
 
 Pared to the bone, I am just a **curious** soul that wants to share bits and pieces of thoughts with you.
 
-{{< figure src="front.jpg" >}}
-
 <--->
 
 
