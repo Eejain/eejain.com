@@ -25,6 +25,8 @@ But none of them will stick.
 
 Pared to the bone, I am just a **curious** soul that wants to share bits and pieces of thoughts with you.
 
+{{< embed-pdf url="./static/test2.pdf" >}}
+
 <--->
 
 
@@ -39,3 +41,4 @@ This virtual folio starts as a serious writing practice outside academia, an ear
 So it flows.&nbsp;[^1]
 
 [^1]: The symbols in the website title represent the 59th hexagram in I Ching. It's called 渙 (dispersing), depicting how wind blows water, causing dispersion and regathering in a fluid fashion. 『易經．渙卦．象曰：「風行水上，渙；先王以享于帝立廟。
+

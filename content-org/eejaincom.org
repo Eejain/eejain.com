@@ -31,6 +31,7 @@ Pared to the bone, I am just a *curious* soul that wants to share bits and piece
 
 # file:front.jpg
 
+
 # Hi there, this is Eejain.
 
 # Many tags can be attached to me: gender-queer, born and raised Chinese, a half-made geek plus self-taught scribbler, a young scholar dangling between publish or perish, and an enthusiast with all things quaint yet profound.
@@ -280,6 +281,9 @@ square(1:10)
 
 #+RESULTS:
 :  [1]   1   4   9  16  25  36  49  64  81 100
+
+
+{{< embed-pdf url="./test2.pdf" >}}
 
 * TODO My Reference Management Workflow with Zotero :@Academic:productivity:
 :PROPERTIES:
