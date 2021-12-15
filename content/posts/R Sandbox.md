@@ -75,5 +75,3 @@ square(1:10)
 ```text
  [1]   1   4   9  16  25  36  49  64  81 100
 ```
-
-{{< embed-pdf url="./test2.pdf" >}}

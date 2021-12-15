@@ -17,15 +17,13 @@ bookToC = false
 ## Who is speaking? {#who-is-speaking}
 
 ---
-Hi there, this is Eejain.
+Hi there, this is Eejain. And here's for Egbal.
 
 Many tags can be attached to me: a young scholar dangling between publish or perish, a half-made geek plus self-taught scribbler,  and an enthusiast with all things quaint yet profound.
 
 But none of them will stick.
 
 Pared to the bone, I am just a **curious** soul that wants to share bits and pieces of thoughts with you.
-
-{{< embed-pdf url="./static/test2.pdf" >}}
 
 <--->
 
@@ -41,4 +39,3 @@ This virtual folio starts as a serious writing practice outside academia, an ear
 So it flows.&nbsp;[^1]
 
 [^1]: The symbols in the website title represent the 59th hexagram in I Ching. It's called 渙 (dispersing), depicting how wind blows water, causing dispersion and regathering in a fluid fashion. 『易經．渙卦．象曰：「風行水上，渙；先王以享于帝立廟。
-

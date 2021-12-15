@@ -21,7 +21,7 @@
 
 ** Who is speaking?
 ---
-Hi there, this is Eejain.
+Hi there, this is Eejain. And here's for Egbal.
 
 Many tags can be attached to me: a young scholar dangling between publish or perish, a half-made geek plus self-taught scribbler,  and an enthusiast with all things quaint yet profound.
 
@@ -283,7 +283,7 @@ square(1:10)
 :  [1]   1   4   9  16  25  36  49  64  81 100
 
 
-{{< embed-pdf url="./test2.pdf" >}}
+# {{< embed-pdf url="./test2.pdf" >}}
 
 * TODO My Reference Management Workflow with Zotero :@Academic:productivity:
 :PROPERTIES:
