@@ -17,7 +17,7 @@ bookToC = false
 ## Who is speaking? {#who-is-speaking}
 
 ---
-Hi there, this is Eejain. And here's for Egbal.
+Hi there, this is Eejain.
 
 Many tags can be attached to me: a young scholar dangling between publish or perish, a half-made geek plus self-taught scribbler,  and an enthusiast with all things quaint yet profound.
 
