@@ -15,6 +15,11 @@
 # {{< katex >}}\Bbb{MADE}\enspace\Bbb{BY}\enspace\color{#83A78D}\mathcal{N}\negmedspace\negmedspace\negthickspace{\forall}{{< /katex >}}
 
 {{< katex >}}\Bbb{MADE}\enspace\Bbb{BY}\enspace\Bbb{EEJAIN}{{< /katex >}}
+# 🅔🅔🅙🅐🅘🅝
+# 𝔼𝕖𝕛𝕒𝕚𝕟
+# 𝔼𝔼𝕁𝔸𝕀ℕ
+# 🅴🅴🅹🅰🅸🅽
+# https://qwerty.dev/fancy-font-generator/
 ---
 
 {{< columns >}}
@@ -76,6 +81,9 @@ So it flows. [^1]
 
 p test
 
+* TODO My deep work sound mix
+- State "TODO"       from              [2022-01-15 Sat 11:33]
+- [[https://mynoise.net/superGenerator.php?title=Black%20Hole%20%26%20Underwater&g1=intergalacticSoundscapeGenerator.php?l=34343434343434343434&title=Default&&g2=finWhaleUnderwaterSoundscapeGenerator.php?l=74594429292929292929&title=Default&][Black Hole & Underwater]]
 * TODO Bahn in the Dawn :@Life:Germany:ant:
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts

@@ -9,6 +9,7 @@ bookToC = false
 +++
 
 {{< katex >}}\Bbb{MADE}\enspace\Bbb{BY}\enspace\Bbb{EEJAIN}{{< /katex >}}
+
 ---
 
 {{< columns >}}

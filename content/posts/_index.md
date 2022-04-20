@@ -10,4 +10,4 @@ bookToC = true
 bookFlatSection = false
 +++
 
-p test
+Recent Posts
