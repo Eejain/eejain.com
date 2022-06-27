@@ -2,7 +2,7 @@
 
 baseURL = 'https://eejain.com/'
 title = ''
-theme = 'hugo-book'
+theme = ['themes/baguettebox', 'hugo-book']
 
 # Book configuration
 disablePathToLower = true
