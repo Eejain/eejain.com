@@ -19,7 +19,6 @@ bookToC = false
 ---
 I am a researcher trying to understand teachers' cognitive and emotional experience. 
 
-
 I conduct experiments in physical and virtual reality. I work with a diverse set of data sources that go beyond the teachers' visible behaviors and self-reports, such as their eye movements, heart rates, and physical movement. 
 
 I'm currently a postdoc at the University of Potsdam, Germany.
