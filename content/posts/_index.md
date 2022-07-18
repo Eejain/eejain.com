@@ -1,5 +1,5 @@
 +++
-title = "Recent Posts"
+title = "Blog Posts"
 author = ["Eejain Huang"]
 date = 2020-06-15
 draft = false

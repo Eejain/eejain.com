@@ -7,7 +7,7 @@ weight = 1
 bookComments = false
 bookHidden = false
 bookToC = false
-bookFlatSection = true
+bookFlatSection = false
 +++
 
 <!-- {{< embed-pdf url="/Users/naskuv/eejainsite/content/CV/CV.pdf" hidePaginator="true">}} -->

@@ -1,7 +1,7 @@
 +++
 title = "Front Page"
 author = ["Eejain Huang"]
-date = 2020-06-15
+date = 2022-07-18
 draft = false
 bookComments = false
 bookHidden = false
@@ -23,13 +23,6 @@ I conduct experiments in physical and virtual reality. I work with a diverse set
 
 I'm currently a postdoc at the University of Potsdam, Germany.
 
-<!-- Hi there, this is Eejain. -->
-
-<!-- Many tags can be attached to me: a young scholar dangling between publish or perish, a half-made geek plus self-taught scribbler,  and an enthusiast with all things quaint yet profound. -->
-
-<!-- But none of them will stick. -->
-
-<!-- Pared to the bone, I am just a **curious** soul that wants to share bits and pieces of thoughts with you. -->
 
 <--->
 
@@ -43,7 +36,21 @@ I'm currently a postdoc at the University of Potsdam, Germany.
 - [ORCiD](https://orcid.org/0000-0002-7041-1927)
 - [Twitter](https://twitter.com/EejainH)
 - [VR Classroom Source Code Repository](https://gitup.uni-potsdam.de/mm_vr/vr-klassenzimmer)
- 
+
+
+
+
+
+
+
+
+<!-- Hi there, this is Eejain. -->
+
+<!-- Many tags can be attached to me: a young scholar dangling between publish or perish, a half-made geek plus self-taught scribbler,  and an enthusiast with all things quaint yet profound. -->
+
+<!-- But none of them will stick. -->
+
+<!-- Pared to the bone, I am just a **curious** soul that wants to share bits and pieces of thoughts with you. -->
 
 <!-- ## Where is this place? {#where-is-this-place} -->
 
