@@ -20,7 +20,7 @@ bookFlatSection = true
 	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
 		var adobeDCView = new AdobeDC.View({clientId: "4701019beae944d5aade3356a72546b6", divId: "adobe-dc-view"});
 		adobeDCView.previewFile({
-			content:{location: {url: "https://eejain.com/CV.pdf"}},
+			content:{location: {url: "CV.pdf"}},
 			metaData:{fileName: "CV.pdf"}
 		}, {embedMode: "IN_LINE"});
 	});
