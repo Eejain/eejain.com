@@ -15,7 +15,7 @@
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.9a3c6d35d5c0192df238f2b069a5205a96a54cffd116414dcdb29e3dc11e5f6a.css" integrity="sha256-mjxtNdXAGS3yOPKwaaUgWpalTP/RFkFNzbKePcEeX2o=">
-<script defer src="/en.search.min.e104c4ad3222964fe5acf1a71cc4687d178785d1bc757018d44092e9d227ab9f.js" integrity="sha256-4QTErTIilk/lrPGnHMRofReHhdG8dXAY1ECS6dInq58="></script>
+<script defer src="/en.search.min.88a6ed47af6fe560ce8fdf4e354655a667ee65091d208355117b4b1e9dc9d784.js" integrity="sha256-iKbtR69v5WDOj99ONUZVpmfuZQkdIINVEXtLHp3J14Q="></script>
 
 <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk="></script>
 <link rel="alternate" type="application/rss+xml" href="https://eejain.com/CV/index.xml" title="" />
@@ -67,7 +67,7 @@ https://github.com/alex-shpak/hugo-book
   <ul>
     
       
-        <li>
+        <li class="book-section-flat" >
           
   
   
@@ -153,29 +153,18 @@ https://github.com/alex-shpak/hugo-book
 
   <label for="toc-control">
     
-    <img src="/svg/toc.svg" class="book-icon" alt="Table of Contents" />
-    
   </label>
 </div>
 
 
-  
-  <aside class="hidden clearfix">
-    
-  
-<nav id="TableOfContents"></nav>
-
-
-
-  </aside>
   
  
       </header>
 
       
       
-  <article class="markdown">
-<script type="text/javascript" src= '/js/pdf-js/build/pdf.js'></script>
+  <article class="markdown"><!-- <script src= '/js/pdf-js/build/pdf.js'></script>
+
 <style>
 #the-canvas {
   border: 1px solid black;
@@ -235,9 +224,9 @@ https://github.com/alex-shpak/hugo-book
 window.onload = function() {
 
 
-var url = "https:\/\/eejain.com\/" + 'Yizhen_Huang_CV.pdf';
+var url = "https:\/\/eejain.com\/" + '\/Users\/naskuv\/eejainsite\/content\/CV\/CV.pdf';
 
-var hidePaginator = "" === "true";
+var hidePaginator = "true" === "true";
 var hideLoader = "" === "true";
 var selectedPageNum = parseInt("") || 1;
 
@@ -369,7 +358,19 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
 }
 
 </script>
-
+ -->
+<!-- <iframe src="https://docs.google.com/viewer?url=https://fisiquimicamente.com/recursos-fisica-quimica/oposiciones/fisica/cantabria-2016-e1/cantabria-2016-E1.pdf&embedded=true" style="width: 100vw; height: 500px; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw;" frameborder="0"></iframe> -->
+<div id="adobe-dc-view" style="width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw;"></div>
+<script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+<script type="text/javascript">
+	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
+		var adobeDCView = new AdobeDC.View({clientId: "5b6be996ab824b0e8113830d11740fa3", divId: "adobe-dc-view"});
+		adobeDCView.previewFile({
+			content:{location: {url: "CV.pdf"}},
+			metaData:{fileName: "CV.pdf"}
+		}, {embedMode: "IN_LINE"});
+	});
+</script>
 </article>
  
       
@@ -379,6 +380,12 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
   <div class="flex flex-wrap justify-between">
 
 
+
+  <div><a class="flex align-center" href="https://github.com/Eejain/eejain.com/commit/07e9b4f43600e5ecac01a2a53c46c637ad1b7a63" title='Last modified by Eejain Huang | 2022-07-18' target="_blank" rel="noopener">
+      <img src="/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>2022-07-18</span>
+    </a>
+  </div>
 
 
 
@@ -420,17 +427,6 @@ pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
       <label for="menu-control" class="hidden book-menu-overlay"></label>
     </div>
 
-    
-    <aside class="book-toc">
-      <div class="book-toc-content">
-        
-  
-<nav id="TableOfContents"></nav>
-
-
- 
-      </div>
-    </aside>
     
   </main>
 
