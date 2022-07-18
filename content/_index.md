@@ -8,7 +8,7 @@ bookHidden = false
 bookToC = false
 +++
 
-{{< katex >}}\Bbb{MADE}\enspace\Bbb{BY}\enspace\Bbb{EEJAIN}{{< /katex >}}
+{{< katex >}}\Bbb{YIZHEN}\enspace\Bbb{(EEJAIN)}\enspace\Bbb{HUANG}{{< /katex >}}
 
 ---
 
@@ -17,9 +17,12 @@ bookToC = false
 
 ## Who is speaking? {#who-is-speaking}
 ---
-Hi there, I'm Yizhen (Eejain), a postdoctoral researcher trying to understand teachers' cognitive and emotional experience. 
+I am a researcher trying to understand teachers' cognitive and emotional experience. 
 
-I conduct experimental studies in both physical and virtual reality. I work with a diverse set of data sources that go beyond the teachers' visible behaviors and self-reports, such as their eye movements, heart rates, and physical movement. 
+
+I conduct experiments in physical and virtual reality. I work with a diverse set of data sources that go beyond the teachers' visible behaviors and self-reports, such as their eye movements, heart rates, and physical movement. 
+
+I'm currently a postdoc at the University of Potsdam, Germany.
 
 <!-- Hi there, this is Eejain. -->
 
@@ -34,18 +37,12 @@ I conduct experimental studies in both physical and virtual reality. I work with
 ## Find me elsewhere 
 ---
 
-- [Institution Website](https://www.uni-potsdam.de/en/erziehungswissenschaftliche-bildungsforschung/team/yizhen-huango)
-
+- [Institution Website](https://www.uni-potsdam.de/en/erziehungswissenschaftliche-bildungsforschung/team/yizhen-huang)
 - [Virtual Reality in Teacher Education Project](https://www.researchgate.net/project/Virtual-Reality-in-Teacher-Education)
-
 - [Google Scholar](https://scholar.google.com/citations?hl=en&pli=1&user=0JRtAtkAAAAJ)
-
 - [ResearchGate](https://www.researchgate.net/profile/Yizhen-Huang)
-
 - [ORCiD](https://orcid.org/0000-0002-7041-1927)
-
 - [Twitter](https://twitter.com/EejainH)
-
 - [VR Classroom Source Code Repository](https://gitup.uni-potsdam.de/mm_vr/vr-klassenzimmer)
  
 

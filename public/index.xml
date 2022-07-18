@@ -25,23 +25,5 @@ Preparation #   org-babel for executing and tangling source blocks ESS for inter
       <description>A Broken Self and a New Decade #  With the tingly smell of mulled wine, the dazzling Christmas lights in Berlin streets, I found myself in a very dark place at the end of 2019: it&amp;rsquo;s the end of a decade yet my life is full of loose ends. Trying so hard to be the best version of myself as an instructor, a scholar, and a creator, I had, not literally, untied shoe laces that will trip myself over nothing every single day.</description>
     </item>
     
-    <item>
-      <title>test</title>
-      <link>https://eejain.com/docs/</link>
-      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://eejain.com/docs/</guid>
-      <description>#the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; display: none; } #paginator { display: none; text-align: center; margin-bottom: 10px; } #loadingWrapper { display: none; justify-content: center; align-items: center; width: 100%; height: 350px; } #loading { display: inline-block; width: 50px; height: 50px; border: 3px solid #d2d0d0;; border-radius: 50%; border-top-color: #383838; animation: spin 1s ease-in-out infinite; -webkit-animation: spin 1s ease-in-out infinite; } @keyframes spin { to { -webkit-transform: rotate(360deg); } } @-webkit-keyframes spin { to { -webkit-transform: rotate(360deg); } }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /       window.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://eejain.com/cv/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://eejain.com/cv/</guid>
-      <description>CV #    #the-canvas { border: 1px solid black; direction: ltr; width: 100%; height: auto; display: none; } #paginator { display: none; text-align: center; margin-bottom: 10px; } #loadingWrapper { display: none; justify-content: center; align-items: center; width: 100%; height: 350px; } #loading { display: inline-block; width: 50px; height: 50px; border: 3px solid #d2d0d0;; border-radius: 50%; border-top-color: #383838; animation: spin 1s ease-in-out infinite; -webkit-animation: spin 1s ease-in-out infinite; } @keyframes spin { to { -webkit-transform: rotate(360deg); } } @-webkit-keyframes spin { to { -webkit-transform: rotate(360deg); } }  Previous Next &amp;nbsp; &amp;nbsp; Page:  /       window.</description>
-    </item>
-    
   </channel>
 </rss>
