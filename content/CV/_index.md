@@ -18,7 +18,7 @@ bookFlatSection = true
 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 <script type="text/javascript">
 	document.addEventListener("adobe_dc_view_sdk.ready", function(){ 
-		var adobeDCView = new AdobeDC.View({clientId: "5b6be996ab824b0e8113830d11740fa3", divId: "adobe-dc-view"});
+		var adobeDCView = new AdobeDC.View({clientId: "4701019beae944d5aade3356a72546b6", divId: "adobe-dc-view"});
 		adobeDCView.previewFile({
 			content:{location: {url: "CV.pdf"}},
 			metaData:{fileName: "CV.pdf"}
