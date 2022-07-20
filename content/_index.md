@@ -1,7 +1,6 @@
 +++
 title = "Front Page"
 author = ["Eejain Huang"]
-date = 2022-07-18
 draft = false
 bookComments = false
 bookHidden = false

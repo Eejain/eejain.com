@@ -10,10 +10,6 @@ bookToC = false
 bookFlatSection = false
 +++
 
-<!-- {{< embed-pdf url="/Users/naskuv/eejainsite/content/CV/CV.pdf" hidePaginator="true">}} -->
-
-
-<!-- <div id="adobe-dc-view" style="width: 50vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw;"></div> -->
 <div id="adobe-dc-view" style="width: 800px;"></div>
 <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
 <script type="text/javascript">
