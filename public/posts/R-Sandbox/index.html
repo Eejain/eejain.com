@@ -2,24 +2,24 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta name="generator" content="Hugo 0.97.3" />
+  <meta name="generator" content="Hugo 0.102.2" />
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="This post presents the workflow of interacting with R in org mode. I am mainly seeking three functions in this workflow: automatic output; persistent R session across multiple source blocks; ability to present both codes and outputs.
-Preparation #   org-babel for executing and tangling source blocks ESS for interacting directly with R in emacs through the inferior R process  Instruction #   set up proper sub-tree/buffer header arguments, for this blog post I used sub-tree header arguments: :header-args:R: :session *R* :exports both :eval no-export run org-bable-execute-src-block (or on sub-tree/buffer level) to produce outputs in the text area  Example #  Plot output #   For the following code block, I used the source block header arguments #&#43;begin_src R :results output graphics file :file test.">
+Preparation # org-babel for executing and tangling source blocks ESS for interacting directly with R in emacs through the inferior R process Instruction # set up proper sub-tree/buffer header arguments, for this blog post I used sub-tree header arguments: :header-args:R: :session *R* :exports both :eval no-export run org-bable-execute-src-block (or on sub-tree/buffer level) to produce outputs in the text area Example # Plot output # For the following code block, I used the source block header arguments #&#43;begin_src R :results output graphics file :file test.">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Org R Sandbox" />
 <meta property="og:description" content="This post presents the workflow of interacting with R in org mode. I am mainly seeking three functions in this workflow: automatic output; persistent R session across multiple source blocks; ability to present both codes and outputs.
-Preparation #   org-babel for executing and tangling source blocks ESS for interacting directly with R in emacs through the inferior R process  Instruction #   set up proper sub-tree/buffer header arguments, for this blog post I used sub-tree header arguments: :header-args:R: :session *R* :exports both :eval no-export run org-bable-execute-src-block (or on sub-tree/buffer level) to produce outputs in the text area  Example #  Plot output #   For the following code block, I used the source block header arguments #&#43;begin_src R :results output graphics file :file test." />
+Preparation # org-babel for executing and tangling source blocks ESS for interacting directly with R in emacs through the inferior R process Instruction # set up proper sub-tree/buffer header arguments, for this blog post I used sub-tree header arguments: :header-args:R: :session *R* :exports both :eval no-export run org-bable-execute-src-block (or on sub-tree/buffer level) to produce outputs in the text area Example # Plot output # For the following code block, I used the source block header arguments #&#43;begin_src R :results output graphics file :file test." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://eejain.com/posts/R-Sandbox/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-05-25T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-05-25T00:00:00+00:00" />
 
-<title>Org R Sandbox | </title>
+<title>Org R Sandbox | Eejain Huang</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.9a3c6d35d5c0192df238f2b069a5205a96a54cffd116414dcdb29e3dc11e5f6a.css" integrity="sha256-mjxtNdXAGS3yOPKwaaUgWpalTP/RFkFNzbKePcEeX2o=">
-<script defer src="/en.search.min.a3a2b897be40ab9b6691c709ff39371b50f6a0160114ee46039e46b543bff4f3.js" integrity="sha256-o6K4l75Aq5tmkccJ/zk3G1D2oBYBFO5GA55GtUO/9PM="></script>
+<script defer src="/en.search.min.2c5e157ad9ba140f39521caf8a0dd0859390683cdb12d7fc12a19fe6592fde5c.js" integrity="sha256-LF4Vetm6FA85Uhyvig3QhZOQaDzbEtf8EqGf5lkv3lw="></script>
 
 <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk="></script>
 <!--
@@ -39,7 +39,7 @@ https://github.com/alex-shpak/hugo-book
         
   <nav>
 <h2 class="book-brand">
-  <a href="/"><img src="/logo.png" alt="Logo" /><span></span>
+  <a href="/"><img src="/logo.png" alt="Logo" /><span>Eejain Huang</span>
   </a>
 </h2>
 

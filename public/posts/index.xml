@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog Posts on </title>
+    <title>Blog Posts on Eejain Huang</title>
     <link>https://eejain.com/posts/</link>
-    <description>Recent content in Blog Posts on </description>
+    <description>Recent content in Blog Posts on Eejain Huang</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://eejain.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,7 +13,7 @@
       
       <guid>https://eejain.com/posts/R-Sandbox/</guid>
       <description>This post presents the workflow of interacting with R in org mode. I am mainly seeking three functions in this workflow: automatic output; persistent R session across multiple source blocks; ability to present both codes and outputs.
-Preparation #   org-babel for executing and tangling source blocks ESS for interacting directly with R in emacs through the inferior R process  Instruction #   set up proper sub-tree/buffer header arguments, for this blog post I used sub-tree header arguments: :header-args:R: :session *R* :exports both :eval no-export run org-bable-execute-src-block (or on sub-tree/buffer level) to produce outputs in the text area  Example #  Plot output #   For the following code block, I used the source block header arguments #+begin_src R :results output graphics file :file test.</description>
+Preparation # org-babel for executing and tangling source blocks ESS for interacting directly with R in emacs through the inferior R process Instruction # set up proper sub-tree/buffer header arguments, for this blog post I used sub-tree header arguments: :header-args:R: :session *R* :exports both :eval no-export run org-bable-execute-src-block (or on sub-tree/buffer level) to produce outputs in the text area Example # Plot output # For the following code block, I used the source block header arguments #+begin_src R :results output graphics file :file test.</description>
     </item>
     
     <item>
@@ -22,7 +22,7 @@ Preparation #   org-babel for executing and tangling source blocks ESS for inter
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://eejain.com/posts/Planning-2020-Beyond-Work-Life-Balance/</guid>
-      <description>A Broken Self and a New Decade #  With the tingly smell of mulled wine, the dazzling Christmas lights in Berlin streets, I found myself in a very dark place at the end of 2019: it&amp;rsquo;s the end of a decade yet my life is full of loose ends. Trying so hard to be the best version of myself as an instructor, a scholar, and a creator, I had, not literally, untied shoe laces that will trip myself over nothing every single day.</description>
+      <description>A Broken Self and a New Decade # With the tingly smell of mulled wine, the dazzling Christmas lights in Berlin streets, I found myself in a very dark place at the end of 2019: it&amp;rsquo;s the end of a decade yet my life is full of loose ends. Trying so hard to be the best version of myself as an instructor, a scholar, and a creator, I had, not literally, untied shoe laces that will trip myself over nothing every single day.</description>
     </item>
     
   </channel>
