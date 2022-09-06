@@ -16,11 +16,11 @@ bookToC = false
 
 ## Who is speaking? {#who-is-speaking}
 ---
-I am a researcher trying to understand teachers' cognitive and emotional experience. 
+I am a researcher deeply interested in understanding teachers' cognitive and emotional experience in the classroom.
 
-I conduct experiments in physical and virtual reality. I work with a diverse set of data sources that go beyond the teachers' visible behaviors and self-reports, such as their eye movements, heart rates, and physical movement. 
+I conduct experiments in both physical and virtual reality and work with a diverse set of data sources that go beyond the teachers' visible behaviors and self-reports, such as their eye movements, heart rates, and physical movement. 
 
-I'm currently a postdoc at the University of Potsdam, Germany.
+I worked and studied in University of Michigan and am currently a postdoc at the University of Potsdam and Kiel University in Germany.
 
 
 <--->
