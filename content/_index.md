@@ -13,11 +13,11 @@ bookToC = false
 
 {{< columns >}}
 
-
-
 ## Who is speaking? {#who-is-speaking} 
 
 ---
+
+<div data-badge-details="right" data-badge-type="donut" data-doi="10.1016/j.compedu.2020.104100" data-hide-no-mentions="true" class="altmetric-embed"></div>
 
 I am a researcher deeply interested in understanding teachers' cognitive and emotional experience in the classroom.
 
@@ -32,7 +32,7 @@ I worked and studied in University of Michigan and am currently a postdoc at the
 ## Find me elsewhere 
 ---
 > ![](dithered-image.webp)
-> - [Write to me](mailto:yizhen.huang@eejain.com)
+> - [Write to me](mailto:huang@eejain.com)
 > - [Institution Website](https://www.uni-potsdam.de/en/erziehungswissenschaftliche-bildungsforschung/team/yizhen-huang)
 > - [Virtual Reality in Teacher Education Project](https://www.researchgate.net/project/Virtual-Reality-in-Teacher-Education)
 > - [Google Scholar](https://scholar.google.com/citations?hl=en&pli=1&user=0JRtAtkAAAAJ)
@@ -40,10 +40,6 @@ I worked and studied in University of Michigan and am currently a postdoc at the
 > - [ORCiD](https://orcid.org/0000-0002-7041-1927)
 > - [Twitter](https://twitter.com/EejainH)
 > - [VR Classroom Source Code Repository](https://gitup.uni-potsdam.de/mm_vr/vr-klassenzimmer)
-
-
-
-
 
 
 
