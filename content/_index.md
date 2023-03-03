@@ -19,9 +19,7 @@ bookToC = false
 
 <div data-badge-details="right" data-badge-type="donut" data-doi="10.1016/j.compedu.2020.104100" data-hide-no-mentions="true" class="altmetric-embed"></div>
 
-I am a researcher deeply interested in understanding teachers' cognitive and emotional experience in the classroom.
-
-I conduct experiments in both physical and virtual reality and work with a diverse set of data sources that go beyond the teachers' visible behaviors and self-reports, such as their eye movements, heart rates, and physical movement. 
+I'm deeply interested in teachers' cognitive and emotional experience in the classroom. Therefore, I run experiments in both physical and virtual reality and work with a diverse set of data sources that go beyond the teachers' visible behaviors and self-reports, such as their eye movements, heart rates, and physical movement. 
 
 I worked and studied in University of Michigan and am currently a postdoc at the University of Potsdam and Kiel University in Germany.
 
@@ -34,7 +32,7 @@ I worked and studied in University of Michigan and am currently a postdoc at the
 > ![](dithered-image.webp)
 > - [Write to me](mailto:huang@eejain.com)
 > - [Institution Website](https://www.uni-potsdam.de/en/erziehungswissenschaftliche-bildungsforschung/team/yizhen-huang)
-> - [Virtual Reality in Teacher Education Project](https://www.researchgate.net/project/Virtual-Reality-in-Teacher-Education)
+> - [Virtual Reality in Teacher Education Project](https://www.uni-potsdam.de/en/erziehungswissenschaftliche-bildungsforschung/research/virtual-classroom)
 > - [Google Scholar](https://scholar.google.com/citations?hl=en&pli=1&user=0JRtAtkAAAAJ)
 > - [ResearchGate](https://www.researchgate.net/profile/Yizhen-Huang)
 > - [ORCiD](https://orcid.org/0000-0002-7041-1927)
