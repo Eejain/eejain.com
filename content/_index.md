@@ -21,7 +21,7 @@ bookToC = false
 
 I'm deeply interested in teachers' cognitive and emotional experience in the classroom. Therefore, I run experiments in both physical and virtual reality and work with a diverse set of data sources that go beyond the teachers' visible behaviors and self-reports, such as their eye movements, heart rates, and physical movement. 
 
-I worked and studied in University of Michigan and am currently a postdoc at the University of Potsdam and Kiel University in Germany.
+I worked and studied in University of Michigan and am currently a research scientist and instructor at the University of Potsdam and Kiel University in Germany.
 
 
 
