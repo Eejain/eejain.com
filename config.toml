@@ -21,9 +21,9 @@ enableGitInfo = false
 # See https://gohugo.io/content-management/multilingual/#translation-by-filename
 # And https://gohugo.io/content-management/multilingual/#translation-by-content-directory
 [languages]
-# [languages.en]
-#   languageName = 'English'
-#   contentDir = 'content'
+[languages.en]
+  languageName = 'English'
+  contentDir = 'content'
 #   weight = 1
 
 # [languages.ru]

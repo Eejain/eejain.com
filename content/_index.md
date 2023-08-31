@@ -1,5 +1,5 @@
 +++
-title = "Front Page"
+title = "Home"
 author = ["Eejain Huang"]
 draft = false
 bookComments = false
@@ -7,59 +7,33 @@ bookHidden = false
 bookToC = false
 +++
 
-<!-- {{< katex >}}\Bbb{YIZHEN}\enspace\Bbb{(EEJAIN)}\enspace\Bbb{HUANG}{{< /katex >}} -->
-
-<!-- --- -->
-
-{{< columns >}}
-
-## Who is speaking? {#who-is-speaking} 
-
----
 
 <div data-badge-details="right" data-badge-type="donut" data-doi="10.1016/j.compedu.2020.104100" data-hide-no-mentions="true" class="altmetric-embed"></div>
 
-I'm deeply interested in teachers' cognitive and emotional experience in the classroom. Therefore, I run experiments in both physical and virtual reality and work with a diverse set of data sources that go beyond the teachers' visible behaviors and self-reports, such as their eye movements, heart rates, and physical movement. 
+<p align="center">
+  <img src=dithered-image.webp />
+</p>
 
-I worked and studied in University of Michigan and am currently a research scientist and instructor at the University of Potsdam and Kiel University in Germany.
+I’m deeply interested in teachers’ rich experiences during instruction. I study their cognition and emotions in virtual reality settings to scaffold better learning and instruction. 
 
+I worked and studied at the [University of Michigan](https://lsa.umich.edu/psych/program-areas/combined-program-education-and-psychology.html) until 2018. I'm now a postdoctoral research scientist and instructor at the [University of Potsdam](https://www.uni-potsdam.de/en/erziehungswissenschaftliche-bildungsforschung/team/yizhen-huang) and [Kiel University](https://www.schulpaedagogik.uni-kiel.de/en/team/dr-yizhen-huang-1) in Germany.
 
+<br>
 
-<--->
+---
 
 ## Find me elsewhere 
----
-> ![](dithered-image.webp)
-> - [Write to me](mailto:huang@eejain.com)
-> - [Institution Website](https://www.uni-potsdam.de/en/erziehungswissenschaftliche-bildungsforschung/team/yizhen-huang)
-> - [Virtual Reality in Teacher Education Project Page](https://www.uni-potsdam.de/en/erziehungswissenschaftliche-bildungsforschung/research/virtual-classroom)
-> - [DigiProMIN Project Page](https://lernen.digital/verbuende/digipromin/)
-> - [Google Scholar](https://scholar.google.com/citations?hl=en&pli=1&user=0JRtAtkAAAAJ)
-> - [ResearchGate](https://www.researchgate.net/profile/Yizhen-Huang)
-> - [ORCiD](https://orcid.org/0000-0002-7041-1927)
-> - [Twitter](https://twitter.com/EejainH)
-> - [Linkedin](https://www.linkedin.com/in/yizhen-huang/)
-> - [VR Classroom Source Code Repository](https://gitup.uni-potsdam.de/mm_vr/vr-klassenzimmer)
+- [Write to me](mailto:huang@eejain.com)
+- [Virtual Reality in Teacher Education Project Page](https://www.uni-potsdam.de/en/erziehungswissenschaftliche-bildungsforschung/research/virtual-classroom)
+- [DigiProMIN Project Page](https://lernen.digital/verbuende/digipromin/)
+- [Google Scholar](https://scholar.google.com/citations?hl=en&pli=1&user=0JRtAtkAAAAJ)
+- [ORCiD](https://orcid.org/0000-0002-7041-1927)
+- [ResearchGate](https://www.researchgate.net/profile/Yizhen-Huang)
+- [X/Twitter](https://twitter.com/EejainH)
+- [Linkedin](https://www.linkedin.com/in/yizhen-huang/)
+- [Open Science Projects](https://osf.io/profile/)
+- [VR Classroom Source Code Repository](https://gitup.uni-potsdam.de/mm_vr/vr-klassenzimmer)
 
 
 
 
-<!-- Hi there, this is Eejain. -->
-
-<!-- Many tags can be attached to me: a young scholar dangling between publish or perish, a half-made geek plus self-taught scribbler,  and an enthusiast with all things quaint yet profound. -->
-
-<!-- But none of them will stick. -->
-
-<!-- Pared to the bone, I am just a **curious** soul that wants to share bits and pieces of thoughts with you. -->
-
-<!-- ## Where is this place? {#where-is-this-place} -->
-
-<!-- --- -->
-
-<!-- This a collection of short essays on subculture, media, and human mind. They are possibly opinionated but guaranteed to be honest. And on the flip side, I avoid documenting brief passing thoughts, egocentric fantasies, and plain life events. Those writings can be better approached by using social media, personal journal, and a good old diary. -->
-
-<!-- This virtual folio starts as a serious writing practice outside academia, an earnest attempt to speak in my real voice about things that resonates with me. Things that maybe trivial and obscure, but at one point, rippled through my stream of consciousness and finds their niche. -->
-
-<!-- So it flows.&nbsp;[^1] -->
-
-<!-- [^1]: The symbols in the website title represent the 59th hexagram in I Ching. It's called 渙 (dispersing), depicting how wind blows water, causing dispersion and regathering in a fluid fashion. 『易經．渙卦．象曰：「風行水上，渙；先王以享于帝立廟。 -->
