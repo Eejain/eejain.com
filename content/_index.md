@@ -38,6 +38,7 @@ I worked and studied in University of Michigan and am currently a research scien
 > - [ResearchGate](https://www.researchgate.net/profile/Yizhen-Huang)
 > - [ORCiD](https://orcid.org/0000-0002-7041-1927)
 > - [Twitter](https://twitter.com/EejainH)
+> - [Linkedin](https://www.linkedin.com/in/yizhen-huang/)
 > - [VR Classroom Source Code Repository](https://gitup.uni-potsdam.de/mm_vr/vr-klassenzimmer)
 
 
