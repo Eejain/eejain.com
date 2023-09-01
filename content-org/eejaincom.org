@@ -1,72 +1,47 @@
 #+TITLE: eejain.com content
 #+AUTHOR: Eejain Huang
-#+STARTUP: overview inlineimage
+#+STARTUP: showeverything
 #+hugo_base_dir: ~/eejainsite/
-* Front Page
+
+* Home
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: .
 :EXPORT_FILE_NAME: _index
-:EXPORT_DATE: 2020-06-15
+:EXPORT_DATE: 2023-09-01
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER: :bookComments false
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookHidden false
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookToC false
 :END:
 
-# {{< katex >}}\Bbb{MADE}\enspace\Bbb{BY}\enspace\color{#83A78D}\mathcal{N}\negmedspace\negmedspace\negthickspace{\forall}{{< /katex >}}
+#+begin_export html
+<div data-badge-details="right" data-badge-type="donut" data-doi="10.1016/j.compedu.2020.104100" data-hide-no-mentions="true" class="altmetric-embed"></div>
+<p align="center">
+  <img src=dithered-image.webp />
+</p>
+#+end_export
 
-{{< katex >}}\Bbb{MADE}\enspace\Bbb{BY}\enspace\Bbb{EEJAIN}{{< /katex >}}
-# 🅔🅔🅙🅐🅘🅝
-# 𝔼𝕖𝕛𝕒𝕚𝕟
-# 𝔼𝔼𝕁𝔸𝕀ℕ
-# 🅴🅴🅹🅰🅸🅽
-# https://qwerty.dev/fancy-font-generator/
+I’m deeply interested in teachers’ rich experiences during instruction. I study their cognition and emotions in virtual reality settings to scaffold better learning and instruction.
+
+I worked and studied at the [[https://lsa.umich.edu/psych/program-areas/combined-program-education-and-psychology.html][University of Michigan]] until 2018. I'm now a postdoctoral research scientist and instructor at the [[https://www.uni-potsdam.de/en/erziehungswissenschaftliche-bildungsforschung/team/yizhen-huang][University of Potsdam]] and [[https://www.schulpaedagogik.uni-kiel.de/en/team/dr-yizhen-huang-1][Kiel University]] in Germany.
+
+#+begin_export html
+<br>
+#+end_export
+
 ---
 
-{{< columns >}}
+** Find me elsewhere
+- [[mailto:huang@eejain.com][Write to me]]
+- [[https://www.uni-potsdam.de/en/erziehungswissenschaftliche-bildungsforschung/research/virtual-classroom][Virtual Reality in Teacher Education Project Page]]
+- [[https://lernen.digital/verbuende/digipromin/][DigiProMIN Project Page]]
+- [[https://scholar.google.com/citations?hl=en&pli=1&user=0JRtAtkAAAAJ][Google Scholar]]
+- [[https://orcid.org/0000-0002-7041-1927][ORCiD]]
+- [[https://www.researchgate.net/profile/Yizhen-Huang][ResearchGate]]
+- [[https://twitter.com/EejainH][X/Twitter]]
+- [[https://www.linkedin.com/in/yizhen-huang/][Linkedin]]
+- [[https://osf.io/uy9ew/][Open Science Projects]]
+- [[https://gitup.uni-potsdam.de/mm_vr/vr-klassenzimmer][VR Classroom Source Code Repository]]
 
-** Who is speaking?
----
-Hi there, this is Eejain.
-
-Many tags can be attached to me: a young scholar dangling between publish or perish, a half-made geek plus self-taught scribbler,  and an enthusiast with all things quaint yet profound.
-
-But none of them will stick.
-
-Pared to the bone, I am just a *curious* soul that wants to share bits and pieces of thoughts with you.
-
-# file:front.jpg
-
-
-# Hi there, this is Eejain.
-
-# Many tags can be attached to me: gender-queer, born and raised Chinese, a half-made geek plus self-taught scribbler, a young scholar dangling between publish or perish, and an enthusiast with all things quaint yet profound.
-
-# But none of them will stick.
-
-# Pared to the bone, I am just a *curious* soul that wants to share bits and pieces of thoughts with you.
-
-<--->
-
-** Where is this place?
----
-
-# This a collection of short essays on subculture, media, and human mind. They are possibly opinionated but guaranteed to be honest. And on the flip side, I avoid documenting brief passing thoughts, egocentric fantasies, and plain life events. Those writings can be better approached by using social media, personal journal, and a good old diary.
-
-# This virtual folio starts as a serious writing practice outside academia, an earnest attempt to speak in my real voice about things that resonates with me. Things that maybe trivial and obscure, but at one point, rippled through my stream of consciousness and finds their niche.
-
-# So it flows. [^1]
-
-# [^1]: The symbols in the website title represent the 59th hexagram in I Ching. It's called 渙 (dispersing), depicting how wind blows water, causing dispersion and regathering in a fluid fashion. 『易經．渙卦．象曰：「風行水上，渙；先王以享于帝立廟。
-
-
-
-This a collection of short essays on subculture, media, and human mind. They are possibly opinionated but guaranteed to be honest. And on the flip side, I avoid documenting brief passing thoughts, egocentric fantasies, and plain life events. Those writings can be better approached by using social media, personal journal, and a good old diary.
-
-This virtual folio starts as a serious writing practice outside academia, an earnest attempt to speak in my real voice about things that resonates with me. Things that maybe trivial and obscure, but at one point, rippled through my stream of consciousness and finds their niche.
-
-So it flows. [^1]
-
-[^1]: The symbols in the website title represent the 59th hexagram in I Ching. It's called 渙 (dispersing), depicting how wind blows water, causing dispersion and regathering in a fluid fashion. 『易經．渙卦．象曰：「風行水上，渙；先王以享于帝立廟。
 * Recent Posts
 :PROPERTIES:
 :EXPORT_HUGO_SECTION: posts
@@ -79,7 +54,7 @@ So it flows. [^1]
 :EXPORT_HUGO_CUSTOM_FRONT_MATTER+: :bookFlatSection false
 :END:
 
-p test
+^
 
 * TODO My deep work sound mix
 - State "TODO"       from              [2022-01-15 Sat 11:33]

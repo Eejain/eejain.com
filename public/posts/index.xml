@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog Posts on Yizhen (Eejain) Huang</title>
+    <title>Recent Posts on Yizhen (Eejain) Huang</title>
     <link>https://eejain.com/posts/</link>
-    <description>Recent content in Blog Posts on Yizhen (Eejain) Huang</description>
+    <description>Recent content in Recent Posts on Yizhen (Eejain) Huang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 15 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://eejain.com/posts/index.xml" rel="self" type="application/rss+xml" />

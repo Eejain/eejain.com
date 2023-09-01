@@ -5,7 +5,7 @@ date = 2020-01-03
 tags = ["productivity"]
 categories = ["Life"]
 draft = false
-weight = 1015
+weight = 1013
 bookComments = true
 bookHidden = true
 bookToC = true
@@ -34,7 +34,7 @@ The innermost layer are projects that are [SMART](<https://en.wikipedia.org/wiki
 
 ## Identify Areas of Life {#identify-areas-of-life}
 
-Everything I do, every second I spend and every bit of energy I consume (even in off-state, even during sleeps) is motivated by certain needs. I do ****serious stuff**** for professional development, financial security, social status, all of which are necessary to earn a proper position in this society. I do ****leisure stuff**** for enjoyment, self fulfillment and human connection. And I do ****misc stuff**** for living as a responsible adult that takes care of her own health, finance, possessions, legal docs etc. I used to rank serious stuff > leisure stuff > misc stuff, now I understand (after several burnouts) that they refuel each other, and should be treated equally on a daily basis.
+Everything I do, every second I spend and every bit of energy I consume (even in off-state, even during sleeps) is motivated by certain needs. I do ****serious stuff**** for professional development, financial security, social status, all of which are necessary to earn a proper position in this society. I do ****leisure stuff**** for enjoyment, self fulfillment and human connection. And I do ****misc stuff**** for living as a responsible adult that takes care of her own health, finance, possessions, legal docs etc. I used to rank serious stuff &gt; leisure stuff &gt; misc stuff, now I understand (after several burnouts) that they refuel each other, and should be treated equally on a daily basis.
 
 My three areas of life may not be everyone's focus, but you can substitute anything that you deem precious and would like to keep a close eye on.
 
@@ -53,7 +53,7 @@ The distinction between sub-areas and projects lies in whether they can be compl
 
 The beauty of this system lies in the differentiated energy requirement for each layer. From area to sub-area to project, the degree of flexibility increase and active monitoring decrease.
 
-To be more specific, at the start of a week, I will decide which sub-area(s) in each of the three areas I'm going to focus every day. The priority of sub-areas is determined by importance, urgency and sometimes, guts. I will try to work on every sub-area in a week, but not everyday. For instance, I may decide to work on serious\\\_publication + leisure\\\_input + misc\\\_health on Monday, and change to serious\\\_teach + leisure\\\_output + misc\\\_chore on Tuesday, and cycle through each sub-area throughout the week. This can be evaluated by the hour I spent in to-dos for each sub-area and adjusted during weekly review. Completion of a project take time and effort, but I don't have to work on each project every day or every week, as long as it's finished within the time frame defined by the project.
+To be more specific, at the start of a week, I will decide which sub-area(s) in each of the three areas I'm going to focus every day. The priority of sub-areas is determined by importance, urgency and sometimes, guts. I will try to work on every sub-area in a week, but not everyday. For instance, I may decide to work on serious\\_publication + leisure\\_input + misc\\_health on Monday, and change to serious\\_teach + leisure\\_output + misc\\_chore on Tuesday, and cycle through each sub-area throughout the week. This can be evaluated by the hour I spent in to-dos for each sub-area and adjusted during weekly review. Completion of a project take time and effort, but I don't have to work on each project every day or every week, as long as it's finished within the time frame defined by the project.
 
 Essentially, what I need to plan and monitor actively everyday is the time/energy spent on each area. I will review and plan sub-areas only once a week, and for projects, once a month.
 
