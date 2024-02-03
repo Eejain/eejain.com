@@ -1,7 +1,7 @@
 # hugo server --minify --themesDir ... --baseURL=http://0.0.0.0:1313/theme/hugo-book/
 
 baseURL = 'https://eejain.com/'
-title = 'Dr. Yizhen (Eejain) Huang'
+title = 'Dr. Yizhen Huang'
 theme = ['themes/baguettebox', 'hugo-book']
 
 # Book configuration
