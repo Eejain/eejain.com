@@ -2,23 +2,91 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta name="generator" content="Hugo 0.115.2">
+  <meta name="generator" content="Hugo 0.146.4">
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="This post presents the workflow of interacting with R in org mode. I am mainly seeking three functions in this workflow: automatic output; persistent R session across multiple source blocks; ability to present both codes and outputs.
-Preparation # org-babel for executing and tangling source blocks ESS for interacting directly with R in emacs through the inferior R process Instruction # set up proper sub-tree/buffer header arguments, for this blog post I used sub-tree header arguments: :header-args:R: :session *R* :exports both :eval no-export run org-bable-execute-src-block (or on sub-tree/buffer level) to produce outputs in the text area Example # Plot output # For the following code block, I used the source block header arguments #&#43;begin_src R :results output graphics file :file test.">
-<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Org R Sandbox" />
-<meta property="og:description" content="This post presents the workflow of interacting with R in org mode. I am mainly seeking three functions in this workflow: automatic output; persistent R session across multiple source blocks; ability to present both codes and outputs.
-Preparation # org-babel for executing and tangling source blocks ESS for interacting directly with R in emacs through the inferior R process Instruction # set up proper sub-tree/buffer header arguments, for this blog post I used sub-tree header arguments: :header-args:R: :session *R* :exports both :eval no-export run org-bable-execute-src-block (or on sub-tree/buffer level) to produce outputs in the text area Example # Plot output # For the following code block, I used the source block header arguments #&#43;begin_src R :results output graphics file :file test." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://eejain.com/posts/R-Sandbox/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2020-05-25T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-05-25T00:00:00+00:00" />
+
+  Preparation
+  #
+
+
+org-babel for executing and tangling source blocks
+ESS for interacting directly with R in emacs through the inferior R process
+
+
+  Instruction
+  #
+
+
+set up proper sub-tree/buffer header arguments, for this blog post I used sub-tree header arguments: :header-args:R: :session *R* :exports both :eval no-export
+run org-bable-execute-src-block (or on sub-tree/buffer level) to produce outputs in the text area
+
+
+  Example
+  #
+
+
+  Plot output
+  #
+
+
+For the following code block, I used the source block header arguments #&#43;begin_src R :results output graphics file :file test.svg :output-dir ~/itflows/static
+Note on the header arguments:
+
+use :results graphics file when producing base R plot. use :results output graphics file for ggplot (see 
+  https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-R.html).
+remember to specify :output-dir as the static folder in your hugo directory, or else the org-link to the output plot after code evaluation will be directed to the same directory as the .org file by default
+
+
+
+
+setwd(&#39;~/itflows/static&#39;) # output plot stored in the static directory of your hugo blog
+library(dplyr)
+library(ggplot2)
+print(ggplot(iris, aes(x =  Sepal.Width, y = Sepal.Length)) &#43;
+      geom_point() &#43;
+      theme_bw()
+      )
+                                        # If the source code block uses grid-based R graphics, e.g., the lattice and ggplot2 packages, then care must be taken either to print() the graphics object, specify :results output, or run the code in a :session&#34;, use print() to produce proper .svg output
+
+square &lt;- function(x) # test session persistency
+  {
+    x * x
+  }
+
+
+
+plot(matrix(rnorm(100), ncol=2), type=&#34;h&#34;)
+
+
+
+
+  Plain text output
+  #
+
+
+source block header arguments: #&#43;begin_src R :results output
+
+
+square(1:10)
+ [1]   1   4   9  16  25  36  49  64  81 100
+">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:url" content="https://eejain.com/posts/R-Sandbox/">
+  <meta property="og:site_name" content="Dr. Yizhen Huang">
+  <meta property="og:title" content="Org R Sandbox">
+  <meta property="og:description" content="This post presents the workflow of interacting with R in org mode. I am mainly seeking three functions in this workflow: automatic output; persistent R session across multiple source blocks; ability to present both codes and outputs.
+Preparation # org-babel for executing and tangling source blocks ESS for interacting directly with R in emacs through the inferior R process Instruction # set up proper sub-tree/buffer header arguments, for this blog post I used sub-tree header arguments: :header-args:R: :session *R* :exports both :eval no-export run org-bable-execute-src-block (or on sub-tree/buffer level) to produce outputs in the text area Example # Plot output # For the following code block, I used the source block header arguments #&#43;begin_src R :results output graphics file :file test.svg :output-dir ~/itflows/static Note on the header arguments: use :results graphics file when producing base R plot. use :results output graphics file for ggplot (see https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-R.html). remember to specify :output-dir as the static folder in your hugo directory, or else the org-link to the output plot after code evaluation will be directed to the same directory as the .org file by default setwd(&#39;~/itflows/static&#39;) # output plot stored in the static directory of your hugo blog library(dplyr) library(ggplot2) print(ggplot(iris, aes(x = Sepal.Width, y = Sepal.Length)) &#43; geom_point() &#43; theme_bw() ) # If the source code block uses grid-based R graphics, e.g., the lattice and ggplot2 packages, then care must be taken either to print() the graphics object, specify :results output, or run the code in a :session&#34;, use print() to produce proper .svg output square &lt;- function(x) # test session persistency { x * x } plot(matrix(rnorm(100), ncol=2), type=&#34;h&#34;) Plain text output # source block header arguments: #&#43;begin_src R :results output square(1:10) [1] 1 4 9 16 25 36 49 64 81 100">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2020-05-25T00:00:00+00:00">
+    <meta property="article:modified_time" content="2020-05-25T00:00:00+00:00">
 <title>Org R Sandbox | Dr. Yizhen Huang</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.7d6615ac458f12e2de08d1cd3f0d736a0305fc09a9728f25480d6d7bdb42c805.css" integrity="sha256-fWYVrEWPEuLeCNHNPw1zagMF/Ampco8lSA1te9tCyAU=">
-<script defer src="/en.search.min.8592fd2e43835d2ef6fab8eb9b8969ee6ad1bdb888a636e37e28032f8bd9887d.js" integrity="sha256-hZL9LkODXS72&#43;rjrm4lp7mrRvbiIpjbjfigDL4vZiH0="></script>
+<script defer src="/en.search.min.a269639b291ce7b15526fb1b59bcca30ae7def6fc34fca789e493d2e0bd58b02.js" integrity="sha256-omljmykc57FVJvsbWbzKMK5972/DT8p4nkk9LgvViwI="></script>
 
 <script defer src="/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js" integrity="sha256-b2&#43;Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC&#43;NdcPIvZhzk="></script>
 <!--
@@ -257,15 +325,15 @@ https://github.com/alex-shpak/hugo-book
 </span></span><span style="display:flex;"><span>      )
 </span></span><span style="display:flex;"><span>                                        <span style="color:#75715e"># If the source code block uses grid-based R graphics, e.g., the lattice and ggplot2 packages, then care must be taken either to print() the graphics object, specify :results output, or run the code in a :session&#34;, use print() to produce proper .svg output</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>square <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">function</span>(x) <span style="color:#75715e"># test session persistency</span>
+</span></span><span style="display:flex;"><span>square <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">function</span>(x) <span style="color:#75715e"># test session persistency</span>
 </span></span><span style="display:flex;"><span>  {
 </span></span><span style="display:flex;"><span>    x <span style="color:#f92672">*</span> x
 </span></span><span style="display:flex;"><span>  }
-</span></span></code></pre></div><figure><img src="/test.svg"/>
+</span></span></code></pre></div><figure><img src="/test.svg">
 </figure>
 
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-R" data-lang="R"><span style="display:flex;"><span><span style="color:#a6e22e">plot</span>(<span style="color:#a6e22e">matrix</span>(<span style="color:#a6e22e">rnorm</span>(<span style="color:#ae81ff">100</span>), ncol<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>), type<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;h&#34;</span>)
-</span></span></code></pre></div><figure><img src="/test2.svg"/>
+</span></span></code></pre></div><figure><img src="/test2.svg">
 </figure>
 
 <h3 id="plain-text-output">
