@@ -13,13 +13,11 @@ bookToC = false
   <img src=dithered-image.webp />
 </p>
 
-<!-- I'm an Assistant Professor of Education Sciences and Psychology (Hector Research Institute of Education Sciences and Psychology, University of Tübingen) -->
+I'm an Assistant Professor of Education Sciences and Psychology at the Hector Research Institute of Education Sciences and Psychology, [University of Tübingen](https://uni-tuebingen.de/en/faculties/faculty-of-economics-and-social-sciences/subjects/department-of-social-sciences/education-sciences-and-psychology/institute/staff/huang-yizhen/).
 
 I'm fascinated by how learning happens in classrooms. By using machine learning and extended reality simulations, I explore new ways to understand and improve teaching and learning in my research.
 
-I worked and studied at the [University of Michigan](https://lsa.umich.edu/psych/program-areas/combined-program-education-and-psychology.html) until 2018. 
-I'm now a postdoctoral research scientist and instructor in education science at the [University of Potsdam](https://www.uni-potsdam.de/en/erziehungswissenschaftliche-bildungsforschung/team/yizhen-huang) and [Kiel University](https://www.schulpaedagogik.uni-kiel.de/en/team/dr-yizhen-huang-1) in Germany.
-
+<!-- I previously worked the [University of Michigan](https://lsa.umich.edu/psych/program-areas/combined-program-education-and-psychology.html), [University of Potsdam](https://www.uni-potsdam.de/en/erziehungswissenschaftliche-bildungsforschung/team/yizhen-huang) and [Kiel University](https://www.schulpaedagogik.uni-kiel.de/en/team/dr-yizhen-huang-1). -->
 
 <br>
 
@@ -29,8 +27,8 @@ I'm now a postdoctoral research scientist and instructor in education science at
 ## Find me elsewhere {#find-me-elsewhere}
 
 -   [Write to me](mailto:huang@eejain.com)
--   [Virtual Reality in Teacher Education Project Page](https://www.uni-potsdam.de/en/erziehungswissenschaftliche-bildungsforschung/research/virtual-classroom)
--   [DigiProMIN Project Page](https://lernen.digital/verbuende/digipromin/)
+<!-- -   [Virtual Reality in Teacher Education Project Page](https://www.uni-potsdam.de/en/erziehungswissenschaftliche-bildungsforschung/research/virtual-classroom) -->
+<!-- -   [DigiProMIN Project Page](https://lernen.digital/verbuende/digipromin/) -->
 -   [Google Scholar](https://scholar.google.com/citations?hl=en&pli=1&user=0JRtAtkAAAAJ)
 -   [ORCiD](https://orcid.org/0000-0002-7041-1927)
 -   [ResearchGate](https://www.researchgate.net/profile/Yizhen-Huang)
